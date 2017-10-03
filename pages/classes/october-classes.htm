@@ -1,0 +1,29 @@
+title = "October Classes"
+url = "/classes/october-classes"
+layout = "default"
+is_hidden = 0
+
+[proEventList]
+eventpage = "classes/event"
+style = "simple_list"
+calendar = 2
+num = 5
+==
+<div class="container seasonalpage">
+        <div class="title-block">
+            <div class="title-image"><img class="img-responsive" title="Perennials" src="{{ 'assets/images/seasonal/septemberhd.jpg'|theme }}" alt="Fall"></div>{% partial 'breadcrumbs/breadcrumbsclasses' %}
+        </div>
+    </div><!-- container -->
+
+    <div class="container content">
+        <div class="row">
+             <div class="col-md-offset-1 col-md-10">
+			{% component 'proEventList' %}
+	        </div><!-- col-md-8 left-inner -->
+
+
+     </div><!-- End Row -->
+
+<div class="row" id="portfolio"> {% partial "lists/list-classes" %} </div><!--/#portfolio-->
+
+</div> <!-- End Container Content -->

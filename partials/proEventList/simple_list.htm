@@ -1,0 +1,51 @@
+{% for event_item in events %}
+	<div class="smallcal">
+		<div class="calwrap">
+			<div class="img">
+				<div class="month">
+					{{ event_item.event_date|date("M") }}
+				</div>
+				<div class="day">
+					{{ event_item.event_date|date("d") }}
+				</div>
+			</div>
+		</div>
+		<div class="infowrap">
+			<div class="titlehead">
+				<div class="title">
+					{{ event_item.title }}
+				</div>
+				<hr />
+			   	<div class="local">
+
+				</div>
+
+			<div id="event_content">
+				{{ event_item.content|raw }}
+			</div>
+
+			<div class="time">
+					{% if event_item.grouped > 0 %}
+						{{ __SELF__.getItemDates(event_item.grouped_id,event_item.event_id)|raw }}
+					{% else %}
+						{{ event_item.event_date|date(PE_DATE_SPOKEN) }}
+						|
+						{% if event_item.allday > 0 %}
+							{{'All Day'|_}}
+						{% else %}
+							{{ event_item.sttime|date(PE_DATE_TIME) }}  - {{ event_item.entime|date(PE_DATE_TIME) }}
+						{% endif %}
+					{% endif %}
+				</div>
+			</div>
+
+			<div class="eventfoot">
+				{{'Location'|_}}: {{event_item.event.location_address}}
+			</div>
+
+		</div>
+	</div>
+{% endfor %}
+{% if pagination > 0 %}
+	{{events.render|raw}}
+{% endif %}
