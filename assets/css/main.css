@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight: 300;
 	font-family: 'Josefin Sans', sans-serif;
 	color:#474B4F; /* dk gray */
-	font-weight: 500;
+	/*! font-weight: 500; */
     line-height:1.4;
 }
 
@@ -65,7 +65,8 @@ h2.large {
 }
 
 h3 {
-	font-size:24px;
+	font-size:26px;	font-weight: 400;
+	color: #61892F; font-family:BrightonSB-Medium;
 }
 
 h3.brightonM {
@@ -101,17 +102,19 @@ ul li {
 
 a {
   color: #61892f; /* dk green */
- /*	color: #86C232; lt green */
+  color: #86C232; /* lt green */
 	-webkit-transition:color 300ms,background-color 300ms;
 	-moz-transition:color 300ms,background-color 300ms;
 	-o-transition:color 300ms,background-color 300ms;
 	transition:color 300ms,background-color 300ms;
-	font-size: 110%
+	font-size: 110%;
+	text-decoration-line: underline;
+
 }
 
 a:hover,a:focus {
 	color: #61892f;
-	color: #86C232;
+/* 	color: #86C232; */
 }
 
 hr {
