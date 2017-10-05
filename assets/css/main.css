@@ -51,8 +51,10 @@ h1.title-header {
 }
 
 h2 {
-	font-size:24px;
+	font-size:32px;
 /* 	font-weight: 300; */
+font-family:BrightonSB-Medium;
+		color: #61892F;
 }
 
 h2.brightonM {
@@ -65,8 +67,14 @@ h2.large {
 }
 
 h3 {
-	font-size:26px;	font-weight: 400;
-	color: #61892F; font-family:BrightonSB-Medium;
+	font-size:26px;
+	font-weight: 300;
+/* 	color: #61892F; */
+/* 	font-family:BrightonSB-Medium; */
+}
+
+.nav h3 {
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 h3.brightonM {
@@ -110,6 +118,10 @@ a {
 	font-size: 110%;
 	text-decoration-line: underline;
 
+}
+
+.nav a {
+		text-decoration-line: none;
 }
 
 a:hover,a:focus {
@@ -710,6 +722,7 @@ body > section {
   background: #e5e5e5;
   color: #64686d;
   position: relative;
+	text-decoration: none;
 }
 #portfolio .portfolio-filter > li a:hover,
 #portfolio .portfolio-filter > li a.active {

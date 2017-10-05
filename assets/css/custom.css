@@ -341,6 +341,7 @@ font-family: 'Josefin Sans', sans-serif;
 
 .breadcrumbs h1 {
 	color:#474B4F;
+	color: #61892F;
 	font-size:32px;
 	margin-top:20px;
 	text-transform:capitalize;
@@ -590,6 +591,7 @@ img.pull-left {
 
 .planttable h2 {
 	margin: 10px 0;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .page-trees-conifers h2 {
@@ -735,6 +737,7 @@ img.pull-left {
 	color: #FFF;
 	font-family:BrightonSB-Medium;
 	letter-spacing: 1px;
+	text-decoration: none;
 }
 
 /* Apple Tasting */
