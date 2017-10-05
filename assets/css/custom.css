@@ -728,14 +728,14 @@ img.pull-left {
 
 .accordion .panel-heading {
 	background: #61892F;
+	background: #474B4F;
 	color: #FFF;
 	text-transform: uppercase;
 }
 
 .accordion .panel-heading a {
-	background: #61892F;
 	color: #FFF;
-	font-family:BrightonSB-Medium;
+	font-family: 'Josefin Sans', sans-serif;
 	letter-spacing: 1px;
 	text-decoration: none;
 }
