@@ -360,6 +360,7 @@ font-family: 'Josefin Sans', sans-serif;
 .breadcrumb a {
 	color:#777;
 	font-size:18px;
+	text-decoration: none;
 }
 
 .breadcrumb li.active,.breadcrumb li a:hover {
@@ -645,8 +646,8 @@ img.pull-left {
 
 .whitebk {
 	background:#FFF;
-	padding:5px;
-	margin:5px;
+	padding:15px 15px 0 15px;
+	margin:15px 0px;
 	border:1px solid #000;
 }
 

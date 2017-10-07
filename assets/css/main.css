@@ -10,6 +10,18 @@ body {
 	font-weight: 300;
 }
 
+.bottom-margin {
+  margin-bottom: 40px;
+}
+
+.top-margin {
+  margin-top: 40px;
+}
+
+.spacer25 {
+  height: 25px;
+}
+
 h1,h2,h3,h4,h5,h6 {
 	font-weight: 300;
 	font-family: 'Josefin Sans', sans-serif;
@@ -890,6 +902,7 @@ body > section {
 	margin-right: 10px;
 }
 
+/*
 .green {
 		background: #799A41;
 }
@@ -917,6 +930,7 @@ body > section {
 	background: #474B4F;
 		background: #000;
 }
+*/
 
 .single_comments div.iconclass:hover {
 	background: #000;

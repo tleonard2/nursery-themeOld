@@ -8,7 +8,7 @@ is_hidden = 0
 <div class="container">
      <div class="title-block">
         <div class="title-image">
-	    <img class="img-responsive" src="http://portlandnursery.com/plants/images/ceanothus/shrubshd.jpg" alt="Shrubs" title="Shrubs" >
+	    <img class="img-responsive" src="{{ 'assets/images/shrubs/shrubshd.jpg'|theme }}" alt="Camellia"/>
         </div>
      {% partial 'breadcrumbs/breadcrumbsshrubs' %}
      </div>
@@ -30,16 +30,12 @@ is_hidden = 0
 			<li>wildlife habitat</li>
 			<li>structure</li>
 			</ul>
-
-
-
             </div><!-- col-md-6 left-inner -->
 
-            <div class="col-md-6">
+<div class="col-md-6">
         {% partial "accordion/accordion-shrubs" %}
 
 </div><!--/.col-sm-6 tabs-->
-
 
         </div><!-- End Row -->
 
