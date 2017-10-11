@@ -591,8 +591,9 @@ img.pull-left {
 }
 
 .planttable h2 {
-	margin: 10px 0;
+	margin: 5px 0;
 	font-family: 'Josefin Sans', sans-serif;
+	font-size: 28px;
 }
 
 .page-trees-conifers h2 {
