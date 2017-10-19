@@ -499,12 +499,12 @@ figure.pull-right {
 	margin-left: 0;
 }
 
-.page-trees-conifers .sidebar.pull-right img {
+/* .page-trees-conifers .sidebar.pull-right img {
 	padding: 0 0 0 15px;
     margin-left: 0px;
-}
+} */
 
-.page-trees-conifers .treatment,
+/* .page-trees-conifers .treatment, */
 .treatment.graybox {
 	margin-top:0px;
 	padding:15px;
@@ -514,14 +514,14 @@ figure.pull-right {
 	border-top: none;
 }
 
-.page-trees-conifers .treatment h2 {
+/* .page-trees-conifers .treatment h2 {
 	border-top: none;
 	margin:1px 0 10px;
 	padding: 10px 0 0 10px;
 	font-family:BrightonSB-Medium;
 	font-size: 28px;
 	letter-spacing: 1px;
-}
+} */
 
 /* Align Images
 ------------------------------------*/

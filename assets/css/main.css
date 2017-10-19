@@ -164,6 +164,7 @@ hr {
 
 .btn-primary a {
 	color:#FFF;
+	text-decoration: none;
 }
 
 .btn-primary:hover,.btn-primary:focus {
