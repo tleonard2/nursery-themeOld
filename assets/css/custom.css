@@ -590,10 +590,12 @@ img.pull-left {
 	padding:20px 0;
 }
 
-.planttable h2 {
+.planttable h2,
+.planttable h2 a {
 	margin: 5px 0;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 28px;
+	text-decoration: none;
 }
 
 .page-trees-conifers h2 {
