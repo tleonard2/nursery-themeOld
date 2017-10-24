@@ -7,55 +7,76 @@ meta_description = "A full range of annuals for Portland, Vancouver"
 ==
     <div class="container">
         <div class="title-block">
-            <div class="title-image"><img class="img-responsive" src="http://portlandnursery.com/plants/images/petunia/annualshd.jpg" alt="Annuals" title="Annuals"></div>
-                {% partial 'breadcrumbs/breadcrumbsplants' %}
+             <div class="title-image"><img class="img-responsive" src="{{ 'assets/images/annuals/annualshd.jpg'|theme }}"  alt="trees" title="trees" /></div>
+             {% partial 'breadcrumbs/breadcrumbsplants' %}
         </div>
+    </div><!-- container -->
 
-<div class="container content">
-
-   <div class="row">
-
-    <div class="col-md-6 left-inner">
-	    <p>Annuals have the leading roles of the flower world and are the stars of dramatic landscapes. With annuals you get instant wow!</p>
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-6 left-inner">
+                <p>Annuals have the leading roles of the flower world and are the stars of dramatic landscapes. With annuals you get instant wow!</p>
 
                 <p>Annuals are planted every year and provide color summer till frost. Many annuals can be wintered over indoor reseed outdoors providing extra value to their flower power.</p>
 
-            </div><!-- col-md-6 left-inner -->
+                 <h2>Calendar of arrivals</h2>
+                <p>Weather greatly effects when crops are ready for sale.  These are general arrival times. Please call us at 5050 SE Stark: 503.231.5050 or 9000 SE Division: 503.788.9000 for availability.</p>
 
- <div class="col-md-6">
-        {% partial "accordion/accordion-annuals" %}
+                <p><strong>February:</strong> Early spring annuals such as <em>Ranunculus, Anenome</em>, Sweet Peas and Primroses.</p>
 
-</div><!--/.col-sm-6 tabs-->
+                <p><strong>Early March</strong>: Spring annuals start<br>
+                <em>Geraniums</em>, Snapdragons</p>
 
- </div><!-- End Row -->
+                <p><strong>March:</strong> Annuals such as six-pack <em>Alyssum, Lobelia,</em> Snapdragons, tender Fuchsias, starters for hanging baskets and Zonal Geraniums begin to arrive.</p>
 
-<div class="row">
-		<hr />
-		<h2 class="brightonM center">Fall Tips for Trees</h2>
-<div class="col-md-4">
-	<h2>September</h2>
-	<figure><img class="img-responsive" src="{{ '/assets/images/trees/treestocking.jpg'|theme }}" alt="Trees"></figure>
+                <p><strong>April:</strong> Impatiens, sunpatiens, tuberous begonias, coleus, fuchsia baskets.</p>
 
-                        <p>Some of your summer annuals may be a bit tired looking or overgrown. In some cases a trim and a bit of water-soluble fertilizer will get you a few more weeks of bloom. </p>
-	                        <p>Others should probably be discarded in favor of some new fall color. This means those annuals and short-lived perennials that look great now through autumn and often times into winter. Pansies, kale, dusty miller, mums, asters, and black-eyed-susans are all examples of this. There are plenty more flowers to enjoy; the growing season isn’t over yet!</p>
-</div>
-<div class="col-md-4">
-	<h2>October</h2>
-	<p>Your geraniums and fuchsias (tender types) may still be looking nice but will need protection from freezing weather soon if you do not want to lose them. See our page on tender perennials for some tips.</p>
-<figure><img class="img-responsive" src="{{ '/assets/images/trees/fallcolor.jpg'|theme }}" alt="Trees"></figure>
+                <p><strong>May through June:</strong> Peak selection!  Sunflowers, Hanging baskets, tender succulents, sweet potato vine, <em>Abutilion, Colocasia.</em></p>
 
+                <p><strong>July and August</strong>: Larger sizes, unusual annuals and tropicals.</p>
 
-</div>
-<div class="col-md-4">
-	<h2>November</h2>
+                <p><strong>August through fall:</strong> Mums, ornamental peppers and cabbage.</p>
 
-<p>The season is winding down, but your containers and window boxes don’t have to look like it. Clean out the dead or dying annuals and replace with cold season options. Pansies, dusty miller, kale, and many herbs look great as we enter the cold season. Miniature conifers and spring flowering bulbs are also great additions.</p>
-</div>
+                <p><strong>Winter:</strong> Pansies, primroses, dusty miller and florist <em>Cyclamen</em>.</p>
 
-</div>
+           </div><!-- col-md-6 left-inner -->
 
- <div class="row" id="portfolio">
+            <div class="col-md-6">
+                {% partial "accordion/accordion-annuals" %}
+            </div><!--/.col-sm-6 tabs-->
+        </div><!-- End Row -->
+
+        <div class="row">
+            <hr>
+
+            <h2 class="brightonM center">Fall Tips for Annuals</h2>
+
+            <div class="col-md-4">
+                <h2>September</h2>
+
+                <p>Some of your summer annuals may be a bit tired looking or overgrown. In some cases a trim and a bit of water-soluble fertilizer will get you a few more weeks of bloom.</p>
+
+                <p>Others should probably be discarded in favor of some new fall color. This means those annuals and short-lived perennials that look great now through autumn and often times into winter. Pansies, kale, dusty miller, mums, asters, and black-eyed-susans are all examples of this. There are plenty more flowers to enjoy; the growing season isn’t over yet!</p>
+            </div>
+
+            <div class="col-md-4">
+                <h2>October</h2>
+
+                <p>Your geraniums and fuchsias (tender types) may still be looking nice but will need protection from freezing weather soon if you do not want to lose them. </p>
+
+	                <p>See our <a target="_blank" href="http://portlandnursery.com/docs/perennials-annuals/tenderperenhandout.pdf">handout on tender perennials for some tips</a>.</p>
+
+                <figure><img class="img-responsive" src="{{ '/assets/images/annuals/geranium-wintering.jpg'|theme }}" alt="Annuals"></figure>
+            </div>
+
+            <div class="col-md-4">
+                <h2>November</h2>
+<figure><img class="img-responsive" src="{{ '/assets/images/annuals/pansies-wintering.jpg'|theme }}" alt="Annuals"></figure>
+                <p>The season is winding down, but your containers and window boxes don’t have to look like it. Clean out the dead or dying annuals and replace with cold season options. Pansies, dusty miller, kale, and many herbs look great as we enter the cold season. </p>
+            </div>
+        </div>
+
+        <div class="row" id="portfolio">
             {% partial "lists/list-annuals" %}
         </div><!--/#portfolio-->
-
     </div><!--=== End Container ===-->
