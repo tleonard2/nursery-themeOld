@@ -8,7 +8,17 @@ meta_description = "A full range of Plants for Portland, Vancouver"
 <div class="container">
      <div class="title-block">
 	    <div class="title-image"><img class="img-responsive" src="{{ 'assets/images/trees/treeshd.jpg'|theme }}"  alt="trees" title="trees" /></div>
-            {% partial 'breadcrumbs/breadcrumbsplants' %}
+             <div class="breadcrumbs">
+            <div class="container">
+              <h1 id="fittext1" class="pull-left brightonM">{{ tagline ?: this.page.title }}</h1>
+
+                <ul class="pull-right breadcrumb">
+                    <li><a href="/">Home</a></li>
+
+                    <li><a href="/plants/">Plants</a></li>
+                </ul>
+            </div>
+        </div><!--/breadcrumbs-->
         </div>
 </div> <!-- container -->
 
