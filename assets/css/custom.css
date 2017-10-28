@@ -620,6 +620,16 @@ img.pull-left {
 	padding: 0 10px;
 }
 
+.highlight {
+	margin-top: 8px;
+	background: #474B4F;
+	color: #FFF;
+}
+
+.highlight h2 {
+	color: #86C232;
+}
+
 /* Hydrangea colors
 ------------------------------------*/
 
