@@ -42,6 +42,17 @@ h1,h2,h3,h4,h5,h6 {
 	font-style:normal;
 }
 
+thead.gray {
+	background: #474B4F;
+}
+
+thead.gray th{
+	color: #FFF;
+	font-weight: 300;
+	text-align: left;
+	text-transform: uppercase;
+}
+
 h1 {
 	font-size:36px;
 	font-family:BrightonSB-Light;
