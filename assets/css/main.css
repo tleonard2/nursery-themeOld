@@ -42,6 +42,22 @@ h1,h2,h3,h4,h5,h6 {
 	font-style:normal;
 }
 
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+	padding: 10px 20px 8px 20px;
+	border: 1px solid #ccc;
+}
+
+table p,
+table p a {
+	margin: 5px 0;
+	font-size: 95%;
+}
+
 thead.gray {
 	background: #474B4F;
 }
@@ -52,6 +68,14 @@ thead.gray th{
 	text-align: left;
 	text-transform: uppercase;
 }
+
+thead.gray:first-child th{
+	text-align: center;
+	margin: 0;
+	padding: 5px 0 0;
+	border: none;
+}
+
 
 h1 {
 	font-size:36px;

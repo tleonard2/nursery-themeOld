@@ -576,7 +576,8 @@ img.pull-left {
 
 .container.content .planttable .col-md-6 p:first-child,
 .container.content .planttable .col-md-12 p:first-child,
-.container.content .planttable .col-sm-6 p:first-child {
+.container.content .planttable .col-sm-6 p:first-child,
+.container.content .left-inner table p:first-child {
 	font-size: inherit;
 }
 
