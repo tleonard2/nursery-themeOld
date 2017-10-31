@@ -42,9 +42,11 @@
 
 .header .topbar ul.loginbar > li > a,
 .header .topbar ul.loginbar > li > a:hover {
-	color: #7c8082;
-	font-size: 11px;
+	color: #474B4F;
+	font-weight: 700;
+	font-size: 14px;
 	text-transform: uppercase;
+	text-decoration: none;
 }
 
 .header .topbar ul.loginbar li i.fa {

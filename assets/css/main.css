@@ -100,8 +100,9 @@ h1.title-header {
 h2 {
 	font-size:32px;
 /* 	font-weight: 300; */
-font-family:BrightonSB-Medium;
-		color: #61892F;
+	font-family:BrightonSB-Medium;
+	color: #61892F; /* 	dark green */
+	color: #86c232; /* 	light green */
 }
 
 h2.brightonM {
