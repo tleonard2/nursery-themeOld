@@ -1,5 +1,6 @@
-title = "classes"
+title = "Classes"
 url = "/classes/classes"
+layout = "default"
 is_hidden = 0
 
 [proEventList]
@@ -7,11 +8,12 @@ eventpage = "classes/event"
 style = "simple_list"
 calendar = "All Calendars"
 num = 5
-==
 
-<div class="container seasonalpage">
+[siteSearchInclude]
+==
+<div class="container">
         <div class="title-block">
-            <div class="title-image"><img class="img-responsive" title="Perennials" src="{{ 'assets/images/seasonal/septemberhd.jpg'|theme }}" alt="Fall"></div>{% partial 'breadcrumbs/breadcrumbsclasses' %}
+            <div class="title-image"><img class="img-responsive" src="http://portlandnursery.com/plants/images/abies/abieshd.jpg" alt="Abies" title="Abies"></div>{% partial 'breadcrumbs/breadcrumbsclasses' %}
         </div>
     </div><!-- container -->
 
@@ -19,6 +21,8 @@ num = 5
         <div class="row">
              <div class="col-md-offset-1 col-md-10">
 			{% component 'proEventList' %}
+
+
 	        </div><!-- col-md-8 left-inner -->
 
 

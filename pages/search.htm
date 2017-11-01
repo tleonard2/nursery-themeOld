@@ -1,5 +1,6 @@
 title = "Search results"
 url = "/search"
+layout = "default"
 ...
 
 [searchResults]
@@ -8,6 +9,41 @@ showProviderBadge = 1
 noResultsMessage = "Your search did not return any results."
 visitPageMessage = "Visit page"
 ==
-<h2>Search results for {{ searchResults.query }}</h2>
+    <div class="container">
+        <div class="title-block">
+           <div class="title-image"><img class="img-responsive" src="{{ 'assets/images/slider/searchhd.jpg'|theme }}"  alt="portland nursery" title="portland nursery" /></div> {% partial 'breadcrumbs/breadcrumbsannuals' %}
+        </div>
+    </div><!-- container -->
 
-{% component 'searchResults' %}
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-8 left-inner">
+
+			<h2>What we found for {{ searchResults.query }}... </h2>
+
+			{% component 'searchResults' %}
+
+            </div><!-- col-md-8 left-inner -->
+
+            <div class="col-md-4">
+                <div class="sidebar pull-right">
+                    {% partial "sidebar-marketing" %}
+
+                    <div class="treatment">
+
+                    </div><!-- treatment -->
+
+                    <figure>
+                        <img class="img-responsive" src="http://portlandnursery.com/plants/images/abutilon/abutilonRedTiger350.jpg" alt="Abutilon  'Red Tiger'">
+
+                        <figcaption>Abutilon 'Red Tiger'</figcaption>
+                    </figure>
+
+                </div><!-- sidebar pull-right -->
+            </div><!-- col-md-4 -->
+        </div><!-- End Row -->
+
+        <div class="row" id="portfolio">
+            {% partial "lists/list-annuals" %}
+        </div><!--/#portfolio-->
+    </div><!-- End Container Content -->

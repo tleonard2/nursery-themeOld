@@ -11,18 +11,22 @@
 
 			<!-- Topbar -->
 			<div class="topbar">
+				<div class="searchbox pull-right">
+				<form action="{{ 'search' | page }}" method="get">
+				    <input name="q" type="text" placeholder="How can we help?" autocomplete="off">
+				    <button type="submit" class="btn-u">Search</button>
+				</form>
+				</div>
+
 				<ul class="loginbar pull-right">
 					<li><a href="/locations/">Hours &amp; Locations</a></li>
 					<li class="topbar-devider"></li>
-					<li><a href="/classes/">Classes</a></li>
+					<li><a href="/classes/classes/">Classes</a></li>
 					<li class="topbar-devider"></li>
-					<li>
-					<form action="{{ 'search' | page }}" method="get">
-    <input name="q" type="text" placeholder="What are you looking for?" autocomplete="off">
-    <button type="submit">Search</button>
-</form>
-				</li>
+					<li><a href="/classes/yearly-events/">Events</a></li>
+					<li class="topbar-devider"></li>
 				</ul>
+
 			</div>
 			<!-- End Topbar -->
 
@@ -209,6 +213,7 @@
                     <li class="dropdown">
                             <a href="/container-gardens/">Container Gardening</a>
 
+<!--
                         <ul class="dropdown-menu">
 
                            <li><a href="/containers/january-designs/">January Designs</a></li>
@@ -236,6 +241,7 @@
                              <li><a href="/containers/december-designs/">December Designs</a></li>
 
                          </ul>
+-->
 
                     </li>
                     <!-- End Products -->
@@ -360,6 +366,7 @@
                     <!-- End Features -->
 
                     <!-- Search Block -->
+<!--
 					<li>
 						<i class="search fa fa-search search-btn"></i>
 						<div class="search-open">
@@ -371,6 +378,7 @@
 							</div>
 						</div>
 					</li>
+-->
 					<!-- End Search Block -->
 
 				</ul>
