@@ -4,14 +4,16 @@ layout = "default"
 is_hidden = 0
 meta_title = "Fruits and Berries at Portland Nursery"
 meta_description = "A full range of Fruits and Berries for Portland, Vancouver"
+
+[siteSearchInclude]
 ==
-<div class="container">
+    <div class="container">
      <div class="title-block">
         <div class="title-image">
 	    <img class="img-responsive" src="http://portlandnursery.com/plants/images/abies/treeshd.jpg" alt="trees" title="trees" >
         </div>
 
-        {% partial 'breadcrumbs/breadcrumbshome' %}
+        {% partial 'breadcrumbs/breadcrumbsplants' %}
      </div>
 </div> <!-- container -->
 
@@ -32,7 +34,7 @@ meta_description = "A full range of Fruits and Berries for Portland, Vancouver"
 
 	<h3 class="brightonM center">Add Natives to your Garden today!</h3>
 
-        {% partial "tabs-natives" %}
+        {% partial "accordion/accordion-fruits" %}
 
 </div><!--/.col-sm-6 tabs-->
 

@@ -4,14 +4,16 @@ layout = "default"
 is_hidden = 0
 meta_title = "Grasses at Portland Nursery"
 meta_description = "A full range of Grasses for Portland, Vancouver"
+
+[siteSearchInclude]
 ==
-<div class="container">
+    <div class="container">
      <div class="title-block">
         <div class="title-image">
 	    <img class="img-responsive" src="http://portlandnursery.com/plants/images/grasses/grasseshd.jpg" alt="Grasses" title="Grasses" >
         </div>
 
-          {% partial 'breadcrumbs/breadcrumbshome' %}
+          {% partial 'breadcrumbs/breadcrumbsplants' %}
      </div>
         <section id="introheadline">
             <h1 class="brightonM">In the Pacific Northwest, we are fortunate to be home to a wide variety of plant species, rich in color, texture and local history.</h1>
@@ -28,7 +30,7 @@ meta_description = "A full range of Grasses for Portland, Vancouver"
             </div><!-- col-md-8 left-inner -->
 
             <div id="navtabs" class="col-xs-12 col-sm-12 col-md-6 pull-right">
-                <h3 class="brightonM center">Add Natives to your Garden today!</h3>{% partial "tabs-natives" %}
+                <h3 class="brightonM center">Add Natives to your Garden today!</h3> {% partial "accordion/accordion-grasses" %}
             </div><!--/.col-sm-6 tabs-->
         </div><!-- End Row -->
 

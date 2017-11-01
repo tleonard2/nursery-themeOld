@@ -4,6 +4,8 @@ layout = "default"
 is_hidden = 0
 meta_title = "Ferns at Portland Nursery"
 meta_description = "A full range of Ferns for Portland, Vancouver"
+
+[siteSearchInclude]
 ==
 <div class="container">
      <div class="title-block">
@@ -11,7 +13,7 @@ meta_description = "A full range of Ferns for Portland, Vancouver"
 	    <img class="img-responsive" src="http://portlandnursery.com/plants/images/ferns/fernshd.jpg" alt="Ferns" title="Ferns" >
         </div>
 
-     {% partial 'breadcrumbs/breadcrumbshome' %}
+     {% partial 'breadcrumbs/breadcrumbsplants' %}
      </div>
         <section id="introheadline">
             <h1 class="brightonM">In the Pacific Northwest, we are fortunate to be home to a wide variety of plant species, rich in color, texture and local history.</h1>
@@ -28,7 +30,7 @@ meta_description = "A full range of Ferns for Portland, Vancouver"
             </div><!-- col-md-8 left-inner -->
 
             <div id="navtabs" class="col-xs-12 col-sm-12 col-md-6 pull-right">
-                <h3 class="brightonM center">Add Natives to your Garden today!</h3>{% partial "tabs-natives" %}
+                <h3 class="brightonM center">Add Natives to your Garden today!</h3>{% partial "accordion/accordion-ferns" %}
             </div><!--/.col-sm-6 tabs-->
         </div><!-- End Row -->
 
@@ -58,4 +60,4 @@ meta_description = "A full range of Ferns for Portland, Vancouver"
     	{% partial "lists/list-ferns" %}
 	</div><!--/#portfolio-->
 
-    </div><!--=== End Container ===-->
+    </div><!-- End Container  -->

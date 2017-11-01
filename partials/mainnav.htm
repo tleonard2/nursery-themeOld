@@ -16,7 +16,12 @@
 					<li class="topbar-devider"></li>
 					<li><a href="/classes/">Classes</a></li>
 					<li class="topbar-devider"></li>
-					<li><a href="/sales/">Sales</a></li>
+					<li>
+					<form action="{{ 'search' | page }}" method="get">
+    <input name="q" type="text" placeholder="What are you looking for?" autocomplete="off">
+    <button type="submit">Search</button>
+</form>
+				</li>
 				</ul>
 			</div>
 			<!-- End Topbar -->
