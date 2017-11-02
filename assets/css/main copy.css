@@ -1504,7 +1504,7 @@ ul.sidebar-gallery {
   border-bottom-color: #e4e4e4;
   border-bottom-style: dotted;
   border-bottom-width: medium;
-  width: 60%;
+  width: 75%;
 }
 
 .container .smallcal .calwrap {
@@ -1550,7 +1550,7 @@ ul.sidebar-gallery {
   float: left;
   padding-bottom: 5px;
   padding-top: 2px;
-  font-size: 18px;
+  font-size: 24px;
 	color: green;
 	font-weight: 500
 }
@@ -1568,7 +1568,7 @@ ul.sidebar-gallery {
 }
 .container .smallcal #event_content a {
 	color: green;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 500;
 }
 .container .smallcal .time {
