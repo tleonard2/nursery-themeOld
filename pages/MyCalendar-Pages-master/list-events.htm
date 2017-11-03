@@ -13,6 +13,51 @@ month = "{{ :month }}"
 year = "{{ :year }}"
 dayspast = 0
 daysfuture = 30
+relations[] = "event"
 raw_data = 0
+descending = 0
+
+[Month]
+month = "{{ :month }}"
+year = "{{ :year }}"
+weekstart = 0
+color = "red"
+loadstyle = 1
+
+[Events]
+title_max = 100
+usePermissions = 1
+category = "{{ :cat }}"
+month = "{{ :month }}"
+year = "{{ :year }}"
+dayspast = 0
+daysfuture = 60
+relations[] = "event"
+raw_data = 1
+descending = 0
 ==
+<div class="container">
+        <div class="title-block">
+            <div class="title-image"><img class="img-responsive" src="{{ 'assets/images/headers/classeshd.jpg'|theme }}" alt="Portland Nursery Events" /></div>{% partial 'breadcrumbs/breadcrumbsclasses' %}
+        </div>
+    </div><!-- container -->
+
+    <div class="container content">
+        <div class="row">
+             <div class="col-md-offset-1 col-md-10">
+	            <h3 class="aligncenter">Classes highlighted in gray take place at our Division store.</h3>
+	            <h3 class="aligncenter">All classes are one hour unless otherwise noted. </h3>
+	            <hr/>
+
 {% component 'ListEvents' %}
+
+
+
+	        </div><!-- col-md-8 left-inner -->
+
+
+     </div><!-- End Row -->
+
+<div class="row" id="portfolio"> {% partial "lists/list-classes" %} </div><!--/#portfolio-->
+
+</div> <!-- End Container Content -->
