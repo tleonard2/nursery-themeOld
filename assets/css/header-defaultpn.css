@@ -30,7 +30,7 @@
 }
 
 .header .topbar ul.loginbar {
-	margin: 0;
+	margin: 0 5px 0 0;
 }
 
 .header .topbar ul.loginbar > li {
@@ -43,8 +43,8 @@
 .header .topbar ul.loginbar > li > a,
 .header .topbar ul.loginbar > li > a:hover {
 	color: #474B4F;
-	font-weight: 700;
-	font-size: 14px;
+	font-weight: 500;
+	font-size: 13px;
 	text-transform: uppercase;
 	text-decoration: none;
 }
@@ -62,6 +62,45 @@
 	font-family: Tahoma;
 	border-right: solid 1px #bbb;
 }
+
+@media (max-width: 480px) {
+	.header .topbar ul.loginbar {
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+
+	.header .topbar ul.loginbar > li > a,
+  .header .topbar ul.loginbar > li > a:hover {
+		font-size: 11px;
+		padding: 0 5px;
+	}
+}
+
+.header .topbar ul.loginbar li i.fa {
+	color: #bbb;
+}
+
+
+/* Seachbox */
+.searchbox {
+	margin-top: 3px;
+	width: 320px;
+	margin: 0 auto;
+}
+
+.searchbox input {
+	font-size: 16px;
+	border: 1px solid #ccc;
+	color: #474B4F;
+	padding: 0 20px 2px 20px;
+	border-radius: 5px;
+}
+
+.searchbox .btn-u {
+	border-radius: 5px;
+}
+
 
 /*--------------------------------------------------
     [2. Header - Navbar]
@@ -94,6 +133,14 @@
 }
 
 /*Logo*/
+.header .logobox {
+	height: 100%;
+	min-height: 40px;
+	min-width: 100px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
 .header .logo {
 	height: 100%;
 	min-height: 40px;
@@ -168,9 +215,9 @@
 
 /*Navbar Menu*/
 .header .navbar-nav > li > a {
-	color: #687074;
+	color: #474B4F;
 	font-size: 13px;
-	font-weight:400;
+	font-weight:500;
 	text-transform: uppercase;
 }
 
@@ -414,11 +461,6 @@
 
 	.header .open > .dropdown-menu {
 		display: none;
-	}
-
-	/*Search*/
-	.header .navbar-nav .search-open {
-		width: 330px;
 	}
 }
 

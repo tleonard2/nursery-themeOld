@@ -11,10 +11,11 @@
     <title>{{ this.page.title }} | {{ this.theme.site_name }}</title>
 
 	<!-- core CSS -->
+{% styles %}
 
-	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 
 <!-- Multi-theme -->
 	<link rel="stylesheet" href="{{ 'assets/css/font-awesome.min.css'|theme }}">
@@ -38,11 +39,12 @@
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
     <![endif]-->
-<link rel="shortcut icon" href="{{ 'assets/images/ico/favicon.ico'|theme }}">
+    <link rel="shortcut icon" href="{{ 'assets/images/ico/favicon.ico'|theme }}">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ 'images/ico/apple-touch-icon-144-precomposed.png'|theme }}">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ 'images/ico/apple-touch-icon-114-precomposed.png'|theme }}">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ 'images/ico/apple-touch-icon-72-precomposed.png'|theme }}">
     <link rel="apple-touch-icon-precomposed" href="{{ 'images/ico/apple-touch-icon-57-precomposed.png'|theme }}">
+
 </head><!--/head-->
 
 <body class="page-{{ this.page.id }} layout-{{ this.layout.id }} plants">
@@ -70,6 +72,7 @@
     <script type="text/javascript" src="{{ 'assets/js/jquery.inview.min.js'|theme }}"></script>
     <script type="text/javascript" src="{{ 'assets/js/wow.min.js'|theme }}"></script>
     <script type="text/javascript" src="{{ 'assets/js/main.js'|theme }}"></script>
+{% framework %}
 {% framework extras %}
 {% scripts %}
 

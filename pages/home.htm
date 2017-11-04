@@ -2,12 +2,15 @@ title = "Portland Nursery"
 url = "/"
 layout = "default"
 description = "Home Page"
-is_hidden = 0
 meta_title = "Portland Nursery in Portland"
 meta_description = "Portland Nursery Homepage"
+is_hidden = 0
+
+[slider]
+slide_show_id = 1
 ==
-<section id="main-slider" class="no-margin">
-	{% partial "homepage/carousel" %}
+<section class="no-margin">
+	{% component 'slider' slide_show_id = 1 %}
 <!--
     <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
         <i class="fa fa-chevron-left"></i>
@@ -33,4 +36,3 @@ meta_description = "Portland Nursery Homepage"
 <section id="socialblock" >
     {% partial "homepage/socialblock" %}
 </section><!--end happenings-->
-

@@ -2,12 +2,12 @@ title = "locations"
 url = "/locations/"
 layout = "default"
 is_hidden = 0
-child_of = "mey_no_parent"
-hide_crumb = 0
-remove_crumb_trail = 0
-crumb_disabled = 0
+
+[contactForm]
+injectBootstrapAssets = 1
+injectMainScript = 1
 ==
-    <div class="container">
+<div class="container">
         <div class="title-block">
             <div class="title-image"><img class="img-responsive" title="Hedges" src="http://portlandnursery.com/plants/images/hedges/hedgeshd.jpg" alt="Hedges"></div>{% partial 'breadcrumbs/breadcrumbsshrubs' %}
         </div>
@@ -16,15 +16,8 @@ crumb_disabled = 0
     <div class="container content">
         <div class="row">
 
-            <div class="col-md-12">
-			<div class="row planttable">
-               
-               <div class="col-md-6 col-sm-6">
-                    <!-- Google Map -->
-                    <div id="map" class="map">
-                    </div>
-                    <!-- End Google Map -->
-                </div>
+            <div class="row col-md-12">
+
                 <div class="col-md-6 col-sm-6">
                     <!-- Business Hours -->
                     <h3>Get In Touch</h3>
@@ -34,30 +27,14 @@ crumb_disabled = 0
                         <li><strong>Saturday:</strong> 11am to 3pm</li>
                         <li><strong>Sunday:</strong> Closed</li>
                     </ul>
-                    
-                </div>
-			</div> <!-- planttable -->
 
-             <div class="row planttable">
+                </div>
+
                         <div class="col-sm-6">
-                            <div class="input-group margin-bottom-10">
-                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                <input type="name" placeholder="Name" class="form-control">
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="input-group margin-bottom-20">
-                                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                <input type="email" placeholder="Email" class="form-control">
-                            </div>
-                        </div>
-             </div>
+	                         <h3>Get In Touch</h3>
+	                        {% component 'contactForm' %}</div>
 
          </div><!-- col-md-12 -->
       </div><!-- End Row -->
-
-            <div class="row" id="portfolio">
-                {% partial "lists/list-shrubs" %}
-            </div><!--/#portfolio-->
 
     </div><!-- End Container Content -->
