@@ -631,6 +631,10 @@ img.pull-left {
 	color: #86C232;
 }
 
+.page-about-locations .planttable iframe {
+	max-width: 350px;
+}
+
 /* Hydrangea colors
 ------------------------------------*/
 
@@ -827,3 +831,15 @@ img.pull-left {
 	font-size: inherit
 }
 
+/* newsletter signup */
+.sortables {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+}
+
+#ic_signupform .elcontainer .submit-container input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-weight: 300;
+	font-size: 24px;
+}
