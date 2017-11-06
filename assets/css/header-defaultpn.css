@@ -30,7 +30,7 @@
 }
 
 .header .topbar ul.loginbar {
-	margin: 0 5px 0 0;
+	margin: 0 15px 0 0;
 }
 
 .header .topbar ul.loginbar > li {
@@ -742,6 +742,14 @@
 	padding: 0 10px 0 13px;
 	text-transform: uppercase;
 }
+
+.header .mega-menu .equal-height.about .equal-height-list h3 {
+	font-size: 15px;
+	font-weight: 400;
+	padding: 15px 10px 0 13px;
+	text-transform: capitalize;
+}
+
 
 .header .mega-menu .equal-height-list li.h3 a {
 	padding: 10px 10px 8px 0px;
