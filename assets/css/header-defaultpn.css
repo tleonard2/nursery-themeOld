@@ -746,8 +746,17 @@
 .header .mega-menu .equal-height.about .equal-height-list h3 {
 	font-size: 15px;
 	font-weight: 400;
-	padding: 15px 10px 0 13px;
+	padding: 0px 20px 0 13px;
+	text-transform: none;
+	margin: 0;
+}
+
+.header .mega-menu .equal-height.about .equal-height-list h3:first-child {
+	font-size: 15px;
+	font-weight: 400;
+	padding: 0px 10px 0 13px;
 	text-transform: capitalize;
+	margin-top: 10px;
 }
 
 

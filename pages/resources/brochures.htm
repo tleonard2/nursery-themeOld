@@ -1,0 +1,28 @@
+title = "Brochure List"
+url = "/brochures"
+layout = "default"
+meta_title = "Portland Nursery garden center resources for all your gardening needs"
+meta_description = "Portland Nursery garden center resources for all your gardening needs."
+
+[siteSearchInclude]
+==
+    <div class="container">
+        <div class="title-block">
+           <div class="title-image"><img class="img-responsive" src="{{ 'assets/images/resources/brochureshd.jpg'|theme }}"  alt="portland nursery" title="portland nursery" /></div> {% partial 'breadcrumbs/breadcrumbshome' %}
+        </div>
+    </div><!-- container -->
+
+    <div class="container content">
+        <div class="row masonry">
+            <div class="col-md-12 left-inner">
+
+			{% partial '/resources/brochure-masonry' %}
+
+            </div><!-- col-md-8 left-inner -->
+
+           </div><!-- End Row -->
+
+        <div class="row" id="portfolio">
+            {% partial "lists/list-annuals" %}
+        </div><!--/#portfolio-->
+    </div><!-- End Container Content -->
