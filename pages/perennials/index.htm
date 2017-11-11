@@ -10,14 +10,9 @@ is_hidden = 0
 ==
     <div class="container">
         <div class="title-block">
-            <div class="title-image"><img class="img-responsive" title="Perennials" src="http://portlandnursery.com/plants/images/echinacea/perennialhd.jpg" alt="Perennials"></div>
+            <div class="title-image"><img class="img-responsive" src="{{ '/assets/images/perennials/perennialhd.jpg'|theme }}" alt="planting perennials"></div>
             {% partial 'breadcrumbs/breadcrumbsplants' %}
         </div>
-
-           <section id="introheadline">
-            <h1 class="brightonM">Perennials bring color to your garden year after year.</h1>
-        </section><!--/#cta-->
-
     </div><!-- container -->
 
     <div class="container content">
@@ -25,48 +20,20 @@ is_hidden = 0
             <div class="col-md-6 left-inner">
                 <p>Perennials come back year after year, bringing seasonal color to your garden. They can add fragrance, attract wild life and create rhythmic change.</p>
 
-                <p>Most perennials bloom for a two to three month period, with a handful of long season bloomers out there. Refer to our perennial bloom calender to help you plan a year full of perennial color. Not only do perennials offer a wide array of flower colors and form but they can also add structure and texture with their foliage and growth habits. Tall, spikey Delphinium add spots of colorful vertical punctuation in a sunny boarder. Where as the robust leaves of hostas add a lush, dense feel. Wheather you are planting containers or in the ground, there is sure to be a perennial or two to fit your garden's needs.</p>
+                <p>Most perennials bloom for a two to three month period, with a handful of long season bloomers out there. Refer to our perennial bloom calendar to help you plan a year full of perennial color. Not only do perennials offer a wide array of flower colors and form but they can also add structure and texture with their foliage and growth habits. Tall, spiky Delphinium add spots of colorful vertical punctuation in a sunny boarder. Where as the robust leaves of <em>hostas</em> add a lush, dense feel. Whether you are planting containers or in the ground, there is sure to be a perennial or two to fit your garden's needs.</p>
 
-                <h3>Our website contains a perennial library in progress. New varieties are continually arriving at the nursery. Generally we have the best selection of plant when it is in bloom. Since inventory changes daily, please contact us for the current availability.</h3>
-
-                <p>Planting Tips:</p>
-
-                <p>*Plants requiring full sun need at least six hours of direct sun per day at peak season.</p>
-
-                <p>*Shade perennials have a huge range of light needs. Make sure to check if a plant can take full shade if your area does not recieve any direct sun.</p>
-
-                <p>*Most, if not all perennials prefer amended soil. This means adding 1-3" of compost to the planting area (depending on original soil structure). </p>
-
-                <p>* Use plants that require the same kind of light, water and soil.</p>
-
-                <p>*It is common to plant perennials in odd numbers, though not required. Your garden is your own work of art and learning experience.</p>
-
-                <p>*Perennials generally take one to two full years to establish.</p>
+                <h3>Our website contains a perennial library in progress. New varieties are continually arriving at the nursery. Generally we have the best selection of plants when it is in bloom. Since inventory changes daily, please contact us for the current availability.</h3>
 
             </div><!-- col-md-6 left-inner -->
 
             <div id="navtabs" class="col-xs-12 col-sm-12 col-md-6 pull-right">
-                <h3 class="brightonM center">Brighten your garden with annuals!</h3>{% partial 'accordion/accordion-perennials' %}
+                {% partial 'accordion/accordion-perennials' %}
             </div><!--/.col-sm-6 tabs-->
         </div><!-- End Row -->
 
-        <div class="row">
-            <hr>
-
-            <h2 class="brightonM center">Seasonal Article</h2>
-
-            <div class="col-md-6">
-                <p><img src="http://portlandnursery.com/plants/images/abutilon/abutilon-hybridum-Moonchimes-Flowers750.jpg" alt="Abutilon 'Moonchimes'" class="pull-left" width="304" height="236">In sagittis dolor nec mauris laoreet, eget finibus ante porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis blandit nisi sed urna dignissim bibendum. Mauris sed commodo arcu. Etiam nec est quis dui posuere semper ac eget metus. Integer imperdiet erat nisl, ac malesuada metus semper sit amet. Nullam dolor neque, laoreet in pretium in, tempus non est.</p>
-
-                <p>In sagittis dolor nec mauris laoreet, eget finibus ante porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis blandit nisi sed urna dignissim bibendum. Mauris sed commodo arcu. Etiam nec est quis dui posuere semper ac eget metus. Integer imperdiet erat nisl, ac malesuada metus semper sit amet. Nullam dolor neque, laoreet in pretium in, tempus non est.</p>
+             <div class="row tips"><hr />
+				{% partial "/tips/perennials/fall" %}
             </div>
-
-            <div class="col-md-6">
-                <p>In sagittis dolor nec mauris laoreet, eget finibus ante porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis blandit nisi sed urna dignissim bibendum. Mauris sed commodo arcu. Etiam nec est quis dui posuere semper ac eget metus. Integer imperdiet erat nisl, ac malesuada metus semper sit amet. Nullam dolor neque, laoreet in pretium in, tempus non est.</p>
-
-                <p>In sagittis dolor nec mauris laoreet, eget finibus ante porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis blandit nisi sed urna dignissim bibendum. Mauris sed commodo arcu. Etiam nec est quis dui posuere semper ac eget metus. Integer imperdiet erat nisl, ac malesuada metus semper sit amet. Nullam dolor neque, laoreet in pretium in, tempus non est.</p>
-            </div>
-        </div><!-- End Row -->
 
             <div class="row" id="portfolio">
                 {% partial "lists/list-perennials" %}
