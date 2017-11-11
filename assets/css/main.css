@@ -101,8 +101,8 @@ h2 {
 	font-size:32px;
 /* 	font-weight: 300; */
 	font-family:BrightonSB-Medium;
-	color: #61892F; /* 	dark green */
-	color: #86c232; /* 	light green */
+		color: #86c232; /* 	light green */
+		color: #61892F; /* 	dark green */
 }
 
 h2.brightonM {
