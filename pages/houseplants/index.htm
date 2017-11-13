@@ -1,0 +1,38 @@
+title = "Houseplants"
+url = "/houseplants/"
+layout = "default"
+description = ""
+meta_title = "Houesplants at Portland Nursery"
+meta_description = "A full range of houseplants for Portland, Vancouver"
+is_hidden = 0
+
+[siteSearchInclude]
+==
+    <div class="container">
+        <div class="title-block">
+            <div class="title-image"><img class="img-responsive" src="{{ '/assets/images/houseplants/houseplanthd.jpg'|theme }}" alt="planting houseplants"></div>
+            {% partial 'breadcrumbs/breadcrumbsplants' %}
+        </div>
+    </div><!-- container -->
+
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-6 left-inner">
+
+
+            </div><!-- col-md-6 left-inner -->
+
+            <div id="navtabs" class="col-xs-12 col-sm-12 col-md-6 pull-right">
+                {% partial 'accordion/accordion-houseplants' %}
+            </div><!--/.col-sm-6 tabs-->
+        </div><!-- End Row -->
+
+             <div class="row tips"><hr />
+				{% partial "/tips/houseplants/fall" %}
+            </div>
+
+            <div class="row" id="portfolio">
+                {% partial "lists/list-houseplants" %}
+            </div><!--/#portfolio-->
+
+        </div><!--=== End Container ===-->
