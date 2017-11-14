@@ -10,7 +10,7 @@ is_hidden = 0
 ==
     <div class="container">
         <div class="title-block">
-            <div class="title-image"><img class="img-responsive" title="dahlia" src="http://portlandnursery.com/plants/images/dahlias/dahliahd.jpg" alt="dahlia"></div>{% partial 'breadcrumbs/breadcrumbsbulbs' %}
+            <div class="title-image"><img class="img-responsive" src="{{ '/assets/images/houseplants/cleanairhd.jpg'|theme }}" alt="planting houseplants"></div>{% partial 'breadcrumbs/breadcrumbsbulbs' %}
         </div>
     </div><!-- container -->
 
@@ -24,6 +24,8 @@ is_hidden = 0
                 <p>Houseplants are a wonderful way to beautify and cheer up your indoor spaces, but the fact that they are exceptional air purifiers is often overlooked. Houseplants improve air quality by absorbing toxins along with carbon dioxide. Within their leaves, microorganisms break down the chemicals naturally. The plants then release fresh, clean oxygen for us to breathe.</p>
 
                 <p>Studies have been done to measure the amount of pollutants filtered out by common houseplants. In some studies the plants were able to remove up to 80% of the pollutants! Some research even showed that not only were the leaves doing the work, but the roots also helped in the process.</p>
+
+                <figure><img class="img-responsive" src="{{ '/assets/images/houseplants/peperomia-roso750.jpg'|theme }}" alt="peperomia roso"><figcaption>Peperomia roso</figcaption></figure>
 
                 <p>One study conducted by NASA suggests using one houseplant per 100 square feet of floor space for the most effective pollution control.</p>
 
@@ -125,4 +127,9 @@ is_hidden = 0
                 </div><!-- sidebar pull-right -->
             </div><!-- col-md-4 -->
         </div><!-- End Row -->
-    </div><!-- End Container Content -->
+
+            <div class="row" id="portfolio">
+                {% partial "lists/list-houseplants" %}
+            </div><!--/#portfolio-->
+
+        </div><!--=== End Container ===-->
