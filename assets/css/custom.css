@@ -744,6 +744,27 @@ img.pull-left {
 	text-decoration: none;
 }
 
+a.accordion-toggle  i{
+  width: 45px;
+  line-height: 44px;
+  font-size: 20px;
+  margin-top: -10px;
+  text-align: center;
+  margin-right: -15px;
+  background:  #383838;
+}
+
+.panel-heading.active a.accordion-toggle i{
+  background:  #86c232;
+  line-height: 45px;
+  color: #fff;
+}
+
+.panel-heading.active a.accordion-toggle.collapsed i{
+  background: #86c232;
+  color: #fff;
+}
+
 /* Apple Tasting */
 
 .appletasting .logos li {
