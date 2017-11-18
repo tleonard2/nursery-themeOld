@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Groundcovers</title>
+    <meta name="Description" content="Portland Nursery carries a full selection of groundcovers.">
+    <meta name="robots" content="all">
+    <script type="text/javascript" src="../js/roll.js"></script>
+    <script type="text/javascript" src="js/slideshowtime.js"></script>
+    <script type="text/javascript" src="../../js/breadcrumbs.js"></script>
+	<script type="text/javascript" src="../../js/newhighlight.js"></script>
+
+    <link href="../../css/widelayout.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/mainnavnew.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/home-page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="plants" class="groundcovers" onload="MM_preloadImages('images/image1.jpg','images/image2.jpg','images/image3.jpg','images/image4.jpg','images/image5.jpg','images/image6.jpg','images/image7.jpg','images/image8.jpg','images/image9.jpg'); start_show()">
+    <div id="outerWrapper">
+        <div id="homeheader">
+            <div class="hours">
+                <!--#include virtual="../../inc/hoursevents.inc" -->
+            </div><a href="http://portlandnursery.com"><img src="../../images-layout/msthd.jpg" alt="Portland Nursery" width="770" height="151" class="msthd"></a>
+
+            <div id="mainnav">
+                <!--#include virtual="../../inc/mainNav.inc" -->
+            </div>
+
+            <p class="clear"></p>
+        </div><!-- homeheader -->
+
+        <div class="clear"></div>
+
+        <div id="content" class="wide">
+            <div id="nav-col">
+                <div id="searcharea">
+                    <div id="cse" style="width: 100%;">
+                        Loading
+                    </div><script src="http://www.google.com/jsapi" type="text/javascript">
+</script> <script type="text/javascript">
+google.load('search', '1');
+                    var app;
+                    function OnLoad() {
+                    // Dynamically load CSS to override defaults
+                    var css = document.createElement('link');
+                    css.href = '/css/layout.css';
+                    css.type = 'text/css';
+                    css.rel = 'stylesheet';
+                    document.getElementsByTagName('head')[0].appendChild(css);}
+                    google.setOnLoadCallback(function(){
+                    new google.search.CustomSearchControl('003868193070768275417:xbrjeefzpda').draw('cse');
+                    }, true);
+                    </script>
+                </div>
+
+                <div id="navLeft" class="groundcovers">
+                    <h1><a href="/plants/index.shtml">Plants</a></h1><!--#include virtual="../../inc/plants-leftNav-groundcovers.inc" -->
+
+                     <!--#include virtual="../../inc/plants-leftNav.inc" -->
+                </div><!-- nav-left -->
+            </div><!-- left-col -->
+
+            <div class="tophead">
+                <h1>Groundcovers</h1>
+            </div>
+
+            <div id="contentWide">
+                <div class="wide640">
+
+                <p>The term &quot;groundcover&quot; includes low-growing plants that never reach more than a couple of inches in height as well as others that might grow as tall as two feet or more. Most of these plants spread easily, which is why they're called &quot;groundcovers.&quot;</p>
+
+
+                    <p>Just about any spreading perennial can be used as a ground cover, and even clump-formers can be planted en-masse to create the same effect. Begin your search for ground covers by observing what grows well now in your yard. If you have areas with many happy astilbes or hostas, why not plant more to create a ground cover?</p>
+
+                                        <p class="center"><img src="images/front.jpg" alt="Groundcovers" width="500" height="375" name="rotating_picture" id="rotating_picture"></p>
+
+<p>It is important to choose the right ground cover to fit your needs and the site requirements. Our groundcover sections are organized according to requirements such as evergreen, paths and drought tolerant to make your selection process easier.</p>
+
+                            <p>The only maintenance required is to snip off the runners or simply walk on the plants. Many gardeners have relied on ground covers to serve some of the same functions as mulch</p>
+
+                 <div class="treatment">
+<h3>Groundcovers for Sun</h3>
+
+                    <p>We have put together a number of lists to help you in your selection of groundcovers. This first section includes groundcovers that thrive in sun.</p>
+
+                    <p>You will find lists for groundcovers that can be used to create paths or become a lawn substitute, in addition to fast growing, evergreen, and drought tolerant groundcovers for sun.</p>
+
+                    <div class="pagebtn"><p>See our feature on <a href="../perennials/vinca.shtml">Vinca Major &amp; Vinca Minor</a></p></div>
+</div>
+                </div>
+
+                <div class="plants">
+                <h3>Helps for finding Groundcovers for Sun</h3>
+                    <div class="featureone">
+                        <h4>Fast Growing</h4><img src="../../images-layout/groundcovers/fastgrowingsun.jpg" alt="fastgrowingsun" width="222" height="167">
+
+                        <p class="center"><a href="../../docs/groundcovers/fast-Growing-Sun-Groundcovers.pdf" target="_blank">Fast Growing<br>
+                        Groundcovers for Sun</a></p>
+                    </div>
+
+                    <div class="featuretwo">
+                        <h4>Evergreen</h4>
+						<img src="../../images-layout/groundcovers/evergreensun.jpg" alt="evergreensun" width="222" height="167">
+                        <p class="center"><a href="../../docs/groundcovers/Evergreen-groundcovers-sun.pdf" target="_blank">Evergreen<br />Groundcovers for Sun</a></p>
+                    </div>
+
+                    <div class="featurethree">
+                        <h4>Drought Tolerant</h4>
+						<img src="../../images-layout/groundcovers/droughtsun.jpg" alt="droughtsun" width="222" height="167">
+                        <p class="center"><a href="../../docs/groundcovers/drought-sun.pdf" target="_blank">Drought Tolerant<br />Groundcovers for Sun</a></p>
+                    </div>
+                </div>
+<div class="clear"></div>
+
+
+<div class="plants">
+
+		<div class="featureone">
+                 <h4>Path/Lawn Substitute</h4>
+				   <img src="../../images-layout/groundcovers/pathlawnsun2.jpg" alt="pathlawnsun2" width="222" height="167">
+                    <p class="center"><a href="../../docs/groundcovers/paths-groundcover-sun.pdf" target="_blank">Sun Bedding Plants for<br />Paths and Lawn substitutes.</a></p>
+                    <br />
+                    </div>
+
+         <div class="featuretwo">
+                 <h4>Muehlenbeckia</h4>
+				   <img src="../../images-layout/groundcovers/muehlenbeckia.jpg" alt="muehlenbeckia" width="222" height="167">
+                    <div class="pagebtn"><p>Muehlenbeckia:<br />Wandering Wire Vine.</p></div>
+                    </div>
+
+                      <div class="featurethree">
+                 <h4>Vinca</h4>
+				   <img src="../../images-layout/groundcovers/vinca.jpg" alt="vinca" width="222" height="167">
+                    <div class="pagebtn"><p><a href="../perennials/vinca.shtml">Vinca Major &amp;<br />Vinca Minor</a></p></div>
+                    </div>
+
+
+                    </div>
+
+                <div class="wide640">
+
+<div class="clear">&nbsp;</div>
+
+                    <div class="treatment">
+                    <h3>Groundcovers for Shade</h3>
+
+                    <p>The lists below will help with your selection of shade groundcovers. We have added lists that are particular to the hard to fill shade areas.</p>
+
+                    <div class="pagebtn"><p>See our feature on <a href="../perennials/vinca.shtml">Muehlenbeckia: Wire Vine</a></p></div>
+</div>
+
+
+
+                </div>
+
+                <div class="plants">
+                <h3 class="first">Helps for finding Groundcovers for Shade</h3>
+                    <div class="featureone">
+                        <h4>Path/Lawn Substitutes</h4>
+						<img src="../../images-layout/groundcovers/lawnsub.jpg" alt="lawnsub" width="222" height="167">
+                        <p class="center"><a href="../../docs/groundcovers/paths-lawn-subs-shade.pdf" target="_blank">Shade Bedding Plants for Paths and Lawn substitutes.</a></p>
+                    </div>
+
+                    <div class="featuretwo">
+                        <h4>Fast Growing</h4>
+						<img src="../../images-layout/groundcovers/fastgrowingshade.jpg" alt="fastgrowingshade" width="222" height="167">
+                        <p class="center"><a href="../../docs/groundcovers/fast-growing-shade.pdf" target="_blank">Fast Growing<br />Shade Groundcovers</a></p>
+                    </div>
+
+                    <div class="featurethree">
+                        <h4>Evergreen</h4>
+						<img src="../../images-layout/groundcovers/evergreenshade.jpg" alt="evergreenshade" width="222" height="167">
+                        <p class="center"><a href="../../docs/groundcovers/evergreen-shade.pdf" target="_blank">Evergreen<br />Shade Groundcovers</a></p>
+                    </div>
+
+                </div>
+
+                    <div class="clear"></div>
+
+                    <div class="plants">
+                        <div class="featureone">
+                            <h4>Drought Tolerant</h4>
+							<img src="../../images-layout/groundcovers/droughtshade.jpg" alt="droughtshade" width="222" height="167">
+                            <p class="center"><a href="../../docs/groundcovers/drought-shade.pdf" target="_blank">Drought Tolerant<br />Shade Bedding Plants.</a></p>
+                        </div>
+
+                        <div class="featuretwo">
+                            <h4>Damp Shade</h4>
+							<img src="../../images-layout/groundcovers/dampshade.jpg" alt="dampshade" width="222" height="167">
+                            <p class="center"><a href="../../docs/groundcovers/damp-shade.pdf" target="_blank">Groundcovers<br />for Damp Shade</a></p>
+                        </div>
+
+                        <div class="featurethree">
+                            <h4>Dense Shade</h4>
+							<img src="../../images-layout/groundcovers/denseshade.jpg" alt="denseshade" width="222" height="167">
+                            <p class="center"><a href="../../docs/groundcovers/dense-shade.pdf" target="_blank">Groundcovers<br />for Dense Shade</a></p>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div><!-- plants -->
+
+                </div><!-- contentWide -->
+
+                <div class="clear"></div>
+            </div><!-- content -->
+
+            <p class="clear"></p>
+
+            <div id="footer">
+                <!--#include virtual="../../inc/footer.inc" -->
+            </div>
+
+            <div class="clear"></div>
+        </div><!-- outerWrapper -->
+        <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-21703888-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+        </script>
+
+</body>
+</html>
