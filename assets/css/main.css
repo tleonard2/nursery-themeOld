@@ -1437,6 +1437,22 @@ ul.sidebar-gallery {
 	font-size: 16px;
 }
 
+.masonry p a {
+	margin: 15px 0 0;
+	padding-left: 0px;
+	font-size: 18px;
+}
+
+.masonry p i {
+	margin-right: 5px;
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+.masonry img {
+	margin-bottom: 10px;
+}
+
 /* Class Calendar */
 
 .container .smallcal {
