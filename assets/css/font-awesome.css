@@ -634,6 +634,9 @@
 .fa-facebook:before {
   content: "\f09a";
 }
+.fa-newspaper-o:before {
+  content: "\f1ea";
+}
 .fa-github:before {
   content: "\f09b";
 }
