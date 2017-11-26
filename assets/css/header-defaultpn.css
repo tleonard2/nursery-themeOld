@@ -19,7 +19,7 @@
 ------------------------------------*/
 .header .topbar {
 	z-index: 12;
-	padding: 15px 0;
+	padding: 8px 0;
 	position: relative;
 }
 
@@ -42,9 +42,10 @@
 
 .header .topbar ul.loginbar > li > a,
 .header .topbar ul.loginbar > li > a:hover {
-	color: #474B4F;
-	font-weight: 500;
-	font-size: 13px;
+	color: #86c232;
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 	text-decoration: none;
 }
@@ -84,21 +85,34 @@
 
 /* Seachbox */
 .searchbox {
-	margin-top: 3px;
-	width: 320px;
+	margin-top: 15px;
+/* 	width: 320px; */
 	margin: 0 auto;
 }
 
 .searchbox input {
-	font-size: 16px;
-	border: 1px solid #ccc;
+	font-size: 14px;
+	border: 0;
 	color: #474B4F;
-	padding: 0 20px 2px 20px;
-	border-radius: 5px;
+	color: #FFF;
+	padding: 3px 20px 1px 20px;
+	border-radius: 1px;
+	background: #6b6e70;
 }
 
 .searchbox .btn-u {
-	border-radius: 5px;
+	border-radius: 1px;
+	border: 0;
+color: #474B4F;
+font-size: 14px;
+cursor: pointer;
+font-weight: 400;
+padding: 2px 13px;
+position: relative;
+background: #86c232;
+white-space: nowrap;
+display: inline-block;
+text-decoration: none;
 }
 
 
@@ -553,6 +567,7 @@
 
 /*Search Box
 ------------------------------------*/
+/*
 .header .nav > li > .search {
 	color: #aaa;
 	cursor: pointer;
@@ -631,6 +646,7 @@
 		margin-right: 10px;
 	}
 }
+*/
 
 
 /*--------------------------------------------------
@@ -743,22 +759,26 @@
 	text-transform: uppercase;
 }
 
-.header .mega-menu .equal-height.about .equal-height-list h3 {
-	font-size: 15px;
-	font-weight: 400;
+.header .mega-menu .equal-height.about .equal-height-list {
 	padding: 0px 20px 0 13px;
-	text-transform: none;
-	margin: 0;
+}
+
+.header .mega-menu .equal-height.about .equal-height-list img {
+	padding: 0px 20px 0 -13px;
 }
 
 .header .mega-menu .equal-height.about .equal-height-list h3:first-child {
 	font-size: 15px;
 	font-weight: 400;
-	padding: 0px 10px 0 13px;
-	text-transform: capitalize;
+	padding: 0;
+	text-transform: uppercase;
 	margin-top: 10px;
 }
 
+.header .mega-menu .equal-height.about ul li {
+	line-height: 1.5;
+	font-weight: 400;
+}
 
 .header .mega-menu .equal-height-list li.h3 a {
 	padding: 10px 10px 8px 0px;
