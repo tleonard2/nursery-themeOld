@@ -800,6 +800,11 @@ text-decoration: none;
         border-left: 1px solid #eee;
     }
 
+	.header .mega-menu .equal-height-in p {
+        margin: 20px;
+        font-size: 20px;
+    }
+
     .header .mega-menu .equal-height-in:first-child {
         border-left: none;
         margin-left: -1px;
