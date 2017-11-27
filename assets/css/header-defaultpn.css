@@ -807,6 +807,7 @@ text-decoration: none;
 
     .header .mega-menu .equal-height-list {
     	width: 100%;
+			padding-right: 10px;
     }
 
     .header .mega-menu .equal-height-list li a {
