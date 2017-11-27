@@ -27,14 +27,14 @@ section#happenings {
 
 .media.happening-box {
 	margin:25px 0;
-	padding:10px 5px;
+	padding:10px 0;
 	font-size:18px;
 	line-height:1.4;
 	font-weight: inherit;
 }
 
 .media.happening-box .pull-left {
-	margin-right:10px;
+	margin-right:0px;
 }
 
 .media.happening-box .img-responsive {
