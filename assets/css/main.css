@@ -876,10 +876,7 @@ body > section {
   	}
 }
 
-/* Seasonal
-********************************/
-/*********************
-****seasonal page css*****
+/* Seasonal page css*****
 **********************/
 
 .widget {
@@ -889,9 +886,14 @@ body > section {
 
 .widget.seasonal {
 	border-bottom: 2px solid #474B4F;
-	margin:30px 0 30px 10px;
-	padding:0px 0px 0px 5px;
+	margin:30px 0 30px 0px;
+	padding:0px 0px 0px 0px;
 	font-size: 18px;
+}
+
+.widget .col-md-6 {
+	padding-right: 0;
+	margin: 0 0 20px 0;
 }
 
 .single_comments {
@@ -975,6 +977,8 @@ body > section {
 .single_comments div.iconclass:hover {
 	background: #000;
 	background:  #F5A623;
+	background: url(../images/tips/calendardk.png);
+	background-size: 50px;
 }
 
 .widget .entry-meta span {
@@ -984,9 +988,15 @@ body > section {
 
 .widget h3 {
   color: #000;
- color: #3F4F67;
-  text-transform: uppercase;
+  color: #3F4F67;
+/*   text-transform: uppercase; */
   margin-bottom: 10px;
+	padding-left: 15px;
+	font-size: 20px;
+}
+
+.widget h3 a {
+  color: #3F4F67;
 }
 
 .seasonal_category{
@@ -1164,8 +1174,8 @@ ul.faq li > div h3 {
 
 /* seasonal and tips
  ---------------------------------------------*/
-.container.seasonal {
-/* 	margin-top: 50px; */
+.container .seasonal {
+	padding-left: 15px;
 }
 
 .seasonal .seasonal-item .seasonal-content h3 {
