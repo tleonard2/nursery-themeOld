@@ -926,24 +926,6 @@ body > section {
 	padding-top: 10px;
 }
 
-/*
-.single_comments div.iconclass {
-	font-size: 12px;
-  font-weight: 700;
-	color: red;
-	line-height: 58px;
-	height: 50px;
-	width: 50px;
-	text-align: center;
-	padding: 0;
-	float: left;
-	margin-right: 10px;
-	background: url(../images/tips/calendar3.png);
-	background-size: 50px;
-	text-transform: uppercase;
-}
-*/
-
 .single_comments div.iconclass {
 	height: 55px;
 	width: 55px;
@@ -954,18 +936,25 @@ body > section {
 .single_comments div.iconclass.calendaricon {
 	background: url(../images/tips/calendarn.png) no-repeat;
 	background-size: 50px;
+	line-height: 55px;
+	text-align: center;
+}
+
+.single_comments div.iconclass.calendaricon a {
 	font-size: 12px;
   font-weight: 700;
 	color: red;
-	line-height: 58px;
-	text-align: center;
 	text-transform: uppercase;
+}
+
+.single_comments div.iconclass.calendaricon a:hover {
+	color: #000;
+	text-decoration: none;
 }
 
 .single_comments div.iconclass.calendaricon:hover {
 	background: url(../images/tips/calendardk.png) no-repeat;
 	background-size: 50px;
-	color:  #000;
 }
 
 .single_comments div.iconclass.clippericon {
