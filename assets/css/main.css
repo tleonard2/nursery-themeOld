@@ -885,7 +885,7 @@ body > section {
 }
 
 .widget.seasonal {
-	border-bottom: 2px solid #474B4F;
+/* 	border-bottom: 1px solid #ccc; */
 	margin:30px 0 30px 0px;
 	padding:0px 0px 0px 0px;
 	font-size: 18px;
@@ -923,9 +923,10 @@ body > section {
 }
 
 .single_comments p.single {
-	padding-top: 15px;
+	padding-top: 10px;
 }
 
+/*
 .single_comments div.iconclass {
 	font-size: 12px;
   font-weight: 700;
@@ -933,51 +934,124 @@ body > section {
 	line-height: 58px;
 	height: 50px;
 	width: 50px;
-/* 	border-radius: 50%; */
 	text-align: center;
 	padding: 0;
 	float: left;
 	margin-right: 10px;
-	background: url(../images/tips/calendar.png);
+	background: url(../images/tips/calendar3.png);
 	background-size: 50px;
 	text-transform: uppercase;
 }
-
-
-/*
-.green {
-		background: #799A41;
-}
-
-.blue {
-	background:  #006B93;
-}
-
-.coral {
-	background: #FF7E79;
-}
-
-.orange {
-	background: #F5A623;
-	background: #474B4F;
-}
-
-.brown {
-	background: #8B572A;
-	background: #474B4F;
-}
-
-.mauve {
-	background: #892E65;
-	background: #474B4F;
-		background: #000;
-}
 */
 
+.single_comments div.iconclass {
+	height: 55px;
+	width: 55px;
+	float: left;
+	margin-right: 5px;
+}
+
+.single_comments div.iconclass.calendaricon {
+	background: url(../images/tips/calendarn.png) no-repeat;
+	background-size: 50px;
+	font-size: 12px;
+  font-weight: 700;
+	color: red;
+	line-height: 58px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.single_comments div.iconclass.calendaricon:hover {
+	background: url(../images/tips/calendardk.png) no-repeat;
+	background-size: 50px;
+	color:  #000;
+}
+
+.single_comments div.iconclass.clippericon {
+	background: url(../images/tips/clipper.png) no-repeat;
+	background-size: 50px;
+}
+
+.single_comments div.iconclass.clippericon:hover {
+	background: url(../images/tips/clipperdk.png) no-repeat;
+	background-size: 50px;
+}
+
+.single_comments div.iconclass.flowerpoticon {
+	background: url(../images/tips/flowerpot.png) no-repeat;
+	background-size: 50px;
+}
+
+.single_comments div.iconclass.flowerpoticon:hover {
+	background: url(../images/tips/flowerpotdk.png) no-repeat;
+	background-size: 50px;
+}
+
+.single_comments div.iconclass.treeicon {
+	background: url(../images/tips/tree.png) no-repeat;
+	background-size: 50px;
+}
+
+.single_comments div.iconclass.treeicon:hover {
+	background: url(../images/tips/treedk.png) no-repeat;
+	background-size: 50px;
+}
+
+.single_comments div.iconclass.hose-watericon {
+	background: url(../images/tips/hose-water.png) no-repeat;
+	background-size: 50px;
+}
+
+.single_comments div.iconclass.hose-watericon:hover {
+	background: url(../images/tips/hose-waterdk.png) no-repeat;
+	background-size: 50px;
+}
+
+.single_comments div.iconclass.bugicon {
+	background: url(../images/tips/bug.png) no-repeat;
+	background-size: 50px;
+}
+
+.single_comments div.iconclass.bugicon:hover {
+	background: url(../images/tips/bugdk.png) no-repeat;
+	background-size: 50px;
+}
+
+.single_comments div.iconclass.wheelbarrowicon {
+	background: url(../images/tips/wheelbarrow.png) no-repeat;
+	background-size: 50px;
+}
+
+.single_comments div.iconclass.wheelbarrowicon:hover {
+	background: url(../images/tips/wheelbarrowdk.png) no-repeat;
+	background-size: 50px;
+}
+
+.single_comments div.iconclass.snowflakeicon {
+	background: url(../images/tips/snowflake.png) no-repeat;
+	background-size: 50px;
+}
+
+.single_comments div.iconclass.snowflakeicon:hover {
+	background: url(../images/tips/snowflakedk.png) no-repeat;
+	background-size: 50px;
+}
+
+.single_comments div.iconclass.plant-green-poticon {
+	background: url(../images/tips/plant-green-pot.png) no-repeat;
+	background-size: 50px;
+}
+
+.single_comments div.iconclass.plant-green-poticon:hover {
+	background: url(../images/tips/plant-green-potdk.png) no-repeat;
+	background-size: 50px;
+}
+
+
 .single_comments div.iconclass:hover {
-	background: #000;
-	background:  #F5A623;
-	background: url(../images/tips/calendardk.png);
+	color: #FFF;
+	background:  #474B4F;
 	background-size: 50px;
 }
 
