@@ -1,0 +1,44 @@
+title = "Perennials"
+url = "/perennials/"
+layout = "default"
+description = "1/10/17 - Laura Perennial landing page"
+meta_title = "Perennials at Portland Nursery"
+meta_description = "A full range of perennials for Portland, Vancouver"
+is_hidden = 0
+
+[siteSearchInclude]
+==
+    <div class="container">
+        <div class="title-block">
+            <div class="title-image"><img class="img-responsive" src="{{ '/assets/images/perennials/perennialhd.jpg'|theme }}" alt="planting perennials"></div>
+            {% partial 'breadcrumbs/breadcrumbsplants' %}
+        </div>
+    </div><!-- container -->
+
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-6 left-inner">
+                <p>Perennials come back year after year, bringing seasonal color to your garden. They can add fragrance, attract wild life and create rhythmic change.</p>
+
+                <p>Most perennials bloom for a two to three month period, with a handful of long season bloomers out there. Refer to our perennial bloom calendar to help you plan a year full of perennial color. Not only do perennials offer a wide array of flower colors and form but they can also add structure and texture with their foliage and growth habits. Tall, spiky Delphinium add spots of colorful vertical punctuation in a sunny boarder. Where as the robust leaves of <em>hostas</em> add a lush, dense feel. Whether you are planting containers or in the ground, there is sure to be a perennial or two to fit your garden's needs.</p>
+
+               <figure> <img class="img-responsive" src="{{ '/assets/images/perennials/delphinium750.jpg'|theme }}" alt="planting perennials"></figure>
+
+                <h3>Our website contains a perennial library in progress. New varieties are continually arriving at the nursery. Generally we have the best selection of plants when it is in bloom. Since inventory changes daily, please contact us for the current availability.</h3>
+
+            </div><!-- col-md-6 left-inner -->
+
+            <div class="col-md-6">
+                {% partial 'accordion/accordion-perennials' %}
+            </div><!--/.col-sm-6 tabs-->
+        </div><!-- End Row -->
+
+             <div class="row tips"><hr />
+				{% partial "/tips/perennials/fall" %}
+            </div>
+
+            <div class="row" id="portfolio">
+                {% partial "lists/list-perennials" %}
+            </div><!--/#portfolio-->
+
+        </div><!--=== End Container ===-->
