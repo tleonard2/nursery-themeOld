@@ -1,5 +1,5 @@
 title = "Vegetables"
-url = "/plants/veggies"
+url = "/veggies"
 layout = "default"
 is_hidden = 0
 meta_title = "Vegetables at Portland Nursery"
@@ -10,52 +10,45 @@ meta_description = "A full range of Vegetables for Portland, Vancouver"
     <div class="container">
      <div class="title-block">
         <div class="title-image">
-	    <img class="img-responsive" src="http://portlandnursery.com/plants/images/rose/roseshd.jpg" alt="Roses" title="Roses" >
+	    <img class="img-responsive" src="http://portlandnursery.com/plants/images/vegetables/vegetablehd.jpg" alt="Veggies" title="Veggies" >
         </div>
 
     {% partial 'breadcrumbs/breadcrumbsplants' %}
      </div>
-
-             <section id="introheadline">
-            <h1 class="brightonM">Roses..................!</h1>
-        </section><!--/#cta-->
-
 </div> <!-- container -->
 
     <div class="container content">
-        <div class="row">
+        <div class="row planttable">
             <div class="col-md-6 left-inner">
+<p>We are passionate about growing food, and we strive to bring gardeners an expansive vegetable and herb selection along with expert advice to help you be successful.</p>
 
-	    <h2>See annuals Landing page for example of Landing page. </h2>
+<p>We also carry a selection of medicinal herbs such as Marshmallow, and unusual edibles such as Malabar Spinach.  We are pleased to provide an equally large and diverse organic selection!.</p>
 
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dictum dictum congue. Nunc ultricies eu enim sollicitudin viverra. Aenean eget tincidunt ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</h3>
-            </div><!-- col-md-6 left-inner -->
+<p>For tomatoes, we carry the tried and true varieties such as Early Girl Tomato and Genovese Basil, a vast heirloom selection such as Moon and Stars Watermelon and Corno di Toro pepper, and unique selections such as ginger mint and red noodle beans.</p>
 
-            <div id="navtabs" class="col-xs-12 col-sm-12 col-md-6 pull-right">
-                <h3 class="brightonM center">Brighten your garden with annuals!</h3>{% partial "tabs-annuals" %}
+<p>Due to our broad selection, and the popularity of growing edibles, we do not have all varieties at one time.  Please call either location for current availability.</p>
+
+ <figure><img class="img-responsive" src="http://portlandnursery.com/plants/images/vegetables/veggies750.jpg" alt=" veggie selection" /></figure>
+
+</div><!-- col-md-6 left-inner -->
+
+<div class="col-md-6">
+        {% partial "accordion/accordion-veggies" %}
             </div><!--/.col-sm-6 tabs-->
         </div><!-- End Row -->
 
-        <div class="row">
-            <hr>
+          <div class="row masonry planttable">
+            <div class="col-md-12 left-inner">
 
-            <h2 class="brightonM center">Seasonal Article</h2>
+			{% partial '/resources/veggies-masonry' %}
 
-            <div class="col-md-6">
-                <p><img src="http://portlandnursery.com/plants/images/abutilon/abutilon-hybridum-Moonchimes-Flowers750.jpg" alt="Abutilon 'Moonchimes'" class="pull-left" width="304" height="236">In sagittis dolor nec mauris laoreet, eget finibus ante porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis blandit nisi sed urna dignissim bibendum. Mauris sed commodo arcu. Etiam nec est quis dui posuere semper ac eget metus. Integer imperdiet erat nisl, ac malesuada metus semper sit amet. Nullam dolor neque, laoreet in pretium in, tempus non est.</p>
+            </div><!-- col-md-8 left-inner -->
 
-                <p>In sagittis dolor nec mauris laoreet, eget finibus ante porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis blandit nisi sed urna dignissim bibendum. Mauris sed commodo arcu. Etiam nec est quis dui posuere semper ac eget metus. Integer imperdiet erat nisl, ac malesuada metus semper sit amet. Nullam dolor neque, laoreet in pretium in, tempus non est.</p>
-            </div>
+           </div><!-- End Row -->
 
-            <div class="col-md-6">
-                <p>In sagittis dolor nec mauris laoreet, eget finibus ante porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis blandit nisi sed urna dignissim bibendum. Mauris sed commodo arcu. Etiam nec est quis dui posuere semper ac eget metus. Integer imperdiet erat nisl, ac malesuada metus semper sit amet. Nullam dolor neque, laoreet in pretium in, tempus non est.</p>
-
-                <p>In sagittis dolor nec mauris laoreet, eget finibus ante porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis blandit nisi sed urna dignissim bibendum. Mauris sed commodo arcu. Etiam nec est quis dui posuere semper ac eget metus. Integer imperdiet erat nisl, ac malesuada metus semper sit amet. Nullam dolor neque, laoreet in pretium in, tempus non est.</p>
-            </div>
-        </div><!-- End Row -->
 
          <div class="row" id="portfolio">
-            <em>{% partial "lists/list-notcomplete" %}</em>
+            <em>{% partial "lists/list-plantcategories" %}</em>
         </div><!--/#portfolio-->
 
     </div><!--=== End Container ===-->
