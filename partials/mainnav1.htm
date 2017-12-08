@@ -3,6 +3,12 @@
 <!--=== Header ===-->
 	<div class="header">
 		<div class="container">
+						<!-- Toggle get grouped for better mobile display -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="fa fa-bars"></span>
+			</button>
+			<!-- End Toggle -->
 			<!-- Logo -->
 			<a class="logo" href="{{ 'home'|page }}">
 				<img class="img-responsive" src="{{ 'assets/images/logo2.jpg'|theme }}" alt="logo">
@@ -10,6 +16,7 @@
 			<!-- End Logo -->
 
 			<!-- Topbar -->
+<!--
 			<div class="topbar">
 				<div class="searchbox pull-right">
 				<form action="{{ 'search' | page }}" method="get">
@@ -19,11 +26,11 @@
 				</div>
 
 				<ul class="loginbar pull-right">
-					<li><a target="_blank" href="https://twitter.com/pdxnursery"><i class="fa fa-twitter"></i></a></li>
-					<li><a target="_blank" href="https://www.instagram.com/portlandnursery/"><i class="fa fa-instagram fa-2"></i></a></li>
-					<li><a href=""><i class="fa fa-newspaper-o fa-2"></i></a></li>
-					<li><a target="_blank" href="https://www.facebook.com/PortlandNursery1/"><i class="fa fa-facebook fa-2"></i></a></li>
-
+						<li><a target="_blank" href="https://twitter.com/pdxnursery"><i class="fa fa-twitter"></i></a></li>
+					<li><a target="_blank" href="https://www.instagram.com/portlandnursery/"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="/resources/newsletter/"><i class="fa fa-newspaper-o"></i></a></li>
+					<li><a target="_blank" href="https://www.facebook.com/PortlandNursery1/"><i class="fa fa-facebook"></i></a></li>
+					<li class="topbar-devider"></li>
 					<li><a href="/about/locations/">Hours &amp; Locations</a></li>
 					<li class="topbar-devider"></li>
 					<li><a href="/events/current-classes/">Classes</a></li>
@@ -32,14 +39,10 @@
 				</ul>
 
 			</div>
+-->
 			<!-- End Topbar -->
 
-			<!-- Toggle get grouped for better mobile display -->
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="fa fa-bars"></span>
-			</button>
-			<!-- End Toggle -->
+
 		</div><!--/end container-->
 
 
@@ -60,6 +63,7 @@
                                         <div class="row equal-height">
                                             <div class="col-md-3 equal-height-in">
                                                 <ul class="list-unstyled equal-height-list">
+	                                                  <li><img class="img-responsive" src="{{ 'assets/images/navimages/perennials-annuals.jpg'|theme }}" alt="Edibles"></li>
                                                     <li><h3>Annuals &amp; Perennials</h3></li>
 
                                                     <!-- Annuals & Perennials -->
@@ -67,16 +71,16 @@
 
                                                     <li><a href="/perennials/">Perennial Color</a></li>
 
-                                                    <li><a href="/bulbs/">Fall &amp; Spring Bulbs</a></li>
+                                                    <li><a href="/perennials/bulbs/">Fall &amp; Spring Bulbs</a></li>
 
                                                     <li><a href="/#/">A Year in Seeds**</a></li>
                                                     <li><a href="/#/">Annual &amp; Perennial Vines**</a></li>
-
+													<li><img class="img-responsive" src="{{ 'assets/images/navimages/grasses.jpg'|theme }}" alt="Edibles"></li>
 													<!-- Grasses -->
 													<li><h3>Ferns &amp; Grasses</h3></li>
                                                      <li><a href="/ferns/">Ferns</a></li>
                                                     <li><a href="/grasses/">Grasses</a></li>
-                                                    <li><a href="/#/">Lawn**</a></li>
+<!--                                                     <li><a href="/#/">Lawn**</a></li> -->
 
                                                   <!-- End Annuals & Perennials -->
                                                 </ul>
@@ -84,12 +88,15 @@
                                             <div class="col-md-3 equal-height-in">
                                                 <ul class="list-unstyled equal-height-list">
                                                     <!-- Trees -->
-                                                    <li><h3>Trees, Shrubs &amp; Roses</h3></li>
+                                                     <li><img class="img-responsive" src="{{ 'assets/images/navimages/trees-shrubs.jpg'|theme }}" alt="Trees-Shrubs"></li>
+                                                    <li><h3>Trees &amp; Shrubs</h3></li>
 
                                                     <li><a href="/trees/">Trees</a></li>
-
                                                     <li><a href="/shrubs/">Shrubs</a></li>
-                                                    <li><a href="/#/">Roses **</a></li>
+                                                      <li><img class="img-responsive" src="{{ 'assets/images/navimages/roses.jpg'|theme }}" alt="Roses"></li>
+                                                      <li><h3>Roses</h3></li>
+                                                    <li><a href="/plants/roses/">Rose Feature</a></li>
+                                                      <li><img class="img-responsive" src="{{ 'assets/images/navimages/natives.jpg'|theme }}" alt="Natives"></li>
 													<li><h3>Northwest Natives</h3></li>
                                                     <li><a href="/natives/">Shrubs</a></li>
                                                     <li><a href="/natives/">Trees</a></li>
@@ -100,13 +107,16 @@
                                             </div>
                                             <div class="col-md-3 equal-height-in">
                                                 <ul class="list-unstyled equal-height-list">
-<!-- 	                                                <li><img class="img-responsive" src="{{ 'assets/images/resources/edibles.jpg'|theme }}" alt="Edibles"></li> -->
 
-                                                   	<li><h3>Edibles</h3></li>
-													<li><a href="/#">Small Fruits &amp; Berries**</a></li>
+	                                                <li><img class="img-responsive" src="{{ 'assets/images/navimages/fruits.jpg'|theme }}" alt="Fruits"></li>
+	                                                <li><h3>Fruits</h3></li>
+													<li><a href="/small-fruits/">Small Fruits &amp; Berries</a></li>
                                                    <li><a href="/fruits/fruit-trees/">Fruit Trees</a></li>
+                                                     <li><img class="img-responsive" src="{{ 'assets/images/navimages/edibles.jpg'|theme }}" alt="Edibles"></li>
+                                                     	<li><h3>Herbs &amp; Vegetables</h3></li>
                                                     <li><a href="/herbs/">Herbs</a></li>
-                                                     <li><a href="/#/">Vegetable Varieties &amp; Culture**</a></li>
+                                                     <li><a href="/veggies/">Vegetable Varieties &amp; Culture</a></li>
+                                                     <li><a href="/veggies/tomatoes/">Tomatoes</a></li>
 
                                                     <!-- End Grasses -->
 
@@ -114,19 +124,23 @@
                                             </div>
                                             <div class="col-md-3 equal-height-in">
                                                 <ul class="list-unstyled equal-height-list">
+	                                                  <li><img class="img-responsive" src="{{ 'assets/images/navimages/container-gardening.jpg'|theme }}" alt="Edibles"></li>
                                                     <li><h3>Container Gardening</h3></li>
 
                                                     <!-- Container Gardening -->
-                                                   <li><a href="container-gardens/"><i class="fa fa-bitbucket"></i> Planting a Container</a></li>
-                                                    <li><a href="/container-gardens/december-designs/">Planting Recipes for Containers</a></li>
+                                                   <li><a href="/container-gardens/"></i>Container Gardening</a></li>
+                                                    <li><a href="/container-gardens/{% partial "resources/month" %}-designs/">{% partial "resources/month" %} Designs</a></li>
                                                     <li><a href="/container-gardens/thriller-filler-spiller/">Thriller Spiller Filler Designs</a></li>
 
-<!--                                                      <li><img class="img-responsive" src="{{ 'assets/images/resources/houseplantmenu.jpg'|theme }}" alt="Houseplants"></li> -->
+                                                     <li><img class="img-responsive" src="{{ 'assets/images/navimages/houseplants.jpg'|theme }}" alt="Houseplants"></li>
                                                      <li><h3>Houseplants</h3></li>
-                                                     <li><a href="/houseplants/">Growing Houseplants</a></li>
+                                                     <li><a href="/houseplants/">Houseplant Feature</a></li>
                                                     <li><a href="/houseplants/houseplants/">Houseplant Quick Look</a></li>
-													<li><a href="/houseplants/bonsai/">Indoor &amp; Outdoor Bonsai</a></li>
-													<li><a href="/events/houseplantsale/">Annual Houseplant Sales</a></li>
+
+                                                     <li><img class="img-responsive" src="{{ 'assets/images/navimages/bonsai.jpg'|theme }}" alt="Bonsai"></li>
+                                                   <li><h3>Houseplants</h3></li>
+													<li><a href="/houseplants/bonsai/">Growing Bonsai</a></li>
+<!-- 													<li><a href="/events/houseplantsale/">Annual Houseplant Sales</a></li> -->
 
                                                     <!-- End Container Gardening -->
                                                 </ul>
@@ -219,7 +233,7 @@
                     <!-- Containers -->
                     <li class="dropdown mega-menu-fullwidth">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                            Container Gardening
+                            Custom Planting Plans
                         </a>
                         <ul class="dropdown-menu">
                             <li>
@@ -228,60 +242,33 @@
                                         <div class="row equal-height">
                                             <div class="col-md-6 equal-height-in">
                                                 <ul class="list-unstyled equal-height-list">
-                                                    <li>  <img class="img-responsive" src="{{ 'assets/images/container-gardens/hangingbasket750.jpg'|theme }}" alt="container gardening"></li>
+                                                    <li>  <img class="img-responsive" src="{{ 'assets/images/resources/SunkenPatio750.jpg'|theme }}" alt="container gardening"></li>
 
-                                                </ul>
+                                               </ul>
                                             </div><!-- col-md-3 -->
 
-                                            <div class="col-md-3 equal-height-in">
+                                            <div class="col-md-6 equal-height-in">
                                                 <ul class="list-unstyled equal-height-list">
-                                                    <li><h3>Container Gardening</h3> </li>
+                                                    <li><h3>Custom Planting Plans</h3> </li>
 
-                                                    <li><a href="/container-gardens/">Container Gardening</a></li>
+                                                    <li><p>Let our plant knowledge and gardening experience make your next planting project easier. A design will help make your garden a success by taking the guesswork out of plant selection and placement. By getting a little dirty, you can save big!</p></li>
 
-                                                    <li><a href="/container-gardens/thriller-filler-spiller/">Thriller Spiller Filler Designs</a></li>
+<li><h3>Let Terrie, our custom designer, take you through the process!: <a href="mailto:terrieb@portlandnursery.com">Email Terrie today!</a></h3></li>
 
-                                                    <li><a href="/container-gardens/january-designs/">January Designs</a></li>
-
-                                                    <li><a href="/container-gardens/february-designs/">February Designs</a></li>
-
-                                                    <li><a href="/container-gardens/march-designs/">March Designs</a></li>
-
-                                                    <li><a href="/container-gardens/april-designs/">April Designs</a></li>
-
-                                                    <li><a href="/container-gardens/may-designs/">May Designs</a></li>
-
-                                                </ul>
-                                            </div><!-- col-md-3 -->
-
-                                            <div class="col-md-3 equal-height-in">
-                                                <ul class="list-unstyled equal-height-list">
-	                                                <li><h3>&nbsp;</h3></li>
-
-													<li><a href="/container-gardens/june-designs/">June Designs</a></li>
-
-                                                    <li><a href="/container-gardens/july-designs/">July Designs</a></li>
-
-                                                    <li><a href="/container-gardens/august-designs/">August Designs</a></li>
-
-                                                    <li><a href="/container-gardens/september-designs/">September Designs</a></li>
-
-                                                    <li><a href="/container-gardens/october-designs/">October Designs</a></li>
-
-                                                    <li><a href="/container-gardens/november-designs/">November Designs</a></li>
-
-                                                    <li><a href="/container-gardens/december-designs/">December Designs</a></li>
+	<li><h3><a href="/resources/custom-planting-plans/">Read more about our service...</a></h3></li>
 
 
                                                 </ul>
                                             </div><!-- col-md-3 -->
-                                        </div><!-- row equal-height -->
-                                    </div><!-- container -->
+
+											</div>  <!-- end row -->
+
+                                    </div> <!-- container -->
                                 </div>
                             </li>
                         </ul>
                     </li>
-                      <!-- End Containers -->
+                    <!-- End Products -->
 
 					<!-- Garden Solutions -->
                     <li class="dropdown mega-menu-fullwidth">
@@ -294,33 +281,30 @@
                                     <div class="container">
                                         <div class="row equal-height">
 
-                                            <div class="col-md-3 equal-height-in">
+                                            <div class="col-md-4 equal-height-in">
                                                 <ul class="list-unstyled equal-height-list">
-                                                   <li><h3>Custom Planting Plans</h3></li>
-                                                   <!-- Landscaping -->
-                                                    <li><a href="/resources/custom-planting-plans/">Our Custom Planting Plan Service</a></li>
+	                                                <li>  <img class="img-responsive" src="{{ 'assets/images/container-gardens/hangingbasket750.jpg'|theme }}" alt="container gardening"></li>
 
-                                                     <li><a href="http://portlandnursery.com/docs/landscaping-design/about-design-services.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i>Our Design Services</a></li>
+                                                   <li><h3>Container Gardening</h3> </li>
 
-                                                     <li><a href="http://portlandnursery.com/docs/landscaping-design/design-process.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i>Design Process</a></li>
+                                                    <li><a href="/container-gardens/">Container Gardening</a></li>
 
-                                                     <li><a href="http://portlandnursery.com/docs/landscaping-design/questionnaire.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i>Plan Questionnaire</a></li>
+                                                    <li><a href="/container-gardens/thriller-filler-spiller/">Thriller Spiller Filler Designs</a></li>
 
-                                                     <li><a href="http://portlandnursery.com/docs/landscaping-design/landscape-resource-guide.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i>Landscape Resources</a></li>
-
-                                                     <li><a href="http://portlandnursery.com/docs/landscaping-design/DIY-installation-priority-list.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i>DIY Installation Priority List</a></li>
-
-                                                     <li><a href="http://portlandnursery.com/docs/landscaping-design/pond-worksheet.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i>Pond Planning Worksheet</a></li>
-                                                  <!-- Landscaping -->
+                                                     <li><a href="/container-gardens/{% partial "resources/month" %}-designs/">{% partial "resources/month" %} Designs</a></li>
                                                 </ul>
                                             </div>
 
-                                            <div class="col-md-3 equal-height-in">
+                                            <div class="col-md-4 equal-height-in">
                                                 <ul class="list-unstyled equal-height-list">
+	                                                 <li>  <img class="img-responsive" src="{{ 'assets/images/resources/birdhaven750.jpg'|theme }}" alt="container gardening"></li>
+
                                                     <li><h3>Garden Projects</h3></li>
 
                                                    <!-- Projects -->
                                                     <li><a href="/trees/bird-haven/">Build a Bird Haven</a></li>
+
+                                                    <li><a href="/natives/winter-interest/">Winter Interest with Natives</a></li>
 
 <!--
                                                     <li><a href="#">Raise Mason Bees</a></li>
@@ -328,11 +312,11 @@
                                                     <li><a href="#">Plant a Fragrant Garden</a></li>
 -->
 
-                                                    <li><a href="/natives/hummingbirds/">Attract Hummingbirds</a></li>
+                                                    <li><a href="/natives/hummingbirds/">Attract Hummingbirds with Natives</a></li>
 
-                                                    <li><a href="/container-gardening/>">Container Gardening</a></li>
+                                                     <li><a href="/natives/butterflies/">Attract Butterflies with Natives</a></li>
 
-
+													 <li><a href="/natives/edible-fruits/">Native Edible Fruits</a></li>
 <!--
                                                     <li><a href="#">Plant a Rose Garden</a></li>
 
@@ -345,28 +329,23 @@
                                                 </ul>
                                             </div>
 
-                                            <div class="col-md-3 equal-height-in">
+                                            <div class="col-md-4 equal-height-in">
                                                 <ul class="list-unstyled equal-height-list">
-                                                    <li><h3>Resources</h3></li>
-                                                    <li><a href="/test-page/">Test Page</a></li>
+	                                                <li>  <img class="img-responsive" src="{{ 'assets/images/resources/brochures750.jpg'|theme }}" alt="brochures"></li>
 
-						                            <li><a href="/resources/brochures/">All of our handy brochures</a></li>
+                                                    <li><h3>Resources</h3></li>
+
+                                                     <li><a href="/seasonal-tips/{% partial "resources/month" %}/">This Month's Gardening Tips</a></li>
+
+						                            <li><a href="/resources/brochures/">All of our handy BROCHURES</a></li>
+
+<!-- 						                            <li><a href="/resources/faqs/">Planting FAQs</a></li> -->
 
 						                            <li><a href="/resources/gift-cards/">Gift Cards</a></li>
 
 						                            <li><a href="/resources/newsletter/">Newsletter Archive</a></li>
 
                                                 </ul>
-                                            </div>
-
-                                                <div class="col-md-3 equal-height-in">
-                                                <ul class="list-unstyled equal-height-list">
-                                                    <li><h3>Get Social</h3></li>
-
-                                                    <!-- Containers -->
-
-                                                  <!-- End Containers -->
-                                            </ul>
                                             </div>
 
                                             </div>  <!-- end row -->
@@ -399,7 +378,7 @@
 													<li>Portland, OR 97215</li>
 													<li>Phone: 503-231-5050</li>
 													<li><a target="_blank" href="https://www.google.com/maps?ll=45.518778,-122.611034&z=16&t=m&hl=en-US&gl=US&mapclient=embed&q=5050+SE+Stark+St+Portland,+OR+97215">Click for Map.</a></li>
-												   	 <li><h3> {%  content 'hours.htm'  %}</h3></li>
+												   	 <li><h3> {%  partial "resources/hours" %}</h3></li>
                                                 </ul>
                                      </div>
 
@@ -413,8 +392,7 @@
                                                    	<li>Portland, OR 97266</li>
 													<li>Phone: 503-788-9000</li>
 													<li><a target="_blank" href="https://www.google.com/maps/place/Portland+Nursery/@45.504321,-122.570622,16z/data=!4m5!3m4!1s0x0:0xcb486e17e80c806!8m2!3d45.5043212!4d-122.5706218?hl=en-US">Click for Map.</a></li>
-												  <li><h3> {%  content 'hours.htm'  %}</h3></li>
-
+												  	 <li><h3> {%  partial "resources/hours" %}</h3></li>
                                                 </ul>
                                             </div>
 

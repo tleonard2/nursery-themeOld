@@ -23,6 +23,12 @@
 	position: relative;
 }
 
+@media (max-width: 1190px) {
+	.header .topbar {
+		margin-bottom: 20px;
+	}
+}
+
 .header .topbar ul.loginbar {
 	margin: 0 15px 0 0;
 }
@@ -58,6 +64,20 @@
 	border-right: solid 1px #bbb;
 }
 
+@media (max-width: 480px) {
+	.header .topbar ul.loginbar {
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+
+	.header .topbar ul.loginbar > li > a,
+  .header .topbar ul.loginbar > li > a:hover {
+		font-size: 11px;
+		padding: 0 5px;
+	}
+}
+
 .header .topbar ul.loginbar li i.fa {
 	color: #bbb;
 }
@@ -68,7 +88,6 @@
 	margin-top: 15px;
 /* 	width: 320px; */
 	margin: 0 auto;
-		float: right;
 }
 
 .searchbox input {
@@ -115,7 +134,27 @@
 	margin-bottom: -40px;
 }
 
+@media (max-width: 768px) {
+	.header > .container {
+		width: 100%;
+	}
+}
+
+@media (max-width: 1190px) {
+	.header > .container {
+		margin-bottom: 0;
+	}
+}
+
 /*Logo*/
+.header .logobox {
+	height: 100%;
+	min-height: 40px;
+	min-width: 100px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
 .header .logo {
 	height: 100%;
 	min-height: 40px;
@@ -124,6 +163,13 @@
 	vertical-align: middle;
 }
 
+@media (max-width: 400px) {
+	.header .logo {
+		display: block;
+	}
+}
+
+
 .header .logo img {
 	z-index: 1;
 /*	margin: 20px 0;*/
@@ -131,9 +177,24 @@
 	position: relative;
 }
 
+/*Big Logo Style*/
+@media (max-width: 1200px) {
+	.header img.big-logo {
+		width: 120px;
+		height: auto;
+	}
+}
+
+
 /*Navbar Toggle*/
 .header .navbar-toggle {
 	border-color: #5fb611;
+}
+
+@media (max-width: 1190px) {
+	.header .navbar-toggle {
+		margin-right: 0;
+	}
 }
 
 .header .navbar-toggle .fa {
@@ -157,6 +218,15 @@
 	position: relative;
 }
 
+/*Navbar Collapse*/
+@media (max-width: 1190px) {
+  	.header .navbar-collapse,
+	.header .navbar-collapse .container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
 /*Navbar Menu*/
 .header .navbar-nav > li > a {
 	color: #474B4F;
@@ -169,46 +239,26 @@
 	color: #72c02c;
 }
 
+@media (min-width: 992px) {
+	.header .navbar-nav {
+		float: right;
+	}
+}
 
 /*--------------------------------------------------
     [3. Header - Responsive Navbar Style]
 ----------------------------------------------------*/
-/*Big Logo Style*/
-@media (max-width: 1200px) {
-	.header img.big-logo {
-		width: 120px;
-		height: auto;
-	}
-}
 
 /*Responsive Navbar*/
 @media (max-width: 1190px) {
+	/*Responsive code for max-width: 1190px*/
     .header .navbar-header {
         float: none;
     }
 
-    .header .topbar {
-		margin-bottom: 20px;
-	}
-		.header > .container {
-		margin-bottom: 0;
-	}
-
-	.header .logo {
-		vertical-align: top;
-	}
-
     .header .navbar-toggle {
         display: block;
-        margin-right: 30px;vertical-align: top;
-			margin-top: -60px;
     }
-
-	.header .navbar-collapse,
-	.header .navbar-collapse .container {
-		padding-left: 0;
-		padding-right: 0;
-	}
 
     .header .navbar-collapse.collapse {
         display: none !important;
@@ -329,7 +379,6 @@
 	}
 }
 
-
 @media (min-width: 992px) {
 	/*Navbar Collapse*/
 	.header .navbar-collapse {
@@ -346,7 +395,6 @@
 
 	.header .navbar-nav {
 		position: relative;
-		float: right;
 	}
 
 	.header .navbar-nav > li > a {
@@ -427,45 +475,6 @@
 
 	.header .open > .dropdown-menu {
 		display: none;
-	}
-}
-
-@media (max-width: 768px) {
-	.header > .container {
-		width: 100%;
-	}
-	.header .loginbar .social {
-		display: none;
-	}
-	.header .logo {
-		vertical-align: middle;
-	}
-	.header .topbar ul.loginbar > li > a,
-    .header .topbar ul.loginbar > li > a:hover {
-		font-size: 11px;
-		/*! padding: 0 5px; */
-	}
-}
-
-@media (max-width: 480px) {
-	.header .topbar ul.loginbar {
-		margin: 0 25px;
-		padding: 0;
-
-	}
-	.header .logo {
-		display: block;
-		max-width: 70%;
-		margin-left: 20px;
-	}
-	.header .navbar-toggle {
-		margin-top: 10px;
-	}
-
-	.searchbox {
-    max-width: 300px;
-		margin-left: 40px;
-		float: none;
 	}
 }
 

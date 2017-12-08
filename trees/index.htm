@@ -1,0 +1,48 @@
+title = "Trees"
+url = "/trees/"
+layout = "default"
+meta_title = "Trees at Portland Nursery"
+meta_description = "A full range of Trees for Portland, Vancouver"
+is_hidden = 0
+
+[siteSearchInclude]
+==
+<div class="container">
+     <div class="title-block">
+	    <div class="title-image"><img class="img-responsive" src="{{ 'assets/images/trees/treeshd.jpg'|theme }}"  alt="trees" title="trees" /></div>
+            {% partial 'breadcrumbs/breadcrumbsplants' %}
+        </div>
+</div> <!-- container -->
+
+<div class="container content">
+
+   <div class="row">
+
+    <div class="col-md-6 left-inner">
+                   <p> “There is always music amongst the trees in the Garden, but our hearts must be very quiet to hear it.” - Minnie Aumonier</p>
+                <p>Why plant trees? Trees provide privacy, prop up hammocks, protect rivers and streams and house wildlife; not to mention the undeniable beauty of their spring flowers and glowing fall colors.</p>
+
+                <figure><img class="img-responsive" src="http://portlandnursery.com/plants/images/malus/crabapple-flower750.jpg" alt="crabapple" /><em>Crabapple blossoms</em></figure>
+
+                <p>Trees are versatile as well, with so many sizes and shapes available. Grow a dwarf Japanese maple in a container, shade the house with a majestic Ginkgo, and feature a weeping Crabapple for spring flowers and tiny apples that feed birds in winter.</p>
+     </div> <!-- col-md-8 left-inner -->
+
+
+<div class="col-md-6">
+        {% partial "accordion/accordion-trees" %}
+
+</div><!--/.col-sm-6 tabs-->
+
+ </div><!-- End Row -->
+
+<!--
+            <div class="row tips"><hr />
+				{% partial "/tips/trees/fall" %}
+            </div>
+-->
+
+ <div class="row" id="portfolio">
+            {% partial "lists/list-trees" %}
+        </div><!--/#portfolio-->
+
+    </div><!--=== End Container ===-->

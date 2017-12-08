@@ -3,6 +3,14 @@
 <!--=== Header ===-->
 	<div class="header">
 		<div class="container">
+
+		  <!-- Toggle get grouped for better mobile display -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="fa fa-bars"></span>
+			</button>
+			<!-- End Toggle -->
+
 			<!-- Logo -->
 			<a class="logo" href="{{ 'home'|page }}">
 				<img class="img-responsive" src="{{ 'assets/images/logo2.jpg'|theme }}" alt="logo">
@@ -11,7 +19,7 @@
 
 			<!-- Topbar -->
 			<div class="topbar">
-				<div class="searchbox pull-right">
+				<div class="searchbox">
 				<form action="{{ 'search' | page }}" method="get">
 				    <input name="q" type="text" placeholder="How can we help?" autocomplete="off">
 				    <button type="submit" class="btn-u">Search</button>
@@ -19,10 +27,10 @@
 				</div>
 
 				<ul class="loginbar pull-right">
-						<li><a target="_blank" href="https://twitter.com/pdxnursery"><i class="fa fa-twitter"></i></a></li>
-					<li><a target="_blank" href="https://www.instagram.com/portlandnursery/"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="/resources/newsletter/"><i class="fa fa-newspaper-o"></i></a></li>
-					<li><a target="_blank" href="https://www.facebook.com/PortlandNursery1/"><i class="fa fa-facebook"></i></a></li>
+				    <li><a class="social" target="_blank" href="https://twitter.com/pdxnursery"><i class="fa fa-twitter"></i></a></li>
+					<li><a class="social" target="_blank" href="https://www.instagram.com/portlandnursery/"><i class="fa fa-instagram"></i></a></li>
+					<li><a class="social" target="_blank" href="/resources/newsletter/"><i class="fa fa-newspaper-o"></i></a></li>
+					<li><a class="social" target="_blank" href="https://www.facebook.com/PortlandNursery1/"><i class="fa fa-facebook"></i></a></li>
 					<li class="topbar-devider"></li>
 					<li><a href="/about/locations/">Hours &amp; Locations</a></li>
 					<li class="topbar-devider"></li>
@@ -34,12 +42,7 @@
 			</div>
 			<!-- End Topbar -->
 
-			<!-- Toggle get grouped for better mobile display -->
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="fa fa-bars"></span>
-			</button>
-			<!-- End Toggle -->
+
 		</div><!--/end container-->
 
 
@@ -71,7 +74,7 @@
                                                     <li><a href="/perennials/bulbs/">Fall &amp; Spring Bulbs</a></li>
 
                                                     <li><a href="/#/">A Year in Seeds**</a></li>
-                                                    <li><a href="/#/">Annual &amp; Perennial Vines**</a></li>
+                                                    <li><a href="/vines/">Annual &amp; Perennial Vines</a></li>
 													<li><img class="img-responsive" src="{{ 'assets/images/navimages/grasses.jpg'|theme }}" alt="Edibles"></li>
 													<!-- Grasses -->
 													<li><h3>Ferns &amp; Grasses</h3></li>

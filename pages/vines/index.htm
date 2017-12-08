@@ -1,0 +1,45 @@
+title = "Vines"
+url = "/vines/"
+layout = "default"
+meta_title = "Vines at Portland Nursery"
+meta_description = "A full range of Vines for Portland, Vancouver"
+is_hidden = 0
+
+[siteSearchInclude]
+==
+<div class="container">
+     <div class="title-block">
+	    <div class="title-image"><img class="img-responsive" src="{{ 'assets/images/trees/treeshd.jpg'|theme }}"  alt="trees" title="trees" /></div>
+            {% partial 'breadcrumbs/breadcrumbsvines' %}
+        </div>
+</div> <!-- container -->
+
+<div class="container content">
+
+   <div class="row">
+
+    <div class="col-md-6 left-inner">
+                   <p>This will be for vines</p>
+
+
+     </div> <!-- col-md-8 left-inner -->
+
+
+<div class="col-md-6">
+        {% partial "accordion/accordion-trees" %}
+
+</div><!--/.col-sm-6 tabs-->
+
+ </div><!-- End Row -->
+
+<!--
+            <div class="row tips"><hr />
+				{% partial "/tips/trees/fall" %}
+            </div>
+-->
+
+ <div class="row" id="portfolio">
+            {% partial "lists/list-vines" %}
+        </div><!--/#portfolio-->
+
+    </div><!--=== End Container ===-->

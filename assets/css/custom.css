@@ -25,6 +25,17 @@ section#happenings {
 	max-width: 90%
 }
 
+@media (max-width: 768px) {
+	#happenings .section-header h2 {
+		font-size:28px;
+		margin:0;
+		padding:0;
+  }
+	#happenings .section-header p {
+	 font-size:18px;
+	}
+}
+
 .media.happening-box {
 	margin:25px 0;
 	padding:10px 0;
@@ -79,6 +90,13 @@ section#happenings {
 	color: #FFF;
 	font-size:16px;
 	text-align:center;font-weight:300;
+}
+
+#socialblock .specials img {
+	text-align: center;
+	max-width: 350px;
+	margin: 0 auto;
+
 }
 
 .socialicons {
@@ -845,6 +863,22 @@ a.accordion-toggle  i{
 .sortables {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 16px;
+}
+
+.page-about-locations #ic_signupform .elcontainer {
+    background: #fff;
+    text-align: center;
+    max-width: 500px;
+    padding: 6px 38px;
+    border-radius: 3px;
+    border: 1px none #acacac;
+    font-size: 13px;
+    color: #474b4f;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.page-about-locations #ic_signupform .elcontainer input {
+
 }
 
 #ic_signupform .elcontainer .submit-container input[type="submit"] {

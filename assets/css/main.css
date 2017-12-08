@@ -544,6 +544,13 @@ body > section {
 	text-align: center;
 }
 
+
+@media (max-width: 768px) {
+	#introheadline h1 {
+		font-size: 22px;
+	}
+}
+
 /* Tabbed area on plant pages
 ********************************/
 #navtabs h3 {

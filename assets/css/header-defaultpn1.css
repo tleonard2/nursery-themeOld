@@ -68,7 +68,6 @@
 	margin-top: 15px;
 /* 	width: 320px; */
 	margin: 0 auto;
-		float: right;
 }
 
 .searchbox input {
@@ -170,6 +169,7 @@
 }
 
 
+
 /*--------------------------------------------------
     [3. Header - Responsive Navbar Style]
 ----------------------------------------------------*/
@@ -181,16 +181,16 @@
 	}
 }
 
-/*Responsive Navbar*/
+/*Navbar Collapse*/
 @media (max-width: 1190px) {
-    .header .navbar-header {
+	 .header .navbar-header {
         float: none;
     }
 
     .header .topbar {
 		margin-bottom: 20px;
 	}
-		.header > .container {
+	.header > .container {
 		margin-bottom: 0;
 	}
 
@@ -198,17 +198,18 @@
 		vertical-align: top;
 	}
 
-    .header .navbar-toggle {
-        display: block;
-        margin-right: 30px;vertical-align: top;
-			margin-top: -60px;
-    }
-
+	.header .navbar-toggle {
+		margin-right: 0;
+	}
 	.header .navbar-collapse,
 	.header .navbar-collapse .container {
 		padding-left: 0;
 		padding-right: 0;
 	}
+
+	 .header .navbar-toggle {
+        display: block;
+    }
 
     .header .navbar-collapse.collapse {
         display: none !important;
@@ -329,8 +330,11 @@
 	}
 }
 
-
 @media (min-width: 992px) {
+	.header .navbar-nav {
+		float: right;
+	}
+
 	/*Navbar Collapse*/
 	.header .navbar-collapse {
 		padding: 0;
@@ -346,7 +350,6 @@
 
 	.header .navbar-nav {
 		position: relative;
-		float: right;
 	}
 
 	.header .navbar-nav > li > a {
@@ -434,40 +437,29 @@
 	.header > .container {
 		width: 100%;
 	}
-	.header .loginbar .social {
-		display: none;
-	}
-	.header .logo {
-		vertical-align: middle;
-	}
-	.header .topbar ul.loginbar > li > a,
-    .header .topbar ul.loginbar > li > a:hover {
-		font-size: 11px;
-		/*! padding: 0 5px; */
-	}
 }
 
 @media (max-width: 480px) {
 	.header .topbar ul.loginbar {
-		margin: 0 25px;
+		float: left;
+		margin: 0;
 		padding: 0;
-
-	}
-	.header .logo {
-		display: block;
-		max-width: 70%;
-		margin-left: 20px;
-	}
-	.header .navbar-toggle {
-		margin-top: 10px;
 	}
 
-	.searchbox {
-    max-width: 300px;
-		margin-left: 40px;
-		float: none;
+	.header .topbar ul.loginbar > li > a,
+  .header .topbar ul.loginbar > li > a:hover {
+		font-size: 11px;
+		padding: 0 5px;
 	}
 }
+
+@media (max-width: 400px) {
+	.header .logo {
+		display: block;
+	}
+}
+
+
 
 /*--------------------------------------------------
     [4. Header - Submenu]
