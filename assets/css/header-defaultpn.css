@@ -24,7 +24,8 @@
 }
 
 .header .topbar ul.loginbar {
-	margin: 0 15px 0 0;
+	margin-top: 5px;
+	float: left;
 }
 
 .header .topbar ul.loginbar > li {
@@ -44,31 +45,29 @@
 	text-decoration: none;
 }
 
-.header .topbar ul.loginbar li i.fa {
-	color: #bbb;
-}
-
 .header .topbar ul.loginbar li.topbar-devider {
 	top: -1px;
 	padding: 0;
 	font-size: 8px;
 	position: relative;
-	margin: 0 9px 0 5px;
+	margin: 0 8px 0 3px;
 	font-family: Tahoma;
 	border-right: solid 1px #bbb;
 }
 
 .header .topbar ul.loginbar li i.fa {
-	color: #bbb;
+	color: #86c232;
+}
+
+.header .topbar ul.loginbar li i.fa.fa-twitter {
+	padding-left:  10px;
 }
 
 
 /* Seachbox */
 .searchbox {
-	margin-top: 15px;
-/* 	width: 320px; */
-	margin: 0 auto;
-		float: right;
+	margin: 5px  auto;
+	float: right;
 }
 
 .searchbox input {
@@ -188,7 +187,7 @@
     }
 
     .header .topbar {
-		margin-bottom: 20px;
+/* 		margin-bottom: 20px; */
 	}
 		.header > .container {
 		margin-bottom: 0;
@@ -449,24 +448,30 @@
 
 @media (max-width: 480px) {
 	.header .topbar ul.loginbar {
-		margin: 0 25px;
+		margin: 0 0 0 25px;
 		padding: 0;
-
 	}
-	.header .logo {
-		display: block;
-		max-width: 70%;
-		margin-left: 20px;
+	.header .topbar ul.loginbar > li > a,
+	.header .topbar ul.loginbar > li > a:hover {
+		font-size: 12px;
 	}
-	.header .navbar-toggle {
-		margin-top: 10px;
-	}
-
-	.searchbox {
-    max-width: 300px;
-		margin-left: 40px;
-		float: none;
-	}
+		.header .topbar ul.loginbar li.topbar-devider {
+			font-size: 6px;
+			margin: 0 4px 0 2px;
+		}
+		.header .logo {
+			display: block;
+			max-width: 70%;
+			margin-left: 20px;
+		}
+		.header .navbar-toggle {
+			margin-top: 10px;
+		}
+		.searchbox {
+	    	max-width: 300px;
+			margin-left: 40px;
+			float: none;
+		}
 }
 
 /*--------------------------------------------------

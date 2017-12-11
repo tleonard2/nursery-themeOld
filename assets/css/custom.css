@@ -865,16 +865,31 @@ a.accordion-toggle  i{
 	font-size: 16px;
 }
 
-.page-about-locations #ic_signupform .elcontainer {
+.signupform input {
+	text-align: center;
+}
+
+#footer #ic_signupform {
+	margin-left: -60px;
+	padding-left: 0;
+}
+
+.page-about-locations #ic_signupform .elcontainer,
+.page-resources-newsletter #ic_signupform .elcontainer {
     background: #fff;
     text-align: center;
     max-width: 500px;
-    padding: 6px 38px;
+    /*! padding: 6px 38px; */
     border-radius: 3px;
     border: 1px none #acacac;
     font-size: 13px;
     color: #474b4f;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.page-about-locations #footer #ic_signupform .elcontainer,
+.page-resources-newsletter #footer #ic_signupform .elcontainer {
+    background: #474B4F;
 }
 
 .page-about-locations #ic_signupform .elcontainer input {

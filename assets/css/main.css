@@ -1427,7 +1427,7 @@ ul.sidebar-gallery {
 }
 
 #footer a:hover {
-	color:#c52d2f;
+	color:#86c232;
 }
 
 #footer ul {
@@ -1476,6 +1476,12 @@ ul.sidebar-gallery {
 	color:#ccc;
 	margin:0 0 20px;
 }
+
+.footer1 p.newsletter {
+	color:#86c232;
+	margin-top: -15px;
+}
+
 
 .footer1 .entry-meta {
 	border-top:1px solid #ccc;
