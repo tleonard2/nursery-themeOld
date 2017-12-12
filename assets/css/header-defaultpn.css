@@ -755,6 +755,10 @@
 	text-transform: uppercase;
 }
 
+.header .mega-menu h3.products {
+	margin: 20px 0 0 20px;
+}
+
 .header .mega-menu .equal-height-list li{
 	text-transform: capitalize
 }
