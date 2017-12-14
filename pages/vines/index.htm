@@ -1,25 +1,23 @@
 title = "Vines"
 url = "/vines/"
 layout = "default"
-meta_title = "Vines at Portland Nursery"
-meta_description = "A full range of Vines for Portland, Vancouver"
 is_hidden = 0
+meta_title = "Vines at Portland Nursery"
+meta_description = "A full range of vines for Portland, Vancouver"
 
 [siteSearchInclude]
 ==
-<div class="container">
-     <div class="title-block">
-	    <div class="title-image"><img class="img-responsive" src="{{ 'assets/images/vines/vineshd.jpg'|theme }}"  alt="vines" title="vines" /></div>
-            {% partial 'breadcrumbs/breadcrumbsvines' %}
+    <div class="container">
+        <div class="title-block">
+             <div class="title-image"><img class="img-responsive" src="{{ 'assets/images/vines/vineshd.jpg'|theme }}"  alt="vines" title="vinels" /></div>
+             {% partial 'breadcrumbs/breadcrumbsvines' %}
         </div>
-</div> <!-- container -->
+    </div><!-- container -->
 
-<div class="container content">
-
-   <div class="row">
-
-    <div class="col-md-6 left-inner">
-                   <p>Vines add an air of romance to the garden, scrambling over a fence, tumbling across an arbor or twining up a pole.</p>
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-6 left-inner">
+                  <p>Vines add an air of romance to the garden, scrambling over a fence, tumbling across an arbor or twining up a pole.</p>
 	                    <p>They can be very practical as well; use them to create privacy and to hide unsightly garden areas.</p>
 						<h3>Vines...</h3>
 						<ul>
@@ -31,24 +29,14 @@ is_hidden = 0
 
 						 <figure><img class="img-responsive" src="http://portlandnursery.com/plants/images/passiflora/passiflora750.jpg" alt="Passion Flower" /></figure>
 
-     </div> <!-- col-md-8 left-inner -->
+           </div><!-- col-md-6 left-inner -->
 
+            <div class="col-md-6">
+                {% partial "accordion/accordion-vines" %}
+            </div><!--/.col-sm-6 tabs-->
+        </div><!-- End Row -->
 
-<div class="col-md-6">
-        {% partial "accordion/accordion-vines" %}
-
-</div><!--/.col-sm-6 tabs-->
-
- </div><!-- End Row -->
-
-<!--
-            <div class="row tips"><hr />
-				{% partial "/tips/trees/fall" %}
-            </div>
--->
-
- <div class="row" id="portfolio">
+        <div class="row" id="portfolio">
             {% partial "lists/list-vines" %}
         </div><!--/#portfolio-->
-
     </div><!--=== End Container ===-->
