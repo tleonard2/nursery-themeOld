@@ -834,7 +834,19 @@ a.accordion-toggle  i{
 .dclass {
 	background: #efefef;
 	padding: 0 10px;
-		margin: 10px 0 15px;
+	margin: 10px 0 15px;
+}
+
+.event {
+	padding: 10px;
+	margin: 10px 0 15px;
+	border: 3px double #86c232;
+}
+
+.event p {
+	padding: 10px 150px;
+  text-align: center
+
 }
 
 .wkend {
