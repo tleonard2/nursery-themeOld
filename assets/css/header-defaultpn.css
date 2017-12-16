@@ -763,6 +763,10 @@
 	text-transform: capitalize
 }
 
+.header .mega-menu .equal-height-list li p {
+	text-transform: none
+}
+
 .header .mega-menu .equal-height.about .equal-height-list {
 	padding: 0px 20px 0 13px;
 }
