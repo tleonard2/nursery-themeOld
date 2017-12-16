@@ -232,6 +232,28 @@
         padding-bottom: 40px;
     }
 
+@media (max-width: 1024px) {
+	.header .topbar ul.loginbar > li > a,
+	.header .topbar ul.loginbar > li > a:hover {
+		font-size: 12px;
+	}
+	.header .logo img.img-responsive{
+		max-width:175px;
+	}
+}
+
+@media (max-width: 768px) {
+	.header .topbar ul.loginbar {
+		float: right;
+	}
+	.header .logo img.img-responsive {
+		margin-top: -30px;
+	}
+	.header .navbar-toggle{
+		margin-top: -90px;
+	}
+}
+
     /*Pull Right*/
     .header .dropdown-menu.pull-right {
 		float: none !important;
