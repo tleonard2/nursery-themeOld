@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------- */
 
-/* Add here all your css styles (customizations) V2 */
+/* Add here all your css styles (customizations) V16 */
 
 /* Happenings
 ------------------------------------*/
@@ -34,6 +34,10 @@ section#happenings {
 	#happenings .section-header p {
 	 font-size:18px;
 	}
+}
+
+.features {
+	display: flex
 }
 
 .media.happening-box {
@@ -658,8 +662,15 @@ img.pull-left {
 }
 
 .page-about-locations .planttable iframe {
-	max-width: 350px;
-}
+  display: block;
+  width: 100%;  /* RESPONSIVE WIDTH */
+  max-width: 350px;
+  height: 300px;
+  overflow: auto;  /* EDIT TO hidden FOR NO SCROLLBAR */
+  border: #999999 1px solid;
+  margin: 0px;
+  padding: 0px;
+  }
 
 /* Hydrangea colors
 ------------------------------------*/
