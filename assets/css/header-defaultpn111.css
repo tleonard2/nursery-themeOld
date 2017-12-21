@@ -277,6 +277,12 @@ max-width: 155px;
 /* 		margin-top: -90px; */
 	margin-top: 0px;
 	}
+	  .header .navbar-toggle {
+        display: block;
+        margin-right: 30px;vertical-align: top;
+			margin-top: 0px;
+    }
+
 }
 
     /*Pull Right*/
@@ -923,11 +929,13 @@ max-width: 155px;
     .header .mega-menu .disable-icons li a:after {
     	display: none;
     }
+/*
     .header .navbar-toggle {
         display: block;
         margin-right: 30px;vertical-align: top;
 			margin-top: 0px;
     }
+*/
 }
 
 /*Equal Height List Style*/
