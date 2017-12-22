@@ -1,4 +1,4 @@
-/* Typography v2
+/* Typography v2 versions final.1
 ********************************/
 body {
 	background:#fff;
@@ -1463,6 +1463,7 @@ ul.sidebar-gallery {
 
 .footer1 .widget h3 {
 	padding-left:0px;
+	color: #FFF;
 }
 
 .footer1 .social h3 {
@@ -1571,17 +1572,19 @@ ul.sidebar-gallery {
 
 .masonry .panel {
  display: inline-block;
- margin:  .5em;
+/*  margin:  .5em; */
  padding:  0;
- width:98%;
+ width:95%;
 }
 
+/*
 .masonry .panel.marketing .panel-body {
  display: inline-block;
  margin: 0;
  padding:  0;
  width:108%;
 }
+*/
 
 .masonry .panel.marketing  {
     border-color: #fff;

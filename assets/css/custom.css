@@ -927,10 +927,12 @@ a.accordion-toggle  i{
 	font-size: 24px;
 }
 
+/*
 #ic_signupform .elcontainer .submit-container .grecaptcha-badge iframe {
   vertical-align: -9999px;
-
 }
+*/
 .grecaptcha-badge {
 	box-shadow: none !important;
 }
+
