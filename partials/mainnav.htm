@@ -3,29 +3,25 @@
 <!--=== Header ===-->
 	<div class="header">
 		<div class="container">
+		 <!-- Logo -->
+			<div class="logobox">
+				<a class="logo" href="{{ 'home'|page }}">
+				<img class="img-responsive" src="{{ 'assets/images/logo2.jpg'|theme }}" alt="logo">
+			</a></div>
+			<!-- End Logo -->
 
-		  <!-- Toggle get grouped for better mobile display -->
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+		<div class="topnav">
+
+		<!-- Toggle get grouped for better mobile display -->
+		  <div class="togglebutton">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="fa fa-bars"></span>
-			</button>
+			</button></div>
 			<!-- End Toggle -->
-
-			<!-- Logo -->
-			<a class="logo" href="{{ 'home'|page }}">
-				<img class="img-responsive" src="{{ 'assets/images/logo2.jpg'|theme }}" alt="logo">
-			</a>
-			<!-- End Logo -->
 
 			<!-- Topbar -->
 			<div class="topbar">
-				<div class="searchbox">
-				<form action="{{ 'search' | page }}" method="get">
-				    <input name="q" type="text" placeholder="How can we help?" autocomplete="off">
-				    <button type="submit" class="btn-u">Go</button>
-				</form>
-				</div>
-
 				<ul class="loginbar">
 					<li><a href="/about/locations/">Hours</a></li>
 					<li class="topbar-devider"></li>
@@ -36,14 +32,16 @@
 					<li><a class="social" target="_blank" href="https://www.instagram.com/portlandnursery/"><i class="fa fa-instagram"></i></a></li>
 					<li><a class="social" target="_blank" href="/resources/newsletter/"><i class="fa fa-newspaper-o"></i></a></li>
 					<li><a class="social" target="_blank" href="https://www.facebook.com/PortlandNursery1/"><i class="fa fa-facebook"></i></a></li>
-
+				<li>
+				<form class="searchbox" action="{{ 'search' | page }}" method="get">
+				    <input name="q" type="text" placeholder="How can we help?" autocomplete="off">
+				    <button type="submit" class="btn-u">Go</button>
+				</form>
+				</li>
 				</ul>
+			</div><!-- End Topbar -->
 
-			</div>
-			<!-- End Topbar -->
-
-
-		</div><!--/end container-->
+		</div><!--/end  topnav-->
 
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
@@ -255,9 +253,9 @@
                                                 <ul class="list-unstyled equal-height-list plantingplans">
                                                     <li><h3>Custom Planting Plans</h3> </li>
 
-                                                    <li><p>Let our plant knowledge and gardening experience make your next planting project easier. A design will help make your garden a success by taking the guesswork out of plant selection and placement. By getting a little dirty, you can save big! Terrie, our custom designer, will take you through the process!: <a href="mailto:terrieb@portlandnursery.com">Email Terrie today!</a></p></li>
+                                                    <li class="para">Let our plant knowledge and gardening experience make your next planting project easier. A design will help make your garden a success by taking the guesswork out of plant selection and placement. By getting a little dirty, you can save big! Terrie, our custom designer, will take you through the process!: <a href="mailto:terrieb@portlandnursery.com">Email Terrie today!</a></li>
 
-	<li><h3><a href="/resources/custom-planting-plans/">Read more about our service...</a></h3></li>
+	<li><h3><a href="/resources/custom-planting-plans/">Read more about our service &gt;&gt;</a></h3></li>
 
 
                                                 </ul>
@@ -359,7 +357,7 @@
                     </li>
                     <!-- End Products -->
 
-                    					 <!-- About -->
+                    <!-- About -->
                      <li class="dropdown mega-menu-fullwidth">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
                             About
@@ -425,12 +423,12 @@
                                 </div>
                             </li>
                         </ul>
-
                     </li>
                     <!-- End About -->
 
 				</ul> <!--/navbar -->
 			</div><!--/end container-->
 		</div><!--/navbar-collapse-->
-	</div>
-	<!--=== End Header ===-->
+
+			</div><!--/end container-->
+	</div><!--=== End Header ===-->

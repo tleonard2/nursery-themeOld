@@ -7,29 +7,20 @@ meta_description = "Portland Nursery garden center: trees, shrubs, perennials, n
 is_hidden = 0
 
 [slider]
-slide_show_id = 2
+slide_show_id = "{{ januaryslider }}"
 ==
-<section class="no-margin">
-	{% component 'slider' slide_show_id = 2 %}
-
-</section>
-
+<section class="no-margin">{% component 'slider' slide_show_id = 3 %}</section>
 <section id="introheadline">
-    <div class="container">
-    <h1>At Portland Nursery, we stock everything garden: trees, shrubs, perennials, natives, annuals,  grasses, herbs, houseplants and all the gardener needs for healthy, happy plants including tools, amendments, furniture and pottery.  <a href="/about/locations">Two convenient locations.</a></h1>
-    </div>
-</section><!--/#cta-->
+	<div class="container">
 
+		<h1>At Portland Nursery, we stock everything garden: trees, shrubs, perennials, natives, annuals, grasses, herbs, houseplants and all the gardener needs for healthy, happy plants including tools, amendments, furniture and pottery. <a href="/about/locations">Two convenient locations.</a></h1>
+	</div>
+</section>
+<!--/#cta-->
 <!-- Happenings -->
-<section id="happenings" >
-    {% partial "homepage/happenings" %}
-</section><!--end happenings-->
-
+<section id="happenings">{% partial "homepage/happenings" %}</section>
+<!--end happenings-->
 <!-- Happenings -->
-<section id="socialblock" >
-    {% partial "homepage/socialblock" %}
-</section><!--end happenings-->
-
-<div class="row" id="portfolio">
-  {% partial "lists/list-homepage" %}
- </div>
+<section id="socialblock">{% partial "homepage/socialblock" %}</section>
+<!--end happenings-->
+<div class="row" id="portfolio">{% partial "lists/list-homepage" %}</div>
