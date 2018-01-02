@@ -1,6 +1,6 @@
 /*----------------------------------------------------------------------
 
-[-----*** TABLE OF CONTENT ***-----]
+[-----*** TABLE OF CONTENT ***-----  12-31]
 
 1. Header - Topbar
 2. Header - Navbar
@@ -14,6 +14,18 @@
 /*--------------------------------------------------
     [1. Header - Topbar]
 ----------------------------------------------------*/
+/* Logo
+------------------------------------*/
+
+#header .logobox {
+    max-width: 320px;
+    float: left
+}
+#header .container.topnav {
+    max-width: 75%;
+    float: left
+}
+
 
 /*Top Bar (login, search etc.)
 ------------------------------------*/
@@ -30,8 +42,9 @@
 }
 
 .header .topbar ul.loginbar {
-	margin-top: 5px;
-	float: left;
+	margin: 0;
+	float: right;
+	-webkit-padding-start: 0px;
 }
 
 .header .topbar ul.loginbar > li {
@@ -51,6 +64,10 @@
 	text-decoration: none;
 }
 
+.header .topbar ul.loginbar li i.fa {
+	color: #86c232;
+}
+
 .header .topbar ul.loginbar li.topbar-devider {
 	top: -1px;
 	padding: 0;
@@ -60,61 +77,6 @@
 	font-family: Tahoma;
 	border-right: solid 1px #bbb;
 }
-
-.header .topbar ul.loginbar li i.fa {
-	color: #86c232;
-}
-
-.header .topbar ul.loginbar li i.fa.fa-twitter {
-	padding-left:  10px;
-}
-
-
-/* Seachbox */
-.searchbox {
-	margin: 5px  auto;
-	float: right;
-}
-
-/*
-.searchbox input {
-	font-size: 14px;
-	border: 0;
-	font-weight: 700;
-	color: #FFF;
-	padding: 3px 20px 1px 20px;
-	border-radius: 1px;
-	background: #6b6e70;
-}
-*/
-
-.searchbox input {
-	font-size: 14px;
-	border: 0;
-	font-weight: 700;
-	color: #FFF;
-	padding: 3px 0px 1px 0px;
-    margin-left: 10px;
-	border-radius: 1px;
-	background: #6b6e70;
-    text-align: center
-}
-
-.searchbox .btn-u {
-	border-radius: 1px;
-	border: 0;
-	color: #474B4F;
-	font-size: 14px;
-	cursor: pointer;
-	font-weight: 400;
-	padding: 2px 13px;
-	position: relative;
-	background: #86c232;
-	white-space: nowrap;
-	display: inline-block;
-	text-decoration: none;
-}
-
 
 /*--------------------------------------------------
     [2. Header - Navbar]
@@ -134,6 +96,22 @@
 	margin-bottom: -40px;
 }
 
+
+/*--------------------------------------------------
+    [Original location]
+----------------------------------------------------*/
+@media (max-width: 768px) {
+	.header > .container {
+		width: 100%;
+	}
+}
+
+@media (max-width: 991px) {
+	.header > .container {
+		margin-bottom: 0;
+	}
+}
+
 /*Logo*/
 .header .logo {
 	height: 100%;
@@ -145,14 +123,33 @@
 
 .header .logo img {
 	z-index: 1;
-/*	margin: 20px 0;*/
-	margin: 0;
+	margin: 2px 0;
 	position: relative;
+}
+
+/*Big Logo Style*/
+@media (max-width: 1200px) {
+	.header img.big-logo {
+		width: 120px;
+		height: auto;
+	}
+}
+
+/*   this is not on original */
+.header .togglebutton {
+	float: left;
+    margin: 0px 10px;
 }
 
 /*Navbar Toggle*/
 .header .navbar-toggle {
 	border-color: #5fb611;
+}
+
+@media (max-width: 991px) {
+	.header .navbar-toggle {
+		margin-right: 0;
+	}
 }
 
 .header .navbar-toggle .fa {
@@ -176,6 +173,15 @@
 	position: relative;
 }
 
+/*Navbar Collapse*/
+@media (max-width: 991px) {
+  	.header .navbar-collapse,
+	.header .navbar-collapse .container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
 /*Navbar Menu*/
 .header .navbar-nav > li > a {
 	color: #474B4F;
@@ -188,47 +194,37 @@
 	color: #72c02c;
 }
 
+@media (min-width: 992px) {
+	.header .navbar-nav {
+		float: right;
+	}
+}
+
+
+@media (min-width: 992px) {
+    #header .logobox {
+    max-width: 280px;
+    margin-right: 10px;
+    float: left
+}
+}
+
 
 /*--------------------------------------------------
     [3. Header - Responsive Navbar Style]
 ----------------------------------------------------*/
-/*Big Logo Style*/
-@media (max-width: 1200px) {
-	.header img.big-logo {
-		width: 120px;
-		height: auto;
-	}
-}
 
-/*Responsive Navbar*/
-@media (max-width: 1190px) {
+/*Responsive Navbar -- i had it at max-width: 1025px*/
+@media (max-width: 1125px) {
+	/*Responsive code for max-width: 991px*/
     .header .navbar-header {
         float: none;
     }
 
-    .header .topbar {
-/* 		margin-bottom: 20px; */
-	}
-		.header > .container {
-		margin-bottom: 0;
-	}
-
-	.header .logo {
-		vertical-align: top;
-	}
-
     .header .navbar-toggle {
         display: block;
-        margin-right: 10px;
-        vertical-align: top;
-		margin-top: -60px;
+        margin-top: 25px;
     }
-
-	.header .navbar-collapse,
-	.header .navbar-collapse .container {
-		padding-left: 0;
-		padding-right: 0;
-	}
 
     .header .navbar-collapse.collapse {
         display: none !important;
@@ -238,6 +234,10 @@
         display: block !important;
   		overflow-y: auto !important;
     }
+
+    .header .topbar ul.loginbar {
+	margin-top: 20px;
+	}
 
     .header .navbar-nav {
         margin: 0 0 5px;
@@ -252,38 +252,6 @@
         padding-top: 30px;
         padding-bottom: 40px;
     }
-
-@media (max-width: 1024px) {
-	.header .topbar ul.loginbar > li > a,
-	.header .topbar ul.loginbar > li > a:hover {
-		font-size: 12px;
-	}
-	.header .logo img.img-responsive{
-		max-width:175px;
-		margin-top: 5px;
-	}
-}
-
-@media (max-width: 768px) {
-	.header .topbar ul.loginbar {
-		float: right;
-		padding: 0;
-	}
-	.header .logo img.img-responsive {
-/* 		margin-top: -30px; */
-max-width: 155px;
-	}
-	.header .navbar-toggle{
-/* 		margin-top: -90px; */
-	margin-top: 0px;
-	}
-	  .header .navbar-toggle {
-        display: block;
-        margin-right: 30px;vertical-align: top;
-			margin-top: 0px;
-    }
-
-}
 
     /*Pull Right*/
     .header .dropdown-menu.pull-right {
@@ -349,7 +317,7 @@ max-width: 155px;
 		padding-bottom: 0;
 	}
 
-	/*Design for max-width: 1190px*/
+	/*Design for max-width: 991px*/
 	.header .navbar-nav > li > a {
 		font-size: 14px;
 		padding: 9px 10px;
@@ -381,7 +349,6 @@ max-width: 155px;
 	}
 }
 
-
 @media (min-width: 992px) {
 	/*Navbar Collapse*/
 	.header .navbar-collapse {
@@ -393,18 +360,18 @@ max-width: 155px;
 	.header .container-fluid > .navbar-header,
 	.header .container > .navbar-collapse,
 	.header .container-fluid > .navbar-collapse {
-		margin-bottom: -10px;
-	}
+    margin-bottom: -10px;
+}
 
 	.header .navbar-nav {
 		position: relative;
-		float: right;
+		float: right; /* added */
 	}
 
 	.header .navbar-nav > li > a {
 		bottom: -2px;
 		position: relative;
-		padding: 15px 30px 9px 20px;
+		padding: 15px 30px 0px 20px;
 	}
 
 	.header .navbar-nav > li > a,
@@ -480,9 +447,10 @@ max-width: 155px;
 	.header .open > .dropdown-menu {
 		display: none;
 	}
+
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 	.header > .container {
 		width: 100%;
 	}
@@ -494,52 +462,40 @@ max-width: 155px;
 	}
 	.header .topbar ul.loginbar > li > a,
     .header .topbar ul.loginbar > li > a:hover {
-		font-size: 11px;
+		font-size: 13px;
 		/*! padding: 0 5px; */
 	}
 }
 
 @media (max-width: 480px) {
-	.header .topbar ul.loginbar {
-	/* 		margin: 0 0 0 25px; */
-		padding:0;
+    .header .logobox {
+        margin: 5px 40px 15px 40px;
+    }
+    .header .togglebutton {
+        float: left;
+        margin: 0px 10px 0 50px;
 	}
+    .header .navbar-toggle {
+        display: block;
+        margin-top: 0px;
+    }
+    .header .topbar ul.loginbar {
+	    float: none;
+    }
+    .header .topbar .searchbox input {
+	    float: none;
+    }
 
-	.header .topbar ul.loginbar > li > a,.header .topbar ul.loginbar > li > a:hover {
-		font-size:12px;
-	}
-
-	.header .topbar {
-		padding:8px 0 0;
-	}
-
-	.header .topbar ul.loginbar {
-		float:none;
-		max-width:200px;
-		margin:0 auto;
-	}
-
-	.header .topbar ul.loginbar li.topbar-devider {
-		font-size:6px;
-		margin:0 4px 0 2px;
-	}
-
-	.header .logo {
-		display:block;
-		max-width:70%;
-		margin-left:20px;
-	}
-
-	.header .navbar-toggle {
-		margin-top:10px;
-	}
-
-	.searchbox {
-		max-width:300px;
-		margin-left:40px;
-		float:none;
-	}
 }
+
+@media (max-width: 320px) {
+
+    .header .logobox {
+        margin: 0 40px;
+    }
+}
+
+
 /*--------------------------------------------------
     [4. Header - Submenu]
 ----------------------------------------------------*/
@@ -554,22 +510,23 @@ max-width: 155px;
 .header .dropdown-submenu > a:after {
     top: 8px;
     right: 9px;
-    font-size: 11px;
+    font-size: 18px;
     content: "\f105";
     position: absolute;
     font-weight: normal;
     display: inline-block;
     font-family: FontAwesome;
+    color: #86c232;
 }
 
-@media (max-width: 1190px) {
+@media (max-width: 991px) {
   	.header .dropdown-submenu > a:after {
       	content: " ";
   	}
 }
 
 .header .dropdown > a:after {
-    top: 15px;
+    top: 12px;
     right: 15px;
     content: "\f107";
 }
@@ -590,7 +547,7 @@ max-width: 155px;
    	display: block;
 }
 
-@media (max-width: 1190px) {
+@media (max-width: 991px) {
 	.header .dropdown-submenu > .dropdown-menu {
 		display: block;
 		margin-left: 15px;
@@ -629,19 +586,65 @@ max-width: 155px;
 
 /*Search Box
 ------------------------------------*/
-/*
-.header .nav > li > .search {
-	color: #aaa;
-	cursor: pointer;
-	min-width: 35px;
-	font-size: 15px;
-	text-align: center;
-	background: #f7f7f7;
-	padding: 11px 0 12px;
-	display: inline-block;
-	border-bottom: solid 2px #aaa;
+.header .topbar ul.loginbar li i.fa.fa-twitter {
+	padding-left:  10px;
 }
 
+.searchbox {
+	float: right;
+}
+
+.searchbox input {
+	font-size: 14px;
+	border: 0;
+	font-weight: 700;
+	color: #FFF;
+	padding: 3px 0px 1px 0px;
+    margin-left: 10px;
+	border-radius: 1px;
+	background: #6b6e70;
+    text-align: center
+}
+
+.searchbox .btn-u {
+	border-radius: 1px;
+	border: 0;
+	color: #474B4F;
+	font-size: 14px;
+	cursor: pointer;
+	font-weight: 400;
+	padding: 2px 13px;
+	position: relative;
+	background: #86c232;
+	white-space: nowrap;
+	display: inline-block;
+	text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    .header .searchbox {
+        margin: 0px 50px 15px 0px;
+        padding: 0 20px;
+    }
+    .header .searchbox input {
+        width: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .header .social {
+/*         display: none; */
+    }
+}
+
+@media (max-width: 320px) {
+    .header .searchbox input {
+/*         width: 150px; */
+	}
+}
+
+
+/*
 @media (min-width: 992px) {
 	.header .nav > li > .search {
 		bottom: -2px;
@@ -649,28 +652,7 @@ max-width: 155px;
 	}
 }
 
-.header .nav > li > .search:hover {
-	color: #72c02c;
-	background: #f7f7f7;
-	border-bottom-color: #72c02c;
-}
-
-.header .nav .search-open {
-	right: 0;
-	top: 40px;
-	display: none;
-	padding: 14px;
-	position: absolute;
-	background: #fcfcfc;
-	border-top: solid 2px #eee;
-	box-shadow: 0 1px 3px #ddd;
-}
-
-.header .nav .search-open form {
-	margin: 0;
-}
-
-@media (min-width: 767px) and (max-width: 1190px) {
+@media (min-width: 767px) and (max-width: 991px) {
 	.header .navbar-toggle {
 		margin-right: 0;
 	}
@@ -680,7 +662,7 @@ max-width: 155px;
 	}
 }
 
-@media (max-width: 1190px) {
+@media (max-width: 991px) {
 	.header .nav > li > .search {
 		color: #999;
 		width: 35px;
@@ -709,7 +691,6 @@ max-width: 155px;
 	}
 }
 */
-
 
 /*--------------------------------------------------
     [6. Header - Mega Menu]
@@ -746,7 +727,7 @@ max-width: 155px;
 }
 
 .header .mega-menu .mega-menu-content {
-  	*zoom: 1;
+/*   	*zoom: 1; */
   	padding: 4px 15px;
 }
 
@@ -812,7 +793,7 @@ max-width: 155px;
 	}
 }
 
-/*Mega Menu Style Effect*/
+/*Mega Menu Style Effect*/  /* added styling */
 .header .mega-menu .equal-height-list h3,
 .header .mega-menu .equal-height-list li.h3 {
 	font-size: 15px;
@@ -829,9 +810,16 @@ max-width: 155px;
 	text-transform: capitalize
 }
 
-.header .mega-menu .equal-height-list li p {
-	text-transform: none
+.header .mega-menu .equal-height-list li.para,
+.header .mega-menu .equal-height-list li.para a {
+	text-transform: none;
+	margin:0  20px;
+	font-size: 20px;
 }
+
+.header .mega-menu .equal-height-list li a {
+	color: #86c232;
+	}
 
 .header .mega-menu .equal-height.about .equal-height-list {
 	padding: 0px 20px 0 13px;
@@ -874,11 +862,6 @@ max-width: 155px;
         border-left: 1px solid #eee;
     }
 
-	.header .mega-menu .equal-height-in p {
-        margin: 20px;
-        font-size: 20px;
-    }
-
     .header .mega-menu .equal-height-in:first-child {
         border-left: none;
         margin-left: -1px;
@@ -886,7 +869,6 @@ max-width: 155px;
 
     .header .mega-menu .equal-height-list {
     	width: 100%;
-			padding-right: 10px;
     }
 
     .header .mega-menu .equal-height-list li a {
@@ -894,15 +876,13 @@ max-width: 155px;
         margin-bottom: 1px;
         position: relative;
         border-bottom: none;
-        padding: 5px 10px 5px 30px;
-        color: #61892F;
+        padding: 0px 10px 0px 15px;
         font-size: 16px;
 /*         line-height: 1.5 */
     }
 
     .header .mega-menu .equal-height-list a:hover {
     	text-decoration: none;
-    	color: #86C232;
     }
 
     /*Dropdown Arrow Icons*/
@@ -929,17 +909,10 @@ max-width: 155px;
     .header .mega-menu .disable-icons li a:after {
     	display: none;
     }
-/*
-    .header .navbar-toggle {
-        display: block;
-        margin-right: 30px;vertical-align: top;
-			margin-top: 0px;
-    }
-*/
 }
 
 /*Equal Height List Style*/
-@media (max-width: 1190px) {
+@media (max-width: 991px) {
     /*Equal Height List Style*/
     .header .mega-menu .equal-height-list h3 {
 		color: #555;
@@ -947,7 +920,7 @@ max-width: 155px;
 		font-size: 13px;
 		font-weight: 400;
 		padding: 6px 25px 5px;
-		border-bottom: solid 1px #eee;color: blue
+		border-bottom: solid 1px #eee;
 	}
 
 	.header .mega-menu .equal-height-list li a {
@@ -971,5 +944,5 @@ max-width: 155px;
 	.header .mega-menu .equal-height-list li a:hover {
 		color: #333;
 		text-decoration: none;
-}
+	}
 }
