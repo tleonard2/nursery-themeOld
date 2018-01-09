@@ -8,47 +8,333 @@ meta_description = "A full range of Vegetables for Portland, Vancouver"
 [siteSearchInclude]
 ==
     <div class="container">
-     <div class="title-block">
-        <div class="title-image">
-	    <img class="img-responsive" src="https://portlandnursery.com/plants/images/vegetables/vegetablehd.jpg" alt="Veggies" title="Veggies" >
+        <div class="title-block">
+            <div class="title-image"><img class="img-responsive" src="https://portlandnursery.com/plants/images/vegetables/vegetablehd.jpg" alt="Veggies" title="Veggies"></div>{% partial 'breadcrumbs/breadcrumbsplants' %}
         </div>
-
-    {% partial 'breadcrumbs/breadcrumbsplants' %}
-     </div>
-</div> <!-- container -->
+    </div><!-- container -->
 
     <div class="container content">
         <div class="row planttable">
             <div class="col-md-6 left-inner">
-<p>We are passionate about growing food, and we strive to bring gardeners an expansive vegetable and herb selection along with expert advice to help you be successful.</p>
+                <p>We are passionate about growing food, and we strive to bring gardeners an expansive vegetable and herb selection along with expert advice to help you be successful.</p>
 
-<p>We also carry a selection of medicinal herbs such as Marshmallow, and unusual edibles such as Malabar Spinach.  We are pleased to provide an equally large and diverse organic selection!.</p>
+                <p>We also carry a selection of medicinal herbs such as Marshmallow, and unusual edibles such as Malabar Spinach. We are pleased to provide an equally large and diverse organic selection!.</p>
 
-<p>For tomatoes, we carry the tried and true varieties such as Early Girl Tomato and Genovese Basil, a vast heirloom selection such as Moon and Stars Watermelon and Corno di Toro pepper, and unique selections such as ginger mint and red noodle beans.</p>
+                <p>For tomatoes, we carry the tried and true varieties such as Early Girl Tomato and Genovese Basil, a vast heirloom selection such as Moon and Stars Watermelon and Corno di Toro pepper, and unique selections such as ginger mint and red noodle beans.</p>
 
-<p>Due to our broad selection, and the popularity of growing edibles, we do not have all varieties at one time.  Please call either location for current availability.</p>
+                <p>Due to our broad selection, and the popularity of growing edibles, we do not have all varieties at one time. Please call either location for current availability.</p>
 
- <figure><img class="img-responsive" src="https://portlandnursery.com/plants/images/vegetables/veggies750.jpg" alt=" veggie selection" /></figure>
+                <figure><img class="img-responsive" src="https://portlandnursery.com/plants/images/vegetables/veggies750.jpg" alt=" veggie selection"></figure>
+            </div><!-- col-md-6 left-inner -->
 
-</div><!-- col-md-6 left-inner -->
+            <div class="col-md-6">
+                <div class="wow fadeInDown">
+                    <div class="accordion">
+                        <div class="panel-group" id="accordion1">
+                            <div class="panel panel-default">
+                                <div class="panel-heading active">
+                                    <h3 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">Timing Your Veggie Planting</a></h3>
+                                </div>
 
-<div class="col-md-6">
-        {% partial "accordion/accordion-veggies" %}
+                                <div id="collapseOne1" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <figure><img class="img-responsive" src="http://portlandnursery.com/plants/images/vegetables/yellow-squash.jpg" alt="herbselection"></figure>
+
+                                        <p>Our Veggie Planting Calendar is our most downloaded pamphlet. It gives you a year-round schedule of when your veggies should go in the ground. Download it along with our Winter Vegetables List.</p>
+
+                                        <p><a target="_blank" href="http://portlandnursery.com/docs/veggies/VeggieCalendar.pdf">Veggie Planting Calendar</a></p>
+
+                                        <p><a target="_blank" href="http://portlandnursery.com/docs/veggies/WinterVeggies.pdf">Fall &amp; Winter Veggie Guide</a></p>
+                                    </div><!-- panel body -->
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">Tomatoes</a></h3>
+                                </div>
+
+                                <div id="collapseTwo1" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <figure><img class="img-responsive" src="http://portlandnursery.com/plants/images/tomato/tomato-crop750.jpg" alt="reseeding"></figure>
+
+                                        <p>We carry the tried and true varieties such as Early Girl Tomato and Genovese Basil, a vast heirloom selection such as Moon and Stars Watermelon and Corno di Toro pepper, and unique selections such as ginger mint and red noodle beans.</p>
+
+                                        <p>Continue reading on our <a href="/veggies/tomatoes/">Tomato Page</a></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">Spring Seed Starting</a></h3>
+                                </div>
+
+                                <div id="collapseThree1" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <figure><img class="img-responsive" src="{{ '/assets/images/veggies/seedstarting.jpg'|theme }}" alt="Seed starting"></figure>
+
+                                        <p>If you don’t know what vegetables to grow we recommend heirloom varieties. Most of them originated before the 1950s and have been preserved and passed through multiple generations by seed saving. These were chosen because they “grow-true” and carry a remarkable trait, such as high yield, unique flavor, color or shape, exceptional disease resistance, heat tolerance, adaptability to soil types, etc. If you want to learn more about heirloom vegetables <a href="http://portlandnursery.com/docs/veggies/HeirloomVeggieGuide.pdf" target="_blank">check out our brochure</a>. We recommend starting with seeding vegetables and herbs that do well indoors in early February such as:</p>
+
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <ul>
+                                                            <li>Artichoke</li>
+
+                                                            <li>Asparagus</li>
+
+                                                            <li>Broccoli</li>
+
+                                                            <li>Cabbage</li>
+
+                                                            <li>Cauliflower</li>
+                                                        </ul>
+                                                    </td>
+
+                                                    <td>
+                                                        <ul>
+                                                            <li>Celeriac</li>
+
+                                                            <li>Celery</li>
+
+                                                            <li>Chard</li>
+
+                                                            <li>Chives</li>
+
+                                                            <li>Choi</li>
+                                                        </ul>
+                                                    </td>
+
+                                                    <td>
+                                                        <ul>
+                                                            <li>Endive</li>
+
+                                                            <li>Kale</li>
+
+                                                            <li>Lettuce</li>
+
+                                                            <li>Parsley</li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">Crop Rotation</a></h3>
+                                </div>
+
+                                <div id="collapseFour1" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <figure><img class="img-responsive" src="https://portlandnursery.com/plants/images/vegetables/kale750.jpg" alt=" veggie selection"></figure>
+
+                                        <p>Crop Rotation is utilized to increase yields and diminish pest and disease problems.</p>
+
+                                        <p>Crop rotation is the practice of alternating crops of specific vegetable families to different areas of the garden from year to year. This gives the soil a rest from each vegetable family before that family appears in the same garden space again.</p>
+
+                                        <p>Download our <a target="_blank" href="http://portlandnursery.com/docs/veggies/CropRotation.pdf">Crop Rotation Article</a></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFive1">Succession Planting</a></h3>
+                                </div>
+
+                                <div id="collapseFive1" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <figure><img class="img-responsive" src="https://portlandnursery.com/plants/images/vegetables/chard750.jpg" alt=" veggie selection"></figure>
+
+                                        <p>It is so exciting when spring vegetable starts begin to fill the shelves! Beets, Brussels sprouts, cabbage, lettuce, Swiss chard, peas, seed potatoes and shallots are just to name a few. See the box below for more of the vegetables and herbs on our shelves!</p>
+
+                                        <p>With all these great crops it is easy to fill up your whole garden in one day. However, we want to remind you to save some space for replanting fast maturing crops (such as lettuce) for a continual harvest. This practice is commonly referred to as "succession planting", and will help you maximize the harvest season by continually planting new areas of varieties that will ripen sequentially.</p>
+
+                                        <p>To read the full article for suggested planting times and veggie combinations, download our <a href="http://portlandnursery.com/docs/veggies/succession-planting.pdf" target="_blank"> Succession Planting Article.</a></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseSix1">Growing Edibles in Containers</a></h3>
+                                </div>
+
+                                <div id="collapseSix1" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <figure><img class="img-responsive" src="{{ '/assets/images/veggies/ediblecontainer.jpg'|theme }}" alt="Cut Flowers"></figure>
+
+                                        <p>Even if you do not have a yard you can still grow fruit and other edibles in containers. You can mix and match as desired, and can be planted in the ground. Most of the designs require full sun unless specified. Care and planting instructions are provided on the back of this pamphlet. Fruits and vegetables are often subject to seasonal availability.</p>
+
+                                        <p>Download our guide for <a target="_blank" href="http://portlandnursery.com/docs/veggies/edible_plants_containers.pdf">Edibles in Containers</a></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseSeven1">Companion Planting</a></h3>
+                                </div>
+
+                                <div id="collapseSeven1" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <figure><img class="img-responsive" src="https://portlandnursery.com/plants/images/vegetables/vegblossom750.jpg" alt=" veggie selection"></figure>
+
+                                        <p>Companion planting is a technique based on a long history of observations of the interaction between plants in the garden.</p>
+
+                                        <p>Certain combinations of plants can add to, or detract from, the abundance and health of edibles in your garden by altering the soil, attracting or repelling insects or creating a helpful microclimate.</p>
+
+                                        <p>Download our <a target="_blank" href="http://portlandnursery.com/docs/veggies/CompanionChart.pdf">Companion Planting Article</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--/#accordion1-->
+                    </div><!-- accordion -->
+                </div>
             </div><!--/.col-sm-6 tabs-->
         </div><!-- End Row -->
 
-          <div class="row masonry planttable">
+        <div class="row masonry planttable">
             <div class="col-md-12 left-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Brassicas / Asparagus
+                            </div>
 
-			{% partial '/resources/veggies-masonry' %}
+                            <div class="panel-body">
+                                <img class="img-responsive" src="{{ 'assets/images/veggies/kale530.jpg'|theme }}" alt="kale">
 
+                                <p>Read our brochure on fighting <a href="http://portlandnursery.com/docs/veggies/BrassicaPests.pdf" target="_blank"> Brassica Pests</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/asparagus.pdf" target="_blank">Asparagus Culture</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/broccoli.pdf" target="_blank">Broccoli Culture</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/brussels-sprout.pdf" target="_blank">Brussels Sprout Culture</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/cabbage.pdf" target="_blank">Cabbage</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/Cauliflower.pdf" target="_blank">Cauliflower Culture</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/asian-greens.pdf" target="_blank">Choi</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/kale.pdf" target="_blank">Kale</a></p>
+                            </div>
+                        </div><!-- panel-default -->
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Carrot Family
+                            </div>
+
+                            <div class="panel-body">
+                                <img class="img-responsive" src="{{ 'assets/images/veggies/carrot.jpg'|theme }}" alt="carrots">
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/carrots.pdf" target="_blank">Carrot Culture</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/celery.pdf" target="_blank">Celery Culture</a></p>
+                            </div>
+                        </div><!-- panel-default -->
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Alliums
+                            </div>
+
+                            <div class="panel-body">
+                                <img class="img-responsive" src="{{ 'assets/images/veggies/onion.jpg'|theme }}" alt="onion">
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/leek.pdf" target="_blank">Leek Culture</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/OnionCulture11-13.pdf" target="_blank">Onion Culture</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/ShallotCulture11-13.pdf" target="_blank">Shallot Culture</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/BulkveggiesTable.pdf" target="_blank">Bulk Shallot</a></p>
+                            </div>
+                        </div><!-- panel-default -->
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Beets/Lettuce/Artichokes
+                            </div>
+
+                            <div class="panel-body">
+                                <img class="img-responsive" src="{{ 'assets/images/veggies/lettuce.jpg'|theme }}" alt="lettuce">
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/artichoke.pdf" target="_blank">Artichoke Culture</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/beets.pdf" target="_blank">Beets Culture</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/lettuce.pdf" target="_blank">Lettuce Culture</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/SwissChard.pdf" target="_blank">Swiss Chard Culture</a></p>
+                            </div>
+                        </div><!-- panel-default -->
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Cucurbits
+                            </div>
+
+                            <div class="panel-body">
+                                <img class="img-responsive" src="{{ 'assets/images/veggies/squash.jpg'|theme }}" alt="squash">
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/cucumber.pdf" target="_blank">Cucumber</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/melon.pdf" target="_blank">Melon</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/squash-pumpkin.pdf" target="_blank">Squash Culture</a></p>
+                            </div>
+                        </div><!-- panel-default -->
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Legumes and Corn
+                            </div>
+
+                            <div class="panel-body">
+                                <img class="img-responsive" src="{{ 'assets/images/veggies/corn.jpg'|theme }}" alt="corn">
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/beans.pdf" target="_blank">Bean Culture</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/corn.pdf" target="_blank">Corn Culture</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/peas.pdf" target="_blank">Pea Culture</a></p>
+                            </div>
+                        </div><!-- panel-default -->
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Solanums
+                            </div>
+
+                            <div class="panel-body">
+                                <img class="img-responsive" src="{{ 'assets/images/veggies/eggplant.jpg'|theme }}" alt="eggplant">
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/eggplant.pdf" target="_blank">Eggplant Culture</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/peppers.pdf" target="_blank">Pepper Culture</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/PeppersHotTable.pdf" target="_blank">Hot Pepper Varieties</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/PeppersSweetTable.pdf" target="_blank">Sweet Peppers</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/PotatoTable.pdf" target="_blank">2017 Potato Table</a></p>
+
+                                <p><a href="http://portlandnursery.com/docs/veggies/BulkveggiesTable.pdf" target="_blank">Bulk Potato Varieties</a></p>
+                            </div>
+                        </div><!-- panel-default -->
+                    </div><!-- row -->
+                </div><!-- container brochures -->
             </div><!-- col-md-8 left-inner -->
-
-           </div><!-- End Row -->
-
-
-         <div class="row" id="portfolio">
-            {% partial "lists/list-plantcategories" %}
-        </div><!--/#portfolio-->
-
+        </div><!-- End Row -->
     </div><!--=== End Container ===-->

@@ -1,0 +1,54 @@
+title = "Vegetables"
+url = "/veggies"
+layout = "default"
+is_hidden = 0
+meta_title = "Vegetables at Portland Nursery"
+meta_description = "A full range of Vegetables for Portland, Vancouver"
+
+[siteSearchInclude]
+==
+    <div class="container">
+     <div class="title-block">
+        <div class="title-image">
+	    <img class="img-responsive" src="https://portlandnursery.com/plants/images/vegetables/vegetablehd.jpg" alt="Veggies" title="Veggies" >
+        </div>
+
+    {% partial 'breadcrumbs/breadcrumbsplants' %}
+     </div>
+</div> <!-- container -->
+
+    <div class="container content">
+        <div class="row planttable">
+            <div class="col-md-6 left-inner">
+<p>We are passionate about growing food, and we strive to bring gardeners an expansive vegetable and herb selection along with expert advice to help you be successful.</p>
+
+<p>We also carry a selection of medicinal herbs such as Marshmallow, and unusual edibles such as Malabar Spinach.  We are pleased to provide an equally large and diverse organic selection!.</p>
+
+<p>For tomatoes, we carry the tried and true varieties such as Early Girl Tomato and Genovese Basil, a vast heirloom selection such as Moon and Stars Watermelon and Corno di Toro pepper, and unique selections such as ginger mint and red noodle beans.</p>
+
+<p>Due to our broad selection, and the popularity of growing edibles, we do not have all varieties at one time.  Please call either location for current availability.</p>
+
+ <figure><img class="img-responsive" src="https://portlandnursery.com/plants/images/vegetables/veggies750.jpg" alt=" veggie selection" /></figure>
+
+</div><!-- col-md-6 left-inner -->
+
+<div class="col-md-6">
+        {% partial "accordion/accordion-veggies" %}
+            </div><!--/.col-sm-6 tabs-->
+        </div><!-- End Row -->
+
+          <div class="row masonry planttable">
+            <div class="col-md-12 left-inner">
+
+			{% partial '/resources/veggies-masonry' %}
+
+            </div><!-- col-md-8 left-inner -->
+
+           </div><!-- End Row -->
+
+
+         <div class="row" id="portfolio">
+            {% partial "lists/list-plantcategories" %}
+        </div><!--/#portfolio-->
+
+    </div><!--=== End Container ===-->
