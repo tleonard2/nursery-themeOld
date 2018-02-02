@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------- */
 
-/* Add here all your css styles (customizations) V16 */
+/* Version Feburary 1 */
 
 /* Happenings
 ------------------------------------*/
@@ -46,6 +46,10 @@ section#happenings {
 	font-size:18px;
 	line-height:1.4;
 	font-weight: inherit;
+}
+
+.media.happening-box .media-heading {
+	text-transform: capitalize;
 }
 
 .media.happening-box .pull-left {

@@ -2,8 +2,8 @@
 ==
 <div class="container">
             <div class="section-header">
-                <h2 class="brightonL center">What's Happening at Portland Nursery this January</h2>
-                <p>It's Indoor Gardening Month! Our shelves are bursting with new shipments of houseplants -<br /> you'll find the largest selection at 9000 SE Division.</p>
+                <h2 class="brightonL center">What's Happening at Portland Nursery this {% partial "/resources/month" %}</h2>
+                <p>The shelves will be filling up soon! Time to get your garden ready for spring planting!</p>
 
             </div>
 
@@ -16,7 +16,7 @@
 								<a href="/events/current-classes/"><img class="happening-icon img-responsive" src="{{ 'assets/images/icons/calendar.png'|theme }}" alt="Portland Nursery Events" /></a>
 	                         </div>
                              <div class="media-body">
-                                <h4 class="media-heading"><a href="/events/current-classes/">January Classes</a></h4>
+                                <h4 class="media-heading"><a href="/events/current-classes/">{% partial "/resources/month" %} Classes</a></h4>
                                 <p>Our classes fill up quickly so please REGISTER TODAY! See our Current Classes Page for details.</p>
                             </div>
                         </div>
@@ -25,11 +25,11 @@
                     <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
                         <div class="media happening-box">
                             <div class="pull-left">
-                                <a href="/seasonal-tips/january/"><img class="happening-icon img-responsive" src="{{ 'assets/images/icons/trowel-fork.png'|theme }}" alt="Portland Nursery Events" /></a>
+                                <a href="/seasonal-tips/{% partial "/resources/month" %}/"><img class="happening-icon img-responsive" src="{{ 'assets/images/icons/trowel-fork.png'|theme }}" alt="Portland Nursery Events" /></a>
                             </div>
                              <div class="media-body">
-                            <h4 class="media-heading"> <a href="/seasonal-tips/january/">January Garden Tips</a></h4>
-                                <p>Check with us for all you need to know about your January Garden tasks!</p>
+                            <h4 class="media-heading"> <a href="/seasonal-tips/{% partial "/resources/month" %}/">{% partial "/resources/month" %} Garden Tips</a></h4>
+                                <p>Check with us for all you need to know about your {% partial "/resources/month" %} Garden tasks!</p>
                          </div>
                         </div>
                     </div><!--/.col-md-4-->
@@ -40,8 +40,8 @@
                                 <a href="/houseplants/"><img class="happening-icon img-responsive" src="{{ 'assets/images/icons/plant-coming-up.png'|theme }}" alt="Portland Nursery Events" /></a>
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading"><a href="/houseplants/">Houseplants</a></h4>
-                                <p>January houseplant sale is over, but we still have a good selection. <a href="/houseplants/">See details...</a></p>
+                                <h4 class="media-heading"><a href="/resources/custom-planting-plans/">Custom Planting Plans</a></h4>
+                                <p>Ready for a change in your garden? We can help with your planning. <a href="/resources/custom-planting-plans/">Read more about our service...</a></p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
@@ -70,7 +70,7 @@
                                 <a href="/container-gardens/"><img class="happening-icon img-responsive" src="{{ 'assets/images/icons/flowerpot.png'|theme }}" alt="Portland Nursery Events" /></a>
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading"><a href="/container-gardens/">January Containers</a></h4>
+                                <h4 class="media-heading"><a href="/container-gardens/">{% partial "/resources/month" %} Containers</a></h4>
                                 <p>Our container design pages are now organized by month. See the newest container.</p>
                             </div>
                         </div>

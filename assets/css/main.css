@@ -1,5 +1,6 @@
 /* Typography v2 versions final.1
-********************************/
+*******************************
+Rev Feb 1*/
 body {
 	background:#fff;
 	font-family: 'Josefin Sans', sans-serif;
@@ -881,7 +882,7 @@ body > section {
   opacity: 1;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 380px) {
 	.content #portfolio .portfolio-item .portfolio-item-inner .portfolio-info h3,
 	#portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview,
 	#portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
@@ -890,6 +891,10 @@ body > section {
 
 	#portfolio .portfolio-item {
 		width: 32%;
+  	}
+
+#portfolio a.preview img {
+		display: none;
   	}
 }
 
@@ -1532,7 +1537,15 @@ ul.sidebar-gallery {
 	margin:0;
 }
 
-
+@media (max-width: 680px) {
+	.footer1, .footer2{
+		text-align: center;
+	}
+	#footer .social {
+		max-width: 160px;
+		margin: 0 auto;
+	}
+}
 /* Masonry CSS https://www.bootply.com/1Tq35rlkbx# */
 
 *, *:before, *:after {box-sizing:  border-box !important;}
