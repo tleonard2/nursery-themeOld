@@ -18,6 +18,10 @@ section#happenings {
 	padding:0;
 }
 
+#happenings .section-header h2 span {
+    text-transform: capitalize
+}
+
 #happenings .section-header p {
 	font-size:22px;
 	margin:0 auto;
