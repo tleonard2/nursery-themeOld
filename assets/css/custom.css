@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------- */
 
-/* Version Feburary 1 */
+/* Version Feburary 26 */
 
 /* Happenings
 ------------------------------------*/
@@ -827,6 +827,10 @@ a.accordion-toggle  i{
 .panel-heading.active a.accordion-toggle.collapsed i{
   background: #86c232;
   color: #fff;
+}
+
+.page-water-plants #collapseOne1 a {
+	font-size: 95%
 }
 
 /* Apple Tasting */
