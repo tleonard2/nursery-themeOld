@@ -1,27 +1,31 @@
 [viewBag]
 ==
-<!--=== Header ===-->
+<!--=== Header  Jan 31 taken from time machine dec 30 ===-->
 	<div class="header">
 		<div class="container">
-		 <!-- Logo -->
-			<div class="logobox">
-				<a class="logo" href="{{ 'home'|page }}">
-				<img class="img-responsive" src="{{ 'assets/images/logo2.jpg'|theme }}" alt="logo">
-			</a></div>
-			<!-- End Logo -->
 
-		<div class="topnav">
-
-		<!-- Toggle get grouped for better mobile display -->
-		  <div class="togglebutton">
-			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+		  <!-- Toggle get grouped for better mobile display -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="fa fa-bars"></span>
-			</button></div>
+			</button>
 			<!-- End Toggle -->
+
+			<!-- Logo -->
+			<a class="logo" href="{{ 'home'|page }}">
+				<img class="img-responsive" src="{{ 'assets/images/logo2.jpg'|theme }}" alt="logo">
+			</a>
+			<!-- End Logo -->
 
 			<!-- Topbar -->
 			<div class="topbar">
+				<div class="searchbox">
+				<form action="{{ 'search' | page }}" method="get">
+				    <input name="q" type="text" placeholder="How can we help?" autocomplete="off">
+				    <button type="submit" class="btn-u">Go</button>
+				</form>
+				</div>
+
 				<ul class="loginbar">
 					<li><a href="/about/locations/">Hours</a></li>
 					<li class="topbar-devider"></li>
@@ -32,19 +36,17 @@
 					<li><a class="social" target="_blank" href="https://www.instagram.com/portlandnursery/"><i class="fa fa-instagram"></i></a></li>
 					<li><a class="social" target="_blank" href="/resources/newsletter/"><i class="fa fa-newspaper-o"></i></a></li>
 					<li><a class="social" target="_blank" href="https://www.facebook.com/PortlandNursery1/"><i class="fa fa-facebook"></i></a></li>
-				<li>
-				<form class="searchbox" action="{{ 'search' | page }}" method="get">
-				    <input name="q" type="text" placeholder="How can we help?" autocomplete="off">
-				    <button type="submit" class="btn-u">Go</button>
-				</form>
-				</li>
+
 				</ul>
-			</div><!-- End Topbar -->
 
-		</div><!--/end  topnav-->
+			</div>
+			<!-- End Topbar -->
 
 
-		<!-- Collect the nav links, forms, and other content for toggling -->
+		</div><!--/end container-->
+
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
 			<div class="container">
 				<ul class="nav navbar-nav">
@@ -308,10 +310,10 @@
 
                                                     <li><a href="/natives/winter-interest/">Winter Interest with Natives</a></li>
 
-<!--
-                                                    <li><a href="#">Raise Mason Bees</a></li>
 
-                                                    <li><a href="#">Plant a Fragrant Garden</a></li>
+                                                    <li><a href="/resources/masonbees/">Raise Mason Bees</a></li>
+
+                                                   <!-- <li><a href="#">Plant a Fragrant Garden</a></li>
 -->
 
                                                     <li><a href="/natives/hummingbirds/">Attract Hummingbirds with Natives</a></li>
@@ -432,5 +434,4 @@
 			</div><!--/end container-->
 		</div><!--/navbar-collapse-->
 
-			</div><!--/end container-->
 	</div><!--=== End Header ===-->
