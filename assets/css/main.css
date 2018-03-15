@@ -95,6 +95,24 @@ thead.gray:first-child th{
 	text-align: center
 }
 
+.page-herbs-lavandula table {
+	margin-bottom: 100px;
+}
+
+.page-herbs-lavandula table > tbody > tr > td {
+	padding: 5px 10px;
+	font-size: 90%;
+	text-align: center;
+	color: #555555
+}
+
+.page-herbs-lavandula table td {
+	border: 1px solid #ccc
+}
+
+.page-herbs-lavandula table tr:nth-child(even) {
+	background: #CCC;
+}
 
 h1 {
 	font-size:36px;
