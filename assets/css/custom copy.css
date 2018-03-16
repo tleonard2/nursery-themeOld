@@ -1,0 +1,952 @@
+/* ---------------------------------------------------------------------- */
+
+/* Version Feburary 26 */
+
+/* Happenings
+------------------------------------*/
+#happenings .media.happening-box:first-child {
+	margin-top:10px;
+}
+
+section#happenings {
+	padding: 0;
+}
+
+#happenings .section-header h2 {
+	font-size:42px;
+	margin:0;
+	padding:0;
+}
+
+#happenings .section-header h2 span {
+    text-transform: capitalize
+}
+
+#happenings .section-header p {
+	font-size:22px;
+	margin:0 auto;
+	padding:0;
+	max-width: 90%
+}
+
+@media (max-width: 768px) {
+	#happenings .section-header h2 {
+		font-size:28px;
+		margin:0;
+		padding:0;
+  }
+	#happenings .section-header p {
+	 font-size:18px;
+	}
+}
+
+.features {
+	display: flex
+}
+
+.media.happening-box {
+	margin:25px 0;
+	padding:10px 0;
+	font-size:18px;
+	line-height:1.4;
+	font-weight: inherit;
+}
+
+.media.happening-box .media-heading {
+	text-transform: capitalize;
+}
+
+.media.happening-box .pull-left {
+	margin-right:0px;
+}
+
+.media.happening-box .img-responsive {
+	max-width: 72px;
+}
+
+.media.happening-box:hover {
+	background:#fcfcfc;
+	box-shadow:0 0 5px #ddd;
+	-webkit-transition:box-shadow .2s ease-in-out;
+	-moz-transition:box-shadow .2s ease-in-out;
+	-o-transition:box-shadow .2s ease-in-out;
+	transition:box-shadow .2s ease-in-out;
+}
+
+/* Social Block
+------------------------------------*/
+#socialblock {
+	padding:20px 0 40px;
+	margin:0 0 60px 0;
+	background: #474B4F;
+  font-weight:300;
+}
+
+#socialblock h2 {
+	font-size:32px;
+	color: #FFF;
+	margin: 20px 0;
+	padding: 0;
+	font-family:BrightonSB-light;
+}
+
+#socialblock h3 {
+	margin-top:5px;
+	color: #FFF;
+	font-size:18px;
+	text-align: center;font-weight:300;
+}
+
+#socialblock p {
+	margin-top:5px;
+	color: #FFF;
+	font-size:16px;
+	text-align:center;font-weight:300;
+}
+
+#socialblock .specials img {
+	text-align: center;
+	max-width: 350px;
+	margin: 0 auto;
+
+}
+
+.socialicons {
+	margin:0 0px 15px 0px;
+	padding:0 30px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#socialblock .newsletter h2 {
+	margin: 20px 0 0 0;
+}
+
+#socialblock .newsletter h3 {
+	font-size:24px;
+	text-align: center;
+}
+
+#socialblock .newsletter p{
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 1.3;
+}
+
+
+.signupform input {
+	text-align: center;
+}
+
+
+
+/* Seasonal Box with text slider
+------------------------------------*/
+.season-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.season-thumb {
+    overflow: hidden;
+    position: relative;
+}
+
+.season-thumb img {
+    width: 100%;
+}
+
+.season-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(37, 93, 118, 0.7);
+/*     background-color: rgba(114, 192, 44, 0.7); */
+    color: #fff;
+    padding: 15px;
+}
+
+.content-show a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+/*     font-weight: 700; */
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.content-show span {
+    color: #f78e21;
+}
+
+.content-hide {
+    margin-top: 15px;
+    display: none;
+}
+
+.content-hide p {
+    color: #fff;
+}
+
+/* End Seasonal Box with text slider */
+
+
+/* Plant Page Styling
+-------------------------------------------------------------------*/
+/*-- Landing Page Products --*/
+
+#product-heading {
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+
+#product-heading h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  color: #474B4F;
+/*     font-weight: 700; */
+    text-transform: uppercase;
+}
+
+.container.content .sidebar {
+    margin-top: 20px;
+}
+
+#Container .mix {
+    display: none;
+}
+
+/*
+.portfolio-wrapper {
+    overflow: hidden;
+    padding-top: 20px;
+}
+*/
+
+#filters {
+    text-align: center;
+}
+
+#filters ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#filters li {
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
+}
+
+#filters span {
+    text-transform: uppercase;
+font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+/*     font-weight: 300; */
+    color: #444;
+    padding-left: 15px;
+}
+
+#filters span:hover {
+    color: #f78e21;
+    transition: all 0.3s ease-in;
+}
+
+.label-text a {
+    color: #333;
+}
+
+.label-text a:hover {
+    color: #f78e21;
+}
+
+.label-text h3 {
+    margin: 10px 0 2px 0;
+    font-size: 16px;
+/*     font-weight: 700; */
+    color: #333;
+    text-transform: uppercase;
+}
+
+.label-text span {
+    color: #777;
+    text-transform: uppercase;
+font-family: 'Josefin Sans', sans-serif;
+/*     font-weight: 300; */
+    display: block;
+    color: #f78e21
+}
+
+/*
+.portfolio-thumb img {
+    width: 100%;
+}
+
+.portfolio-thumb {
+    position: relative;
+}
+*/
+
+.hover-iner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hover-iner a {
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    margin-left: -18px;
+    margin-top: -18px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #f78e21;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    text-align: center;
+}
+
+.hover-iner img {
+    width: auto;
+}
+
+.hover-iner span {
+    position: absolute;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 190px;
+    text-align: center;
+    font-size: 13px;
+    width: 100%;
+    color: #f78e21;
+/*     font-weight: 300; */
+}
+
+.hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*- End Products --*/
+
+/* Breadcrumbs box Plants
+------------------------------------*/
+.breadcrumbs {
+	overflow:hidden;
+	padding:0;
+	border-bottom:solid 1px #eee;
+}
+
+.breadcrumbs .container {
+	padding-left: 0;
+}
+
+.breadcrumbs h1 {
+	color:#474B4F;
+	color: #61892F;
+	font-size:32px;
+	margin-top:20px;
+	text-transform:capitalize;
+	font-family:BrightonSB-Medium;
+/* 	font-weight:normal; */
+	font-style:normal;
+	letter-spacing: 1px;
+}
+
+.breadcrumb {
+	background:none;
+	padding:20px 15px 4px;
+	margin-bottom:10px;
+}
+
+.breadcrumb a {
+	color:#777;
+	font-size:18px;
+	text-decoration: none;
+}
+
+.breadcrumb li.active,.breadcrumb li a:hover {
+	color:#72c02c;
+	text-decoration:none;
+	text-transform: capitalize;
+}
+
+@media (max-width: 800px) {
+	.breadcrumbs ul.pull-right {
+		width:100%;
+		text-align:center;
+		display: none;
+	}
+
+	.breadcrumbs h1.pull-left {
+		margin-bottom:0;
+		text-align: center;
+		width: 100%
+	}
+}
+
+/*  End Breadcrumbs */
+
+/* Figure Plants
+------------------------------------*/
+figure {
+	margin:20px 0;
+}
+
+.accordion figure {
+	margin: 0 0 20px;
+}
+
+.sidebar figure {
+	margin:20px 0;
+	padding: 20px 0px 0px 20px;
+}
+
+.title-block figure {
+	margin:20px 0 0 0;
+}
+
+figure.pull-left {
+	margin: 0 20px 0 0;
+}
+
+figure.pull-right {
+	margin: 0 0 0 20px;
+}
+
+.sidebar figcaption {
+	margin-left: 0px;
+	margin-top: 5px;
+}
+
+/* Column Layout Plants
+------------------------------------*/
+.plantinfo .plantimage {
+	max-height:250px;
+	overflow:hidden;
+	margin-top:10px;
+}
+
+.plantinfo .info h2 {
+	margin:0;
+}
+
+/* Treatment Plants
+------------------------------------*/
+.intro-bit {
+	display: none
+}
+
+.treatment {
+	border-top: 1px solid #ccc;
+	margin-top:20px;
+	padding:20px 0px 0px 15px;
+	font-size: 18px;
+    /*! margin-left: 20px; */
+}
+
+.treatment figure {
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+.treatment h2 {
+	margin:1px 0 10px;
+	font-family:BrightonSB-Medium;
+	font-size: 28px;
+	letter-spacing: 1px;
+}
+
+.sidebar .treatment ul {
+	padding-left: 25px;
+}
+
+.sidebar .treatment ul li {
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+/*
+.treatment {
+	margin-top:40px;
+	padding:20px 0px 0px 15px;
+	font-size: 18px;
+    margin-left: 20px;
+}
+
+.treatment figure {
+	margin:0 0 20px;
+}
+
+.treatment h2 {
+	color:#255D76;
+	border-top: 1px solid #ccc;
+	margin:1px 0 10px;
+	padding-top: 20px;
+	font-family:BrightonSB-Medium;
+	font-size: 28px;
+	letter-spacing: 1px;
+}
+*/
+
+.treatment hr {
+	border-top:  1px solid #ccc;
+}
+
+/*
+.sidebar.pull-right img {
+	padding: 0 15px;
+    margin-left: 20px;
+}
+*/
+
+.sidebar.pull-right .treatment img {
+	padding: 0;
+	margin-left: 0;
+}
+
+/* .page-trees-conifers .sidebar.pull-right img {
+	padding: 0 0 0 15px;
+    margin-left: 0px;
+} */
+
+/* .page-trees-conifers .treatment, */
+.treatment.graybox {
+	margin-top:0px;
+	padding:15px;
+	font-size: 18px;
+    margin-left: 20px;
+	background: #efefef;
+	border-top: none;
+}
+
+/* .page-trees-conifers .treatment h2 {
+	border-top: none;
+	margin:1px 0 10px;
+	padding: 10px 0 0 10px;
+	font-family:BrightonSB-Medium;
+	font-size: 28px;
+	letter-spacing: 1px;
+} */
+
+/* Align Images
+------------------------------------*/
+img.pull-right {
+	margin:10px 0 5px 10px;
+}
+
+img.pull-left {
+	margin:10px 10px 5px 0;
+}
+
+/* Plant Page Intro Header
+------------------------------------*/
+.intro-header {
+	background:no-repeat center center;
+	background-attachment:scroll;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+	min-height:400px;
+}
+
+.intro-header .site-heading {
+	padding:50px 0;
+}
+
+.intro-header .site-heading h2 {
+	margin-top:0;
+	font-size:36px;
+	color:#FFF;
+	text-transform:uppercase;
+}
+
+.intro-header .site-heading p {
+	margin-top:0;
+	font-size:24px;
+	color:#FFF;
+}
+
+.intro-header .btn {
+	float:right;
+	background:#474C69;
+}
+
+.container.content .left-inner p:first-child {
+	font-size: 130%;
+/* 	font-weight: 300; */
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 10px;
+}
+
+.container.content .planttable .col-md-6 p:first-child,
+.container.content .planttable .col-md-12 p:first-child,
+.container.content .planttable .col-sm-6 p:first-child,
+.container.content .left-inner table p:first-child,
+.container.content .left-inner blockquote p:first-child {
+	font-size: inherit;
+}
+
+.container.content .left-inner blockquote p:first-child,
+.container.content .left-inner blockquote p {
+	font-size: 22px;
+	margin: 0 0 20px 0;
+	color: #61892F;
+	font-style: italic;
+}
+
+/* .container.content .left-inner blockquote p:first-letter {
+	font-size: 42px;
+	padding: 0;
+	margin: 0 0 20px 0;
+	line-height: 0;
+} */
+
+.container.content .left-inner #event_content p {
+	font-size: 18px;
+}
+/* Plant Page row with columns
+------------------------------------*/
+.planttable {
+	border-top:1px solid #CCC;
+	padding:20px 0;
+}
+
+.planttable h2,
+.planttable h2 a {
+	margin: 5px 0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 28px;
+	text-decoration: none;
+}
+
+.planttable h2.brightonM {
+	font-family:BrightonSB-Medium;
+	font-weight:300;
+	font-style:normal;
+}
+
+.page-trees-conifers h2 {
+	font-family:BrightonSB-Medium;
+}
+
+.planttable ul {
+	margin: 0px;
+    padding-left: 20px
+}
+
+.planttable figure {
+	margin:10px auto;
+}
+
+.planttable .col-md-12 figure {
+	max-width:750px;
+	margin:10px auto;
+}
+
+.fa-download {
+	padding: 0 10px;
+	font-size: 18px;
+}
+
+.highlight {
+	margin-top: 8px;
+	background: #474B4F;
+	color: #FFF;
+}
+
+.highlight h2 {
+	color: #86C232;
+}
+
+.page-about-locations .planttable iframe {
+  display: block;
+  width: 100%;  /* RESPONSIVE WIDTH */
+  max-width: 350px;
+  height: 300px;
+  overflow: auto;  /* EDIT TO hidden FOR NO SCROLLBAR */
+  border: #999999 1px solid;
+  margin: 0px;
+  padding: 0px;
+  }
+
+/* Hydrangea colors
+------------------------------------*/
+
+.dkblue {
+	color:#2B0EFE;
+}
+
+.blue {
+	color:#5DA7FF;
+}
+
+.lavender {
+	color:#A78AFF;
+}
+
+.pink-purple {
+	color:#E869FD;
+}
+
+.mauve {
+	color:#E237FF;
+}
+
+.med-pink {
+	color:#FF5D99;
+}
+
+.pink {
+	color:#FF504F;
+}
+
+.whitebk {
+	background:#FFF;
+	padding:15px 15px 0 15px;
+	margin:15px 0px;
+	border:1px solid #000;
+}
+
+/*Others
+------------------------------------*/
+.overflow-h {
+	overflow:hidden;
+}
+
+.overflow-a {
+	overflow:auto;
+}
+
+.overflow-hidden {
+	overflow:hidden;
+}
+
+.space50 {
+	margin-bottom:50px;
+}
+
+/*-- Timeline --*/
+
+.timeline-thumb {
+    position: relative;
+    text-align: center;
+}
+
+.timeline-thumb:hover {
+    border-color: #f78e21;
+}
+
+.timeline-thumb .thumb img {
+    width: 100%;
+    height: 100%;
+	padding: 0 3px;
+    overflow: hidden;
+}
+
+.timeline-thumb .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    padding: 0 3px;
+}
+
+.timeline-thumb:hover .overlay {
+    visibility: visible;
+    overflow: hidden;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.timeline-caption h4 {
+    padding-top: 25%;
+	font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+/*     font-weight: 700; */
+    color: #fff;
+    margin: 0 0 3px 0;
+}
+
+.timeline-caption p {
+	font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+/*     font-weight: 300; */
+    color: #f78e21;
+}
+
+/*-- End Timeline --*/
+
+/* Accordion */
+
+.accordion .panel-heading {
+	background: #61892F;
+	background: #474B4F;
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+.accordion .panel-heading a {
+	color: #FFF;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+a.accordion-toggle  i{
+  width: 45px;
+  line-height: 44px;
+  font-size: 20px;
+  margin-top: -10px;
+  text-align: center;
+  margin-right: -15px;
+  background:  #383838;
+}
+
+.panel-heading.active a.accordion-toggle i{
+  background:  #86c232;
+  line-height: 45px;
+  color: #fff;
+}
+
+.panel-heading.active a.accordion-toggle.collapsed i{
+  background: #86c232;
+  color: #fff;
+}
+
+.page-water-plants #collapseOne1 a {
+	font-size: 95%
+}
+
+/* Apple Tasting */
+
+.appletasting .logos li {
+  list-style: none;
+	margin: 30px 30px;
+}
+
+.appletasting .col-md-12.one,
+.appletasting .col-md-12.two {
+	background: #efefef;
+	margin-bottom: 50px
+}
+
+.appletasting .col-md-12.one h3,
+.appletasting .col-md-12.two h3 {
+	color: #61892f;
+	text-align: center
+}
+
+/* classes */
+
+.dclass {
+	background: #efefef;
+	padding: 0 10px;
+	margin: 10px 0 15px;
+}
+
+.event {
+	padding: 10px;
+	margin: 10px 0 15px;
+	border: 3px double #86c232;
+}
+
+.event p {
+	padding: 10px 150px;
+  text-align: center
+
+}
+
+.wkend {
+	border-bottom: 3px double #86c232;
+	border-top: 3px double #86c232;
+	text-align: center
+}
+
+.container.classes h3 {
+    margin: 10px 0px 0 0px;
+    border-top: thin solid #86c232;
+    padding: 15px 20px 0 0;
+    }
+
+.container.classes h3.firstclass,
+.container.classes .dclass h3,
+#portfolio h3 {
+    border-top: none;
+    }
+
+.container.classes  a {
+	font-size: inherit
+}
+
+/* newsletter signup */
+.sortables {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+	margin: 15px 0;
+}
+
+.signupform input {
+	text-align: center;
+}
+
+#footer #ic_signupform {
+	margin-left: -60px;
+	padding-left: 0;
+}
+
+.page-about-locations #ic_signupform .elcontainer,
+.page-resources-newsletter #ic_signupform .elcontainer {
+    background: #fff;
+    text-align: center;
+    max-width: 500px;
+    /*! padding: 6px 38px; */
+    border-radius: 3px;
+    border: 1px none #acacac;
+    font-size: 13px;
+    color: #474b4f;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.page-about-locations #footer #ic_signupform .elcontainer,
+.page-resources-newsletter #footer #ic_signupform .elcontainer {
+    background: #474B4F;
+}
+
+.page-about-locations #ic_signupform .elcontainer input {
+
+}
+
+#ic_signupform .elcontainer .submit-container input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-weight: 300;
+	font-size: 24px;
+}
+
+#ic_signupform .elcontainer .submit-container .grecaptcha-badge iframe {
+  vertical-align: -9999px;
+}
+
+.grecaptcha-badge {
+	box-shadow: none !important;
+}
+
+.page-home #footer .col-md-6 form {
+	display: none;
+}
