@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------- */
 
-/* Version Feburary 26 */
+/* Version March 16 */
 
 /* Happenings
 ------------------------------------*/
@@ -808,7 +808,7 @@ img.pull-left {
 	text-decoration: none;
 }
 
-a.accordion-toggle  i{
+a.accordion-toggle i{
   width: 45px;
   line-height: 44px;
   font-size: 20px;
@@ -832,6 +832,22 @@ a.accordion-toggle  i{
 .page-water-plants #collapseOne1 a {
 	font-size: 95%
 }
+
+@media (max-width: 420px) {
+	.accordion h3 a{
+		font-size: 90%
+  }
+	a.accordion-toggle i{
+		line-height: 42px;
+	}
+	.panel-heading.active a.accordion-toggle i{
+	  line-height: 42px;
+	}
+	.accordion figure.pull-left {
+		width: 100%;
+	}
+}
+
 
 /* Apple Tasting */
 
@@ -941,6 +957,13 @@ a.accordion-toggle  i{
 
 #ic_signupform .elcontainer .submit-container .grecaptcha-badge iframe {
   vertical-align: -9999px;
+}
+
+@media (max-width: 420px) {
+	#footer #ic_signupform {
+		margin-left: 10px;
+		padding-left: 0;
+	}
 }
 
 .grecaptcha-badge {
