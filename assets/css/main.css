@@ -1,6 +1,6 @@
 /* Typography v2 versions final.1
 *******************************
-Rev Feb 26a*/
+Revisison  March 15a */
 body {
 	background:#fff;
 	font-family: 'Josefin Sans', sans-serif;
@@ -909,21 +909,37 @@ body > section {
 }
 
 @media (max-width: 380px) {
-	.content #portfolio .portfolio-item .portfolio-item-inner .portfolio-info h3,
-	#portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview,
-	#portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
+	#portfolio .portfolio-filter li {
+		width: 33%;
+		line-height: 1.4;
+		border: 1px solid #ccc
+	}
+
+	#portfolio .portfolio-filter > li {
+		float: left;
+		font-size: 15px;
+	 }
+
+	#portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview {
 		display: none;
 	}
 
+	.content #portfolio .portfolio-item .portfolio-item-inner .portfolio-info h3,
+	#portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
+		display: block;
+		font-size: 14px;
+	}
+
 	#portfolio .portfolio-item {
-		width: 32%;
+		width: 33%;
+		margin: 0;
+		padding: 5px;
   	}
 
 #portfolio a.preview img {
 		display: none;
   	}
 }
-
 /* Seasonal page css*****
 **********************/
 
