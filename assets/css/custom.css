@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------- */
 
-/* Version March 16 */
+/* Version March 21 */
 
 /* Happenings
 ------------------------------------*/
@@ -582,7 +582,8 @@ img.pull-left {
 	background:#474C69;
 }
 
-.container.content .left-inner p:first-child {
+.container.content .left-inner p:first-child,
+.page-veggies-index .container.content .planttable .col-md-6 p:first-child {
 	font-size: 130%;
 /* 	font-weight: 300; */
 	font-family: 'Josefin Sans', sans-serif;
@@ -642,7 +643,8 @@ img.pull-left {
 
 .planttable ul {
 	margin: 0px;
-    padding-left: 20px
+	padding-left: 30px;
+	margin-bottom: 20px;
 }
 
 .planttable figure {
