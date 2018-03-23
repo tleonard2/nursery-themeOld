@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------- */
 
-/* Version March 21 */
+/* Version March 23 */
 
 /* Happenings
 ------------------------------------*/
@@ -869,6 +869,28 @@ a.accordion-toggle i{
 	color: #61892f;
 	text-align: center
 }
+
+.page-veggies-crop-rotation table .gray {
+	background: #efefef;
+}
+
+.page-veggies-crop-rotation table .dkgray {
+	background: #ccc;
+}
+
+.page-veggies-crop-rotation .sidebar .table > tbody > tr > td,
+.page-veggies-crop-rotation .sidebar .table > tbody > tr > th,
+.page-veggies-crop-rotation .sidebar .table > tfoot > tr > td,
+.page-veggies-crop-rotation .sidebar .table > tfoot > tr > th,
+.page-veggies-crop-rotation .sidebar .table > thead > tr > td,
+.page-veggies-crop-rotation .sidebar .table > thead > tr > th {
+    padding: 8px 0px;
+    border: 1px solid #ccc;
+    font-size: 80%;
+	text-align: center
+}
+
+
 
 /* classes */
 
