@@ -870,6 +870,11 @@ a.accordion-toggle i{
 	text-align: center
 }
 
+.page-veggies-crop-rotation table,
+.page-veggies-crop-rotation table th{
+	text-align: center
+}
+
 .page-veggies-crop-rotation table .gray {
 	background: #efefef;
 }
