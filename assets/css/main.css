@@ -1,6 +1,6 @@
 /* Typography v2 versions final.1
 *******************************
-Revision Mar 16 */
+Revision April 12*/
 body {
 	background:#fff;
 	font-family: 'Josefin Sans', sans-serif;
@@ -678,14 +678,14 @@ body > section {
 	color:#000;
 	  color: #3F4F67;
 	text-transform: capitalize;
-/* 	font-weight: 500; */
+	font-weight: 500;
 	font-family: arial;
 }
 /* End Plant Landing plant lists */
 
 
 #portfolio {
-    padding: 100px 0;
+    padding: 10px 0 50px 0;
     background: #fff;
 }
 
@@ -757,7 +757,8 @@ body > section {
 }
 
 #portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
-    opacity: 0;
+/*     opacity: 0; */
+	opacity: 1;
     transition: opacity 400ms;
     -webkit-transition: opacity 400ms;
     position: absolute;
@@ -765,36 +766,56 @@ body > section {
     left: 0;
     right: 0;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     color: #fff;
 }
 
 #portfolio .portfolio-item .portfolio-item-inner .portfolio-info h3 {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1;
     margin: 0;
     color: #fff;
+    font-weight: 500;
 }
 
+/*
 #portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview {
     position: absolute;
     top: -18px;
     right: 12px;
     border-radius: 50%;
-    background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-    background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-    background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+    background: #86C232;
     width: 36px;
     height: 36px;
-    line-height: 36px;
+    line-height: 38px;
     text-align: center;
     color: #fff;
     box-shadow: 0 0 0 2px #fff;
     -webkit-box-shadow: 0 0 0 2px #fff;
 }
+*/
+
+#portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview {
+    position: absolute;
+    top: -18px;
+    right: 12px;
+    color: #86c232;
+    font-size: 36px;
+}
+
+.svg-inline--fa.fa-w-16 {
+    width: 1em;
+    background: #000;
+    border-radius: 50%;
+}
+
+.loginbar .social .svg-inline--fa.fa-w-16 {
+    background: #fff;
+}
 
 #portfolio .portfolio-item:hover .portfolio-info {
     opacity: 1;
+    background: #61892F;
 }
 
 @media (max-width: 420px) {
@@ -1608,17 +1629,14 @@ ul.sidebar-gallery {
 	margin-bottom: 10px;
 }
 
-.page-resources-brochures p a.btn-primary {
-    text-transform: uppercase;
+.page-resources-brochures .masonry a.btn-primary {
     font-weight: 500;
-    font-size: 16px;
-     color: #FFF;
+    font-size: 18px;
+    color: #FFF;
+	display: block;
     background: #86c232;
-   	padding: 15px 20px 10px 20px;
-}
-
-.page-resources-brochures p.page {
-	margin-bottom: 20px;
+   	text-align: center;
+    padding-top: 15px;
 }
 
 .page-resources-brochures strong {

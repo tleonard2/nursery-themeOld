@@ -2,7 +2,7 @@
 
 [-----*** TABLE OF CONTENT  Jan 31 taken from time machine dec 30***-----]
 
-Version 2ac working
+Version 2ac Revision April 12
 
 1. Header - Topbar
 2. Header - Navbar
@@ -582,6 +582,7 @@ Version 2ac working
 	position:relative;
 }
 
+/*
 .header .dropdown > a:after,
 .header .dropdown > a:after,.header .dropdown-submenu > a:after {
 	top:8px;
@@ -593,6 +594,7 @@ Version 2ac working
 	display:inline-block;
 	font-family:FontAwesome;
 }
+*/
 
 @media (max-width: 1190px) {
 	.header .dropdown-submenu > a:after {
@@ -600,11 +602,13 @@ Version 2ac working
 	}
 }
 
+/*
 .header .dropdown > a:after {
 	top:15px;
 	right:15px;
 	content:"\f107";
 }
+*/
 
 .header .dropdown-submenu > .dropdown-menu {
 	top:3px;
