@@ -1,6 +1,6 @@
 /* Typography v2 versions final.1
 *******************************
-Revision April 12*/
+Revision April 18*/
 body {
 	background:#fff;
 	font-family: 'Josefin Sans', sans-serif;
@@ -707,7 +707,7 @@ body > section {
     background: #e5e5e5;
     color: #64686d;
     position: relative;
-	  font-size: 16px;
+	  font-size: 18px;
 }
 
 #portfolio .portfolio-filter > li a:hover,
@@ -766,16 +766,16 @@ body > section {
     left: 0;
     right: 0;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
 }
 
 #portfolio .portfolio-item .portfolio-item-inner .portfolio-info h3 {
     font-size: 20px;
-    line-height: 1;
+    line-height: 1.2;
     margin: 0;
     color: #fff;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 /*
@@ -797,20 +797,30 @@ body > section {
 
 #portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview {
     position: absolute;
-    top: -18px;
-    right: 12px;
+    top: -5px;
+    right: 6px;
     color: #86c232;
     font-size: 36px;
 }
 
+#portfolio .portfolio-item .portfolio-item-inner .portfolio-info .fa-arrow-alt-circle-right {
+    position: absolute;
+    top: 10px;
+    right: 6px;
+    color: #86c232;
+    font-size: 24px;
+}
+
 .svg-inline--fa.fa-w-16 {
     width: 1em;
-    background: #000;
+    background: #fff;
     border-radius: 50%;
 }
 
-.loginbar .social .svg-inline--fa.fa-w-16 {
-    background: #fff;
+.portfolio-item-inner .svg-inline--fa.fa-w-16 {
+    width: 1em;
+    background: #000;
+    border-radius: 50%;
 }
 
 #portfolio .portfolio-item:hover .portfolio-info {
