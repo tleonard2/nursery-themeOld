@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------- */
 
-/* Version March 23 */
+/* Version April 25 */
 
 /* Happenings
 ------------------------------------*/
@@ -452,6 +452,15 @@ figure.pull-right {
 	padding:20px 0px 0px 15px;
 	font-size: 18px;
     /*! margin-left: 20px; */
+}
+
+.treatment li a {
+	font-size: 18px;
+}
+
+.treatment li {
+	font-size: 18px;
+	line-height: 1.6
 }
 
 .treatment figure {
