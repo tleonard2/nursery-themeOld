@@ -200,8 +200,8 @@ a {
 	-moz-transition:color 300ms,background-color 300ms;
 	-o-transition:color 300ms,background-color 300ms;
 	transition:color 300ms,background-color 300ms;
-	font-size: 110%;
-/* 	text-decoration-line: underline; */
+/*	font-size: 110%;
+ 	text-decoration-line: underline; */
 }
 
 .nav a {
