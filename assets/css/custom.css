@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------- */
 
-/* Version April 25 */
+/* Version May 10 */
 
 /* Happenings
 ------------------------------------*/
@@ -821,7 +821,7 @@ img.pull-left {
 
 a.accordion-toggle i{
   width: 45px;
-  line-height: 44px;
+  line-height: 42px;
   font-size: 20px;
   margin-top: -10px;
   text-align: center;
@@ -831,7 +831,7 @@ a.accordion-toggle i{
 
 .panel-heading.active a.accordion-toggle i{
   background:  #86c232;
-  line-height: 45px;
+  line-height: 43px;
   color: #fff;
 }
 
