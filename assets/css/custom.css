@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------- */
 
-/* Version May 10 */
+/* Version June 1 */
 
 /* Happenings
 ------------------------------------*/
@@ -76,8 +76,8 @@ section#happenings {
 /* Social Block
 ------------------------------------*/
 #socialblock {
-	padding:20px 0 40px;
-	margin:0 0 60px 0;
+	padding:20px 0 20px;
+	margin:0 0 10px 0;
 	background: #474B4F;
   font-weight:300;
 }
@@ -168,7 +168,8 @@ section#happenings {
     padding: 15px;
 }
 
-.content-show a {
+.content-show a,
+.content-show h4 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
 /*     font-weight: 700; */
