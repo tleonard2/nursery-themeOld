@@ -168,7 +168,8 @@ section#happenings {
     padding: 15px;
 }
 
-.content-show a {
+.content-show a,
+.content-show h4 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
 /*     font-weight: 700; */
