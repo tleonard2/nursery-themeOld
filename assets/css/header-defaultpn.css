@@ -212,7 +212,7 @@ Version 2ac Revision April 12
 
 	.header .logo {
 		vertical-align:top;
-/* 		float:left; */
+		float:left;
 	}
 
 	.header .navbar-toggle {
