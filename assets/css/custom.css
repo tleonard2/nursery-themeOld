@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------- */
 
-/* Version July 12 */
+/* Version August 16 */
 
 /* Happenings
 ------------------------------------*/
@@ -136,6 +136,11 @@ section#happenings {
 
 .signupform input {
 	text-align: center;
+}
+
+#socialblock .signupform a {
+	text-align: center;
+	font-size: 32px
 }
 
 
