@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>Annual Apple Tasting Event</title>
+<meta name="description" content="Apple Tasting Event at Portland Nursery on Stark." />
+
+<meta name="robots" content="all" />
+
+<script type="text/javascript" src="../js/breadcrumbs.js"></script>
+<script type="text/javascript" src="js/atslideshowtime.js"></script>
+<script type="text/javascript" src="js/roll.js"></script>
+
+<link href="../css/normalize.css" rel="stylesheet" type="text/css" />
+<link href="../css/mainnavnew.css" rel="stylesheet" type="text/css" />
+<link href="../css/widelayout.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body id="events" class="eventpage appletasting" onload="MM_preloadImages('../atimages/image1.jpg','../atimages/image2.jpg','atimages/image3.jpg','atimages/image4.jpg','atimages/image5.jpg','atimages/image6.jpg','atimages/image7.jpg','atimages/image8.jpg','atimages/image9.jpg','atimages/image10.jpg','atimages/image11.jpg','atimages/image12.jpg'); start_show()">
+
+<div id="outerWrapper">
+
+<div id="homeheader">
+
+    <div class="hours">
+     <!--#include virtual="../inc/hoursevents.inc" -->
+    </div>
+
+<a href="http://portlandnursery.com"><img src="../images-layout/msthd.jpg" alt="Portland Nursery" width="770" height="151" class="msthd" />
+</a>
+
+  <div id="mainnav">
+      <ul class="navigation">
+	<li class="home"><a href="/">HOME</a></li>
+ <li class="plants"><a href="/plants/">PLANTS</a>
+       <ul>
+       <li><a href="/plants/">Main Plants Page</a></li>
+      	<li><a href="/plants/annuals/">Annuals</a></li>
+         <li><a href="/plants/bonsai/">Bonsai</a></li>
+          <li><a href="/plants/bulbs/">Bulbs</a></li>
+	     <li><a href="/plants/container-gardens/">Container Gardens</a></li>
+         <li><a href="/plants/fruits/">Fruits &amp; Berries</a></li>
+         <li><a href="/plants/grasses-bamboo/">Grasses &amp; Bamboo</a></li>
+         <li><a href="/plants/groundcovers/">Groundcovers</a></li>
+         <li><a href="/plants/houseplants/">Houseplants</a></li>
+         <li><a href="/plants/natives/">Northwest Natives</a></li>
+         <li><a href="/plants/perennials/">Perennials</a></li>
+         <li><a href="/plants/plant-combos/">Plant Combos</a></li>
+         <li><a href="/plants/roses/">Roses</a></li>
+         <li><a href="/plants/seeds/">Seeds</a></li>
+         <li><a href="/plants/shrubs-vines/">Shrubs</a></li>
+         <li><a href="/plants/trees/">Trees</a></li>
+         <li><a href="/plants/vegetables-herbs/">Vegetables &amp; Herbs</a></li>
+         <li><a href="/plants/shrubs-vines/vines.html">Vines</a></li>
+         <li class="last"><a href="/plants/water-plants/">Water Plants</a></li>
+   </ul>
+ </li>
+ <li class="products"><a href="/products/">PRODUCTS</a>
+     <ul>
+     <li><a href="/products/">Garden Products</a></li>
+      	<li><a href="/products/amendments.html">Garden Amendments</a></li>
+         <li><a href="/products/containers.html">Garden Containers</a></li>
+         <li><a href="/products/decor.html">Garden Decor</a></li>
+         <li><a href="/products/gifts.html">Garden Gifts</a></li>
+         <li><a href="/products/tools.html">Garden Tools</a></li>
+		 <li class="last"><a href="/products/masonbees.html">Mason Bees</a></li>
+     </ul>
+  </li>
+ <li class="locations"><a href="/locations/">ABOUT</a>
+     <ul>
+      	<li><a href="/locations/division.html">Division Street Store</a></li>
+         <li><a href="/locations/stark.html">Stark Street Store</a></li>
+         <li><a href="/locations/employment.html">Employment</a></li>
+         <li class="last"><a href="/locations/roots.html">Our Roots</a></li>
+     </ul>
+ </li>
+ <li class="classes"><a href="/events/">CLASSES</a>
+     <ul>
+		 <li><a href="/events/january_events.html">January Classes</a></li>
+         <li><a href="/events/february_events.html">February Classes</a></li>
+         <li><a href="/events/march_events.html">March Classes</a></li>
+         <li><a href="/events/april_events.html">April Classes</a></li>
+         <li><a href="/events/may_events.html">May Classes</a></li>
+         <li><a href="/events/june_events.html">June Classes</a></li>
+         <li><a href="/events/july_events.html">July Classes</a></li>
+         <li><a href="/events/august_events.html">August Classes</a></li>
+         <li><a href="/events/september_events.html">September Classes</a></li>
+         <li><a href="/events/october_events.html">October Classes</a></li>
+         <li><a href="/events/november_events.html">November Classes</a></li>
+         <li class="last"><a href="/events/december_events.html">December Classes</a></li>
+     </ul>
+ </li>
+ <li class="events"><a href="/events/events.html">EVENTS</a>
+     <ul>
+		  <li><a href="/events/events.html">A Year in Events</a></li>
+		  <li><a href="/events/houseplantsale.html" class="active">January Houseplant Sale</a></li>
+		  <li><a href="/events/bonsai_event.html">June Bonsai Event</a></li>
+         <li><a href="/events/srgardening.html">September Senior Gardening Day</a></li>
+         <li><a href="/events/appletasting.html">October Apple Tasting</a></li>
+         <li><a href="/events/elderday.html">October Elder Day at Apple Tasting</a></li>
+         <li><a href="/events/appletasting-recipes.html">Apple Tasting Recipes</a></li>
+         <li class="last"><a href="/events/food-preserving-recipes.html">Food Preserving Recipes</a></li>
+              </ul>
+ </li>
+ <li class="tips"><a href="/tips/">GARDEN TIPS</a>
+     <ul>
+      	<li><a href="/tips/tips_january.html">January Tips</a></li>
+         <li><a href="/tips/tips_february.html">February Tips</a></li>
+         <li><a href="/tips/tips_march.html">March Tips</a></li>
+         <li><a href="/tips/tips_april.html">April Tips</a></li>
+         <li><a href="/tips/tips_may.html">May Tips</a></li>
+         <li><a href="/tips/tips_june.html">June Tips</a></li>
+         <li><a href="/tips/tips_july.html">July Tips</a></li>
+         <li><a href="/tips/tips_august.html">August Tips</a></li>
+         <li><a href="/tips/tips_september.html">September Tips</a></li>
+         <li><a href="/tips/tips_october.html">October Tips</a></li>
+         <li><a href="/tips/tips_november.html">November Tips</a></li>
+         <li class="last"><a href="/tips/tips_december.html">December Tips</a></li>
+     </ul>
+ </li>
+ <li class="gifting"><a href="/service/gift_cards.html">GIFT CARD</a>
+<!--
+     <ul>
+         <li><a href="/community/abernethy.html">Abernethy School</a></li>
+         <li><a href="/community/community_children.html">Children's Garden</a></li>
+		 <li><a href="/community/elders-in-action.html">Elders in Action</a></li>
+         <li><a href="/community/foodworks.html">Food Works</a></li>
+		 <li><a href="/community/gardensnoise.html">Garden's Noise</a></li>
+         <li><a href="/community/growingGardens.html">Growing Gardens</a></li>
+         <li><a href="/community/helen_gordon.html">Helen Gordon Center</a></li>
+         <li><a href="/community/legacy.html">Legacy Horticulture Therapy</a></li>
+         <li><a href="/community/lewis_elementary.html">Lewis Elementary</a></li>
+		 <li><a href="/community/franciscan_montessori.html">Montessori School</a></li>
+         <li><a href="/community/sauvie-island-center.html">Sauvie Island Center</a></li>
+         <li class="last"><a href="/community/zenger_farm.html">Zenger Farms</a></li>
+     </ul>
+-->
+ </li>
+ <li class="landscape"><a href="/custom-planting-plans/">CUSTOM PLANTING PLANS</a> </li>
+ <li class="services last"><a href="/service/">RESOURCES</a>
+     <ul>
+	      <li><a class="active" href="/service/index.html">Delivery Services</a></li>
+		  <li><a href="/service/potting-services.html">Container Potting Services</a></li>
+		  <li><a href="/service/faqs-archive.html">Gardening FAQs</a></li>
+		  <li><a href="/service/brochures.html">Gardening Solutions</a></li>
+<!-- 		  <li><a href="/service/videos.html">Gardening Videos</a></li> -->
+		  <li><a href="/service/gift_cards.html">Gift Cards</a></li>
+          <li><a href="/service/newsletter.html">Newsletter Signup</a></li>
+		 <li class="last"><a href="/service/privacypolicy.html">Privacy Policy</a></li>
+     </ul>
+ </li>
+
+</ul>
+  </div>
+   <p class="clear"></p>
+  </div> <!-- homeheader -->
+
+<div class="clear"></div>
+
+<div id="content" class="wide">
+
+<div id="nav-col">
+
+<div id="searcharea">
+<div id="cse" style="width: 100%;">Loading</div>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">
+   google.load('search', '1');
+       var app;
+    function OnLoad() {
+      // Dynamically load CSS to override defaults
+      var css = document.createElement('link');
+      css.href = '/css/layout.css';
+      css.type = 'text/css';
+      css.rel = 'stylesheet';
+      document.getElementsByTagName('head')[0].appendChild(css);}
+   google.setOnLoadCallback(function(){
+      new google.search.CustomSearchControl('003868193070768275417:xbrjeefzpda').draw('cse');
+   }, true);
+</script>
+</div>
+
+<div id="navLeft">
+<h1><a href="index.html">Classes</a><br /><a href="events.html">&amp; Events</a></h1>
+
+	<ul>
+		 <li><a href="events.html">A Year in Events</a></li>
+         <li><a href="appletasting.html" class="active">Apple Tasting</a></li>
+         <li><a href="elderday.html">Elder Day at Apple Tasting</a></li>
+         <li><a href="appletasting-recipes.html">Apple Tasting Recipes</a></li>
+         <li><a href="food-preserving-recipes.html">Chef Brophy Recipes</a></li>
+         <li><a href="bonsai_event.html">Bonsai Event</a></li>
+		 <li><a href="houseplantsale.html">Houseplant Sale</a></li>
+         <li><a href="srgardening.html">Senior Gardening Day</a></li>
+         <li class="last"><a href="openhouse.html">Holiday Events</a></li>
+     </ul>
+     <h2>Monthly</h2>
+     <ul>
+		<li><a href="january_events.html">January</a></li>
+        <li><a href="february_events.html">February</a></li>
+	    <li><a href="march_events.html">March</a></li>
+	    <li><a href="april_events.html">April</a></li>
+	    <li><a href="may_events.html">May</a></li>
+	    <li><a href="june_events.html">June</a></li>
+		<li><a href="july_events.html">July</a></li>
+		<li><a href="august_events.html">August</a></li>
+	    <li><a href="september_events.html">September</a></li>
+	    <li><a href="october_events.html">October</a></li>
+		<li><a href="november_events.html">November</a></li>
+	    <li><a href="december_events.html">December</a></li>
+      </ul>
+
+<h2>Helpful Links</h2>
+   <!--#include virtual="../inc/helpful-links-nav.inc" -->
+
+</div><!-- nav-left -->
+
+</div>
+
+<div class="tophead">
+<img src="http://portlandnursery.com/events/images-events/Appletasting/apples/appletastinghd778.jpg" alt="appletastinghd778" width="778" height="300">
+</div>
+
+<div id="contentWide">
+
+<div class="headline">
+<h2>Apple Tasting Employment Positions<br />at Portland Nursery</h2>
+</div>
+
+<div class="wide640">
+      <h4 class="center"></h4>
+       <h4>Portland Nursery at 5050 SE Stark<br />
+				Friday-Sunday October 13 - 15, 2017<br>
+                    Friday-Sunday October 20 - 22, 2017<br>
+		10:00am - 5:00pm</h4>
+<h3>Apple washing and event setup workers</h3>
+
+<p>Apple tasting and event setup workers will work 40 hrs/week during the weeks leading up to the festival weekends. These workers commit to either Tuesday-Saturday or Wednesday-Sunday of both weeks.</p>
+
+<p>This crew washes apples for the tasting lines and helps set up various areas for the event.</p>
+
+<p>This 2 week/40 hours per week position requires:</p>
+<ul>
+<li>physical endurance</li>
+<li>standing for long periods of time</li>
+<li>repetitive motions</li>
+<li>strength to lift 20 lbs. or more throughout the day</li>
+</ul>
+
+<hr />
+
+<h3>Apple festival workers</h3>
+
+<p>Apple festival workers must work both Saturday and Sunday of both weekends, with opportunities for additional hours on Fridays and some other weekdays.</p>
+
+<p>Festival workers work at a variety of tasks including slicing apples, weighing apples, making popcorn, cleaning, etc. during the festival and potentially during community events during the week.</p>
+
+<p>You must be available to work Saturday and Sunday, all day and both weekends. Please indicate on the application if you are available and interested in any of the additional days.</p>
+
+<hr />
+
+<h4>Print out our (editable) application form for this position: <a href="http://portlandnursery.com/docs/employment/ATapplicationFillable.pdf" target="_blank">Application for Apple Tasting Employment</a></h4>
+<p>&nbsp;</p>
+<h4>Applications can be sent to <a href="mailto:jobs@portlandnursery.com?subject=AT%20Employment">jobs@portlandnursery.com</a> or faxed to 503.231.7123.</h4>
+
+
+</div>
+
+</div> <!-- contentWide -->
+
+<div class="clear"></div>
+
+</div> <!-- content -->
+
+ <p class="clear"></p>
+
+  <div id="footer">
+  <!--#include virtual="../inc/footer.inc" -->
+  </div>
+<div class="clear"></div>
+</div><!-- outerWrapper -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21703888-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
