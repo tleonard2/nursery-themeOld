@@ -1,6 +1,6 @@
 /* Typography v2 versions final.1
 *******************************
-Revision April 18*/
+Revision August 31*/
 body {
 	background:#fff;
 	font-family: 'Josefin Sans', sans-serif;
@@ -29,6 +29,10 @@ body {
 
 span.capitalize {
     text-transform: capitalize ;
+}
+
+.cap {
+	text-transform: capitalize;
 }
 
 h1,h2,h3,h4,h5,h6 {
