@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------- */
 
-/* Version September 1 */
+/* Version September 9 */
 
 /* Happenings
 ------------------------------------*/
@@ -46,14 +46,25 @@ section#happenings {
 
 .media.happening-box {
 	margin:25px 0;
-	padding:10px 0;
+	padding:10px 5px;
 	font-size:18px;
 	line-height:1.4;
 	font-weight: inherit;
+	background: #EAEDE6
 }
 
 .media.happening-box .media-heading {
 	text-transform: capitalize;
+}
+
+.media.happening-box .media-heading {
+	color: #000;
+	font-weight: 300;
+	margin-top:15px;
+}
+
+.media.happening-box .media-heading a {
+	color: #000;
 }
 
 .media.happening-box .pull-left {
@@ -65,7 +76,7 @@ section#happenings {
 }
 
 .media.happening-box:hover {
-	background:#fcfcfc;
+	background:#86C332;
 	box-shadow:0 0 5px #ddd;
 	-webkit-transition:box-shadow .2s ease-in-out;
 	-moz-transition:box-shadow .2s ease-in-out;
