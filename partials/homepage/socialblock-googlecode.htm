@@ -1,0 +1,62 @@
+[viewBag]
+==
+<div class="container">
+           <div class="row">
+                <div class="col-md-4 col-sm-6 wow fadeInDown">
+                    <div class="specials text-left">
+<!--                         <h2 class="brightonL center">Specials</h2> -->
+<!--                      <img class="img-responsive" src="{{ 'assets/images/marketing/mumshow.png'|theme }}" alt="mum show" /> -->
+ <img class="img-responsive" src="{{ 'assets/images/marketing/grasssale.png'|theme }}" alt="mum show" />
+                    </div>
+
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="social">
+                    <h2 class="brightonL center">Let's Get Social</h2>
+                           <div class="row socialicons">
+                                <a href="https://www.facebook.com/PortlandNursery1/" target="_blank"><img class="img-responsive" src="{{ 'assets/images/icons/facebook64.png'|theme }}" alt="Portland Garden center trees and annuals"></a>
+                                <a href="https://twitter.com/pdxnursery" target="_blank"><img class="img-responsive" src="{{ 'assets/images/icons/twitter64.png'|theme }}" alt="Portland Nursery and Garden Center perennials"></a>
+                                <a href="https://www.instagram.com/portlandnursery/" target="_blank"><img class="img-responsive" src="{{ 'assets/images/icons/instagram64.png'|theme }}" alt="Portland Nursery houseplants"></a>
+                            </div>
+                        <h3> Always know what's happening at Portland Nursery. Follow us on Facebook, Twitter and Instagram.</h3>
+                        <hr/>
+                         <p>5050 SE Stark, 97215<br>
+                        Phone: 503.231.5050</p>
+                     <p>9000 SE Division, 97266<br>
+                        Phone: 503.788.9000</p>
+
+                         <h2 class="aligncenter">{% partial 'resources/hours' %}</h2>
+						 <h3>{% partial 'resources/closing' %}</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 wow fadeInDown">
+                    <div class="newsletter text-left">
+                        <h2 class="brightonL center">Subscribe to our Newsletter</h2>
+	                        <h3>Your subscription gives you an instant 25% off your entire Pottery purchase!</h3>
+                        <div class="signupform">
+                          <script type="text/javascript" src="//app.icontact.com/icp/core/mycontacts/signup/designer/form/automatic?id=109&cid=230017&lid=10011"></script><a href="/resources/newsletter/">Visit our Newsletter Archive</a>
+                        </div>
+
+                    </div>
+                </div>
+           </div>
+        </div><!--/.container-->
+
+
+        <div id="google-reviews"></div>
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/stevenmonson/googleReviews/6e8f0d79/google-places.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDeivU57j-macv2fXXgbhKGM6cqMLmnAFI&signed_in=true&libraries=places"></script>
+
+<script>
+jQuery(document).ready(function( $ ) {
+   $("#google-reviews").googlePlaces({
+        placeId: 'ChIJp2QxV_sJVFMR1DEp1x_16F8' //Find placeID @: https://developers.google.com/places/place-id
+      , render: ['reviews']
+      , min_rating: 4
+      , max_rows:4
+   });
+});
+</script>
