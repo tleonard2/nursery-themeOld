@@ -75,18 +75,6 @@ Version 2ac Revision April 12
 	float: right;
 }
 
-/*
-.searchbox input {
-	font-size: 14px;
-	border: 0;
-	font-weight: 700;
-	color: #FFF;
-	padding: 3px 20px 1px 20px;
-	border-radius: 1px;
-	background: #6b6e70;
-}
-*/
-
 .searchbox input {
 	font-size: 14px;
 	border: 0;
