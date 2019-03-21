@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------- */
 
-/* Version December 18 */
+/* Version March 21, 2019*/
 
 /* Happenings
 ------------------------------------*/
@@ -117,13 +117,7 @@ section#happenings {
 
 #socialblock .specials img {
 	text-align: center;
-	max-width: 350px;
-	margin: 30px auto;
-}
-
-#socialblock .specials img {
-	text-align: center;
-	max-width: 350px;
+/* 	max-width: 350px; */
 	margin: 30px auto;
 }
 
