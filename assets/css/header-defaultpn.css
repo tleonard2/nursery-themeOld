@@ -12,7 +12,7 @@ Version 2ac Revision April 12
 6. Header - Mega Menu
 -----------------------------------------------------------------------*/
 /*--------------------------------------------------
-    [1. Header - Topbar]
+    [1. Header - Topbar] Sept. 18, 2019
 ----------------------------------------------------*/
 
 /*Top Bar (login, search etc.)
@@ -74,6 +74,18 @@ Version 2ac Revision April 12
 	margin: 5px  auto;
 	float: right;
 }
+
+/*
+.searchbox input {
+	font-size: 14px;
+	border: 0;
+	font-weight: 700;
+	color: #FFF;
+	padding: 3px 20px 1px 20px;
+	border-radius: 1px;
+	background: #6b6e70;
+}
+*/
 
 .searchbox input {
 	font-size: 14px;
@@ -503,7 +515,8 @@ Version 2ac Revision April 12
 		width:100%;
 	}
 
-	.header .loginbar .social {
+	.header .loginbar .social,
+	.header .loginbar .topbar-devider.social {
 		display:none;
 	}
 
@@ -535,8 +548,8 @@ Version 2ac Revision April 12
 
 	.header .topbar ul.loginbar {
 		float:none;
-		max-width:200px;
 		margin:0 auto;
+		text-align: center
 	}
 
 	.header .topbar ul.loginbar li.topbar-devider {
