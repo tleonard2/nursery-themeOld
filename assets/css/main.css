@@ -1,6 +1,6 @@
 /* Typography v2 versions final.1
 *******************************
-Revision August 31*/
+Revision October 30, 2019*/
 body {
 	background:#fff;
 	font-family: 'Josefin Sans', sans-serif;
@@ -1624,7 +1624,7 @@ ul.sidebar-gallery {
 
 .masonry ul {
 	padding-left: 20px;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .masonry p a {
