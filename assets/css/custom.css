@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------- */
 
-/* Version Sept. 18, 2019*/
+/* Version October 31, 2019*/
 
 /* Happenings
 ------------------------------------*/
@@ -204,7 +204,7 @@ section#tasks {
     background-color: rgba(0, 0, 0, 0.7);
 /*     background-color: rgba(114, 192, 44, 0.7); */
     color: #fff;
-    padding: 0 0 10px 15px;
+    padding: 0 0 0px 15px;
 }
 
 .content-show h4 {
@@ -1053,4 +1053,5 @@ a.accordion-toggle i{
 .page-home #footer .col-md-6 form {
 	display: none;
 }
+
 
