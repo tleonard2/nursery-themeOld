@@ -8,10 +8,6 @@ is_hidden = 0
 
 [slider]
 slide_show_id = "{{ homeslider }}"
-
-[userFeed]
-limit = 1
-cache = 60
 ==
 <section class="no-margin">{% component 'slider' slide_show_id = 2 %}</section>
 <section id="introheadline">
@@ -23,7 +19,10 @@ cache = 60
 <!--/#cta-->
 <!-- Happenings -->
 <section id="happenings">{% partial "homepage/happenings" %}</section>
+
+
 <section id="tasks">{% partial "homepage/tasks" %}</section>
+
 <!-- Happenings -->
 <section id="socialblock">{% partial "homepage/socialblock" %}</section>
 <!--end happenings-->
