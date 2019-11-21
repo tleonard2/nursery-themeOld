@@ -3,10 +3,13 @@ url = "/about/privacypolicytest"
 layout = "default"
 meta_title = "Portland Nursery garden center resources for all your gardening needs - privacy policy"
 meta_description = "Portland Nursery garden center resources for all your gardening needs - privacy policy."
+is_hidden = 0
 
-[siteSearchInclude]
+[userFeed]
+limit = 16
+cache = 60
 ==
-    <div class="container">
+<div class="container">
         <div class="title-block">
            <div class="title-image"><img class="img-responsive" src="{{ 'assets/images/resources/brochureshd.jpg'|theme }}"  alt="portland nursery" title="portland nursery" /></div> {% partial 'breadcrumbs/breadcrumbsresources' %}
         </div>
@@ -20,7 +23,7 @@ meta_description = "Portland Nursery garden center resources for all your garden
 
 
 
-         {% component 'userFeed' %}
+         {% component 'HashFeed' %}
 
 
 
