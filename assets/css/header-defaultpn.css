@@ -12,7 +12,7 @@ Version 2ac Revision April 12
 6. Header - Mega Menu
 -----------------------------------------------------------------------*/
 /*--------------------------------------------------
-    [1. Header - Topbar] Sept. 18, 2019
+    [1. Header - Topbar] February 13, 2020
 ----------------------------------------------------*/
 
 /*Top Bar (login, search etc.)
@@ -432,7 +432,7 @@ Version 2ac Revision April 12
 	.header .navbar-nav > li > a {
 		bottom:-2px;
 		position:relative;
-		padding:15px 30px 9px 20px;
+		padding:15px 20px 9px 20px;
 	}
 
 	.header .navbar-nav > li > a,
