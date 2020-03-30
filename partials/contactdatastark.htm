@@ -1,7 +1,7 @@
-<h2 class="text-center title">Plant Order for Portland Nursery</h2>
-			<h4 class="text-center description">If you wish to order plants from us for curb-side pickup, please fill out all fields on this form.</h4>
+<h2 class="text-center title">Plant Order for Portland Nursery<br>at 5050 SE Stark</h2>
+			<h4 class="text-center description">Enter the name, size and number of each of the plants you are interested in purchasing for pick-up at 5050 SE Stark.</h4>
 
-			<p>ALL FIELDS are Required.</p>
+			<p>ALL Fields are Required</p>
 
 			<div class="confirm-container">
                 <!--This will contain the confirmation when the email is successfully sent-->
@@ -14,33 +14,29 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" value=""  name="name" placeholder="Enter name" required>
+                                <input type="text" class="form-control" value=""  name="name" placeholder="Enter name">
                             </div>
                          </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" value="" name="email" placeholder="Enter Email*" required >
+                                <input type="text" class="form-control" value="" name="email" placeholder="Enter Email*">
                             </div>
                         </div>
                     </div>
+               <div class="form-group">
+	               				<p>Email address:</p>
+	               				<input type="text" class="form-control" value="" name="email" placeholder="Enter Email*">
+                            </div>
+
                      <div class="form-group">
-                        <input type="text" class="form-control" value="" name="phone" placeholder="Enter Phone*" required >
+	                     <p>Phone:</p>
+	                     <input type="text" class="form-control" value="" name="phone" placeholder="Enter Phone*">
                     </div>
-
-                  <div class="form-group">
-	                  <p>PLEASE SELECT LOCATION FOR PICKUP.</p>
-<!--                         <input type="text" class="form-control" value="" name="location" placeholder="Enter Location for Pickup*"> -->
-                          <input type="radio" id="division" name="store" value="9000 SE Division" required >
-						  <label for="division">9000 SE Division</label><br>
-						  <input type="radio" id="stark" name="store" value="5050 SE Stark">
-						  <label for="stark">5050 SE Stark</label>
-                    </div>
-
                        <div class="form-group">
-                        <input type="text" class="form-control" value="Subject: Plant Order" name="subject" placeholder="Enter Subject">
+                        <input type="text" class="form-control" value="PLANT ORDER FOR STARK" name="subject" placeholder="Enter Subject">
                     </div>
                     <div class="form-group">
-                    <p>Please enter the plants/items you would like to purchase for car side pickup or delivery. Be sure to include the size and number of each plant/item. We will phone you in the next 24-48 hours to verify your order.</p>
+                    <p>Please enter the plants you would like to purchase for pickup. Include size and number of plants. We will phone you to verify your order.</p>
                         <textarea class="form-control" value="" name="body" placeholder="Plants & Products Requested for Curbside Pickup" cols="30" rows="10"></textarea>
                     </div>
                     {% if contactForm.enableCaptcha %}
