@@ -11,6 +11,10 @@ body {
 	font-weight: 300;
 }
 
+.left {
+	text-align: left;
+}
+
 .bottom-margin {
   margin-bottom: 40px;
 }
