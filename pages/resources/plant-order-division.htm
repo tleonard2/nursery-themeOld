@@ -1,0 +1,62 @@
+title = "Plant Order for 9000 SE Division"
+url = "/resources/plant-order-division"
+layout = "default"
+meta_title = "Order plants from Portland Nursery Division with garden center resources for all your gardening needs."
+meta_description = "Order plants from Portland Nursery Division with garden center resources for all your gardening needs."
+is_hidden = 0
+
+[siteSearchInclude]
+
+[renderForm]
+formCode = "stark-plant-order"
+==
+<div class="container">
+        <div class="title-block">
+<!--            <div class="title-image"><img class="img-responsive" src="{{ 'assets/images/resources/brochureshd.jpg'|theme }}"  alt="portland nursery" title="portland nursery" /></div> --> {% partial 'breadcrumbs/breadcrumbsresources' %}
+        </div>
+    </div><!-- container -->
+
+    <div class="container content">
+        <div class="row">
+	      <div class="col-md-12">
+		      <h2>PLEASE READ INSTRUCTIONS</h2>
+
+			<p>If you wish to order plants from us for car-side pickup or delivery, <strong>please fill out ALL fields on this form.</strong> </p>
+
+			<p>Please enter the plants/items you would like to purchase. Be sure to include the size and number of each plant/item. We will phone you in the next 24-72 hours to verify your order. Pick up of plants will be in a designated spot in the parking-lot.</p>
+
+<p>To get pricing on a delivery, please write that you are interested in the delivery and include your zipcode.</p>
+
+			<p>ALL Fields are Required</p>
+
+            <div class="col-md-7">
+            <div class="form-groups">
+
+                  {% component 'renderForm' renderForm_id = 'Division Plant Order' %}
+
+            </div>
+
+			</div><!-- col-md-8 left-inner -->
+
+			<div class="col-md-5 pull-right">
+
+			<h2>Please follow these instructions.</h2>
+
+			<ol style="font-size: 28px;">
+			<li>Fill out ALL fields in the form. </li>
+			<li><p style="color: red;">Submit your form - make sure you see the 'form sent message' in red at the top!</p></li>
+			<li>Add our phone number (503-788-9000) to your phone book (so that your phone recognizes our call).</li>
+			<li>Wait for our call in 24-72 hours to confirm your order.</li>
+			<li>Have your credit card available.</li>
+			<li>If you have problems or questions, call us at 503-788-9000, option 3. </li>
+			</ol>
+			</div><!-- col-md-8 left-inner -->
+
+
+
+
+	      </div> <!-- end col 12 -->
+
+        </div><!-- End Row -->
+
+    </div><!--=== End Container Content ===-->
