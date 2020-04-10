@@ -16,12 +16,12 @@ body {
 	text-align: left;
 }
 
-.form-groups {
+form {
 	margin-top: 10px;
 	border: 1px solid #cccccc;
 	padding: 20px;
 }
-.form-groups label {
+label {
 		font-weight: normal
 }
 .alert-success {

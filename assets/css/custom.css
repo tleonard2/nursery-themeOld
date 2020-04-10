@@ -57,7 +57,13 @@ section#happenings {
 	line-height:1.4;
 	font-weight: inherit;
 	background: #EAEDE6;
-
+}
+.media.happening-box.blue {
+	background: #4688B9;
+	border-radius:20px
+}
+.media.happening-box.blue h3.media-heading a {
+	color: #FFF;
 }
 
 .media.happening-box .media-heading {
