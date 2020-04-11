@@ -1,6 +1,6 @@
 /* Typography v2 versions final.1
 *******************************
-Revision March 31, 2020*/
+Revision April 9, 2020*/
 body {
 	background:#fff;
 	font-family: 'Josefin Sans', sans-serif;
@@ -16,12 +16,12 @@ body {
 	text-align: left;
 }
 
-form {
+.form-groups {
 	margin-top: 10px;
 	border: 1px solid #cccccc;
 	padding: 20px;
 }
-label {
+.form-groups label {
 		font-weight: normal
 }
 .alert-success {
