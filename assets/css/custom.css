@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------- */
 
-/* Version October 31, 2019*/
+/* Version April 24, 2020*/
 
 /* Happenings
 ------------------------------------*/
@@ -73,7 +73,7 @@ section#happenings {
 .media.happening-box .media-heading {
 	color: #000;
 	font-weight: 300;
-	margin-top:15px;
+	margin-top:20px;
 }
 
 .media.happening-box .media-heading a {
