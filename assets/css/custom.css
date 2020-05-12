@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------- */
 
-/* Version April 24, 2020*/
+/* Version May 7, 2020*/
 
 /* Happenings
 ------------------------------------*/
@@ -448,6 +448,9 @@ font-family: 'Josefin Sans', sans-serif;
 ------------------------------------*/
 figure {
 	margin:20px 0;
+}
+.imgcenter {
+	margin: 0 auto;
 }
 
 .accordion figure {
