@@ -1,6 +1,6 @@
 /* Typography v2 versions final.1
 *******************************
-Revision May 7, 2020*/
+Revision May 28, 2020*/
 body {
 	background:#fff;
 	font-family: 'Josefin Sans', sans-serif;
@@ -64,6 +64,8 @@ h1,h2,h3,h4,h5,h6 {
 	/*! font-weight: 500; */
     line-height:1.4;
 }
+
+
 
 .brightonL {
 	font-family:BrightonSB-Light;
@@ -194,6 +196,12 @@ h3.brightonM {
 
 h4, .h4 {
 	font-size:20px;
+}
+
+h3.borderline {
+	border: 2px solid #86c232;
+	border-radius: 20px;
+	padding: 10px
 }
 
 ul li {
