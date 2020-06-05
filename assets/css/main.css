@@ -1,6 +1,6 @@
 /* Typography v2 versions final.1
 *******************************
-Revision May 28, 2020*/
+Revision June 5, 2020*/
 body {
 	background:#fff;
 	font-family: 'Josefin Sans', sans-serif;
@@ -198,14 +198,22 @@ h4, .h4 {
 	font-size:20px;
 }
 
-h3.borderline {
+.borderline {
 	border: 2px solid #86c232;
 	border-radius: 20px;
-	padding: 10px
+	padding: 10px;
+	margin: 0 20px
+}
+.borderline h3 {
+	font-size: 20px
 }
 
 ul li {
 	line-height:1.8;
+}
+
+.page-home ul li {
+	line-height:1.4;
 }
 
 .section-header {
