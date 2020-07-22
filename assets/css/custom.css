@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------- */
 
-/* Version June 5 2020*/
+/* Version July 22 2020*/
 
 /* Happenings
 ------------------------------------*/
@@ -84,11 +84,24 @@ section#happenings {
 	color: #000;
 	font-weight: 300;
 	margin-top:20px;
+  text-align: left;
 }
 
 .media.happening-box .media-heading a {
-	color: #000;
+/* 	color: #000; */
+	color: #668A39;
+
+text-align: left;
 }
+
+.media.happening-box .media-heading.covid {
+	color: #000;
+	font-weight: 300;
+	margin-top:5px;
+	padding: 0 10px;
+  text-align: center;
+}
+
 
 .media.happening-box .pull-left {
 	margin-right:0px;
@@ -410,7 +423,6 @@ font-family: 'Josefin Sans', sans-serif;
 
 .breadcrumbs h1 {
 	color:#474B4F;
-	color: #61892F;
 	font-size:32px;
 	margin-top:20px;
 	text-transform:capitalize;
@@ -695,7 +707,8 @@ img.pull-left {
 
 .planttable h2,
 .planttable h2 a {
-	margin: 5px 0;
+	margin: 5px 0 0;
+	padding: 0;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 28px;
 	text-decoration: none;

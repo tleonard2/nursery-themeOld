@@ -1,6 +1,6 @@
 /* Typography v2 versions final.1
 *******************************
-Revision June 5, 2020*/
+Revision July 16, 2020*/
 body {
 	background:#fff;
 	font-family: 'Josefin Sans', sans-serif;
@@ -166,8 +166,9 @@ h2 {
 	font-size:32px;
 /* 	font-weight: 300; */
 	font-family:BrightonSB-Medium;
-		color: #86c232; /* 	light green */
-		color: #61892F; /* 	dark green */
+	color: #86c232; /* 	light green */
+	color: #61892F; /* 	dark green */
+	color:#474B4F;
 }
 
 h2.brightonM {
