@@ -14,23 +14,31 @@ slide_show_id = "{{ homeslider }}"
 	<div class="container">
 
 		<h1>At Portland Nursery, we stock everything garden: trees, shrubs, perennials, natives, annuals, grasses, herbs, houseplants and all the gardener needs for healthy, happy plants including tools, amendments, furniture and pottery. <a href="/about/locations/">Two convenient locations.</a></h1>
-
-<section id="happenings">{% partial "homepage/happenings" %}</section>
-
-<div class="center">
-   <h2 class="brightonL center">Car side Pickup at Portland Nursery</h2>
-<div class="borderline">
-				<h3>We strive to open online orders daily. <u>Please do not call asking when we will be accepting new orders.</u> Online-orders has a small staff that balances serving customers in the store while filling your order.</h3>
-
-</div>            </div>
-
 	</div>
 </section>
-
 <!--/#cta-->
+
 <!-- Happenings -->
 
-<section id="happenings">{% partial "homepage/orders" %}</section>
+<section id="happeningstitle">{% partial "homepage/happeningstitle" %}</section>
+<section id="covidmodal">{% partial "homepage/covidmodal" %}</section>
+<section id="monthlyfeatures">{% partial "homepage/monthlyfeatures" %}</section>
+
+<!-- Happenings -->
+
+<section id="happenings">
+<div class="container">
+	<div class="center">
+   <h2 class="brightonL center">Car side Pickup at Portland Nursery</h2>
+   <div class="borderline">
+				<h3>We strive to open online orders daily. <u>Please do not call asking when we will be accepting new orders.</u> Online-orders has a small staff that balances serving customers in the store while filling your order.</h3>
+
+</div> <!-- borderline -->
+</div> <!-- center -->
+</div> <!-- container -->
+
+{% partial "homepage/orders" %}
+</section>
 
 <section id="potsizes">{% partial "homepage/potsizes" %}</section>
 

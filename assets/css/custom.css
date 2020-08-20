@@ -1,11 +1,11 @@
 /* ---------------------------------------------------------------------- */
 
-/* Version July 22 2020*/
+/* Version July 31 2020*/
 
 /* Happenings
 ------------------------------------*/
 #happenings .media.happening-box:first-child {
-	margin-top:10px;
+	margin: 20px 0 10px;
 }
 
 section#happenings {
@@ -18,7 +18,8 @@ section#happenings {
 	padding:0;
 }
 
-#happenings .section-header h2 span {
+#happenings .section-header h2 span,
+#happeningstitle .section-header h2 span {
     text-transform: capitalize
 }
 
