@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------- */
 
-/* Version July 31 2020*/
+/* Version August 21 2020*/
 
 /* Happenings
 ------------------------------------*/
@@ -30,36 +30,8 @@ section#happenings {
 	max-width: 90%
 }
 
-@media (max-width: 768px) {
-	#happenings .section-header h2 {
-		font-size:28px;
-		margin:0;
-		padding:0;
-  }
-	#happenings .section-header p {
-	 font-size:18px;
-	}
-}
-
-.features {
-	display: flex
-}
-
-#potsizes,
-#referencelists {
-	margin-top: 0;
-	padding-top:0
-}
-
-#potsizes .col-md-3 {
-	margin-top: 20px;
-}
-
-@media (max-width: 412px) {
-	.features {
-		display: block;
-	}
-}
+/* Happenings boxes
+------------------------------------*/
 
 .media.happening-box {
 	margin:25px 0;
@@ -68,44 +40,16 @@ section#happenings {
 	line-height:1.4;
 	font-weight: inherit;
 	background: #EAEDE6;
-}
-.media.happening-box.blue {
-	background: #4688B9;
-	border-radius:20px
-}
-.media.happening-box.blue h3.media-heading a {
-	color: #FFF;
+/* 	min-width: 380px */
 }
 
 .media.happening-box .media-heading {
-	text-transform: capitalize;
-}
-
-.media.happening-box .media-heading {
-	color: #000;
 	font-weight: 300;
 	margin-top:20px;
-  text-align: left;
 }
 
 .media.happening-box .media-heading a {
-/* 	color: #000; */
 	color: #668A39;
-
-text-align: left;
-}
-
-.media.happening-box .media-heading.covid {
-	color: #000;
-	font-weight: 300;
-	margin-top:5px;
-	padding: 0 10px;
-  text-align: center;
-}
-
-
-.media.happening-box .pull-left {
-	margin-right:0px;
 }
 
 .media.happening-box .img-responsive {
@@ -120,6 +64,50 @@ text-align: left;
 	-o-transition:box-shadow .2s ease-in-out;
 	transition:box-shadow .2s ease-in-out;
 }
+
+.features {
+	display: flex
+}
+
+.media.happening-box.blue {
+	background: #4688B9;
+	border-radius:20px
+}
+.media.happening-box.blue h3.media-heading a {
+	color: #FFF;
+}
+
+.media.happening-box .media-heading.covid {
+	font-weight: 300;
+	margin-top:5px;
+	padding: 0 10px;
+  text-align: center;
+}
+
+
+
+#potsizes,
+#referencelists {
+	margin-top: 0;
+	padding-top:0
+}
+
+#potsizes .col-md-3 {
+	margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+	#happenings .section-header h2 {
+		font-size:28px;
+		margin:0;
+		padding:0;
+  }
+	#happenings .section-header p {
+	 font-size:18px;
+	}
+}
+
 
 /* Social Block
 ------------------------------------*/

@@ -1,0 +1,112 @@
+==
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ this.page.meta_description }}">
+	<meta name="keywords" content="{{ this.page.meta_keywords }}">
+    <meta name="author" content="{{ this.page.meta_author }}">
+    <meta name="google-site-verification" content="Krzm-SNq2XHfZUyEnIJlpayzUovzffeq6kiV7OHb4ZQ" />
+    <title>{{ this.page.title }} | {{ this.theme.site_name }}</title>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M48RXDN');</script>
+<!-- End Google Tag Manager -->
+
+	<!-- core CSS -->
+{% styles %}
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <link rel="icon" href="{{ '/favicon.ico'|app }}" />
+
+<!-- Multi-theme -->
+<!-- 	<link rel="stylesheet" href="{{ 'assets/css/font-awesome.min.css'|theme }}"> -->
+	<link rel="stylesheet" href="{{ 'assets/css/animate.min.css'|theme }}">
+	<link rel="stylesheet" href="{{ 'assets/css/prettyPhoto.css'|theme }}">
+<!-- */ Multi-theme -->
+
+	<link rel="stylesheet" href="{{ 'assets/css/BrightonKit/BrightonKit.css'|theme }}">
+
+
+	<link rel="stylesheet" href="{{ 'assets/css/main.css'|theme }}">
+	<link rel="stylesheet" href="{{ 'assets/css/responsive.css'|theme }}">
+	<link rel="stylesheet" href="{{ 'assets/css/header-defaultpn.css'|theme }}">
+
+<!-- <link rel="stylesheet" href="{{ 'assets/css/testpage.css'|theme }}"> -->
+
+	<!-- CSS Customization -->
+	<link rel="stylesheet" href="{{ 'assets/css/custom.css'|theme }}">
+
+<!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="{{ 'assets/images/ico/favicon.ico'|theme }}">
+    <link rel="icon" type="image/png" href="https://portlandnursery.com/newsite/themes/nursery-theme/assets/images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ 'images/ico/apple-touch-icon-144-precomposed.png'|theme }}">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ 'images/ico/apple-touch-icon-114-precomposed.png'|theme }}">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ 'images/ico/apple-touch-icon-72-precomposed.png'|theme }}">
+    <link rel="apple-touch-icon-precomposed" href="{{ 'images/ico/apple-touch-icon-57-precomposed.png'|theme }}">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-21703888-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-21703888-1');
+</script>
+
+</head><!--/head-->
+
+<body class="page-{{ this.page.id }} layout-{{ this.layout.id }} plants">
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M48RXDN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header id="header">
+    {% partial "mainnav" %}
+</header><!--/header test-->
+
+
+                        {% page %}
+
+
+<footer id="footer">
+    {% partial "footerhome" %}
+</footer><!--/#footer-->
+
+{% component 'googleTracker' %}
+
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+
+    <script type="text/javascript" src="{{ 'assets/js/jquery.js'|theme }}"></script>
+  <!--  <script type="text/javascript" src="{{ 'assets/js/bootstrap.min.js'|theme }}"></script> -->
+    <script type="text/javascript" src="{{ 'assets/js/owl.carousel.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/mousescroll.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/smoothscroll.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/jquery.prettyPhoto.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/jquery.isotope.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/jquery.inview.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/wow.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/main.js'|theme }}"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+{% framework %}
+{% framework extras %}
+{% scripts %}
+
+</body>
+</html>

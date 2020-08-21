@@ -1,6 +1,6 @@
 /* Typography v2 versions final.1
 *******************************
-Revision August 10, 2020*/
+Revision August 20, 2020*/
 body {
 	background:#fff;
 	font-family: 'Josefin Sans', sans-serif;
@@ -1657,6 +1657,13 @@ ul.sidebar-gallery {
  margin: 0;
  padding:  0;
  width:108%;
+}
+*/
+
+/*
+.panel {
+    max-width: 25%;
+    float: left;
 }
 */
 
