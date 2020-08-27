@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------- */
 
-/* Version August 21 2020*/
+/* Version August 23 2020*/
 
 /* Happenings
 ------------------------------------*/
@@ -71,8 +71,10 @@ section#happenings {
 
 .media.happening-box.blue {
 	background: #4688B9;
-	border-radius:20px
+	border-radius:20px;
+	min-width: 420px;
 }
+
 .media.happening-box.blue h3.media-heading a {
 	color: #FFF;
 }
@@ -81,11 +83,43 @@ section#happenings {
 	font-weight: 300;
 	margin-top:5px;
 	padding: 0 10px;
-  text-align: center;
+	text-align: center;
 }
 
+@media (max-width: 768px) {
+	#happenings .section-header h2,
+	#happeningstitle .section-header h2{
+		font-size:28px;
+		margin:0;
+		padding:0;
+  }
+	#happenings .section-header p {
+	 font-size:18px;
+	}
 
+	#happeningstitle .section-header h3,
+	#covidmodal h3 {
+	 font-size:22px;
+	}
 
+	.media.happening-box .media-heading.covid {
+	  min-width: 100%
+	}
+}
+
+@media (max-width: 480px) {
+	.features {
+		display: block;
+	}
+	.media.happening-box {
+		min-width: 100%
+	}
+
+	#monthlyfeatures .row {
+		margin: 0;
+		padding: 0;
+	}
+}
 #potsizes,
 #referencelists {
 	margin-top: 0;
@@ -94,18 +128,6 @@ section#happenings {
 
 #potsizes .col-md-3 {
 	margin-top: 20px;
-}
-
-
-@media (max-width: 768px) {
-	#happenings .section-header h2 {
-		font-size:28px;
-		margin:0;
-		padding:0;
-  }
-	#happenings .section-header p {
-	 font-size:18px;
-	}
 }
 
 
