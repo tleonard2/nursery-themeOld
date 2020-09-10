@@ -72,7 +72,7 @@ section#happenings {
 .media.happening-box.blue {
 	background: #4688B9;
 	border-radius:20px;
-	min-width: 420px;
+/* 	min-width: 420px; */
 }
 
 .media.happening-box.blue h3.media-heading a {

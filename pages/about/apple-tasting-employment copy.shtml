@@ -33,7 +33,7 @@
      <!--#include virtual="../inc/hoursevents.inc" -->
     </div>
 
-<a href="http://portlandnursery.com"><img src="../images-layout/msthd.jpg" alt="Portland Nursery" width="770" height="151" class="msthd" />
+<a href=""><img src="../images-layout/msthd.jpg" alt="Portland Nursery" width="770" height="151" class="msthd" />
 </a>
 
   <div id="mainnav">
@@ -225,7 +225,7 @@
 </div>
 
 <div class="tophead">
-<img src="http://portlandnursery.com/events/images-events/Appletasting/apples/appletastinghd778.jpg" alt="appletastinghd778" width="778" height="300">
+<img src="/events/images-events/Appletasting/apples/appletastinghd778.jpg" alt="appletastinghd778" width="778" height="300">
 </div>
 
 <div id="contentWide">
@@ -266,7 +266,7 @@
 
 <hr />
 
-<h4>Print out our (editable) application form for this position: <a href="http://portlandnursery.com/docs/employment/ATapplicationFillable.pdf" target="_blank">Application for Apple Tasting Employment</a></h4>
+<h4>Print out our (editable) application form for this position: <a href="/docs/employment/ATapplicationFillable.pdf" target="_blank">Application for Apple Tasting Employment</a></h4>
 <p>&nbsp;</p>
 <h4>Applications can be sent to <a href="mailto:jobs@portlandnursery.com?subject=AT%20Employment">jobs@portlandnursery.com</a> or faxed to 503.231.7123.</h4>
 

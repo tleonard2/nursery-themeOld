@@ -1660,12 +1660,10 @@ ul.sidebar-gallery {
 }
 */
 
-/*
-.panel {
+masonry .panel img {
     max-width: 25%;
     float: left;
 }
-*/
 
 .masonry .panel.marketing  {
     border-color: #fff;
