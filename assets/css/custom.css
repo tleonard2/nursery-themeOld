@@ -1,6 +1,6 @@
-/* ---------------------------------------------------------------------- */
-
-/* Version August 23 2020*/
+/* Custom
+*******************************
+Revision Sept 10, 2020*/
 
 /* Happenings
 ------------------------------------*/
@@ -72,10 +72,10 @@ section#happenings {
 .media.happening-box.blue {
 	background: #4688B9;
 	border-radius:20px;
-/* 	min-width: 420px; */
 }
 
-.media.happening-box.blue h3.media-heading a {
+.media.happening-box.blue h3.media-heading a,
+.media.happening-box.blue h4.media-heading a {
 	color: #FFF;
 }
 
@@ -84,7 +84,12 @@ section#happenings {
 	margin-top:5px;
 	padding: 0 10px;
 	text-align: center;
+	color: #FFF
 }
+
+.media.happening-box .img-responsive.covid {
+	max-width: 80%;
+	}
 
 @media (max-width: 768px) {
 	#happenings .section-header h2,
@@ -146,6 +151,7 @@ section#happenings {
 	margin: 20px 0;
 	padding: 0;
 	font-family:BrightonSB-light;
+	text-align: center
 }
 
 #socialblock h3 {
@@ -429,18 +435,7 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 .breadcrumbs .container {
-	padding-left: 0;
-}
-
-.breadcrumbs h1 {
-	color:#474B4F;
-	font-size:32px;
-	margin-top:20px;
-	text-transform:capitalize;
-	font-family:BrightonSB-Medium;
-/* 	font-weight:normal; */
-	font-style:normal;
-	letter-spacing: 1px;
+	padding-left: 20px
 }
 
 .breadcrumb {
@@ -468,11 +463,11 @@ font-family: 'Josefin Sans', sans-serif;
 		display: none;
 	}
 
-	.breadcrumbs h1.pull-left {
+/* 	.breadcrumbs h1.pull-left {
 		margin-bottom:0;
 		text-align: center;
 		width: 100%
-	}
+	} */
 }
 
 /*  End Breadcrumbs */

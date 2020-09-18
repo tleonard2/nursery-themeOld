@@ -1,4 +1,4 @@
-/* lg */
+/* lg */ 
 @media (min-width: 1200px) {
  /* Make Navigation Toggle on Desktop Hover */
   .dropdown:hover .dropdown-menu {
@@ -12,20 +12,13 @@
     margin-right: -10px;
   }
 
-   #main-slider .carousel h1 {
-    font-size: 64px;
-  }
-
-  #main-slider .carousel h2 {
-    font-size: 30px;
-  }
-
+  
 
 }
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
-
+  
  /* Make Navigation Toggle on Desktop Hover */
   .dropdown:hover .dropdown-menu {
       display: block;
@@ -54,14 +47,13 @@
     padding: 40px 10px 40px 30px;
   }
 
-  .feature-wrap h2,
+  .feature-wrap h2, 
   .single-services h2 {
     font-size: 18px;
   }
 
-  .feature-wrap h3,
-  .single-services h3,
-  .plant-list-wrap a{
+  .feature-wrap h3, 
+  .single-services h3{
     font-size: 14px;
   }
 
@@ -103,15 +95,6 @@
     margin-right: 0;
   }
 
-  #main-slider .carousel h1 {
-    font-size: 45px;
-	line-height: 1;
-  }
-
-  #main-slider .carousel h2 {
-    font-size: 20px;
-  }
-
 }
 
 
@@ -134,20 +117,20 @@
   }
 
   #main-slider .carousel h1 {
-    font-size: 45px;
+    font-size: 25px;
   }
 
   #main-slider .carousel h2 {
     font-size: 20px;
   }
 
-  .tab-wrap .media .parrent.pull-left,
+  .tab-wrap .media .parrent.pull-left, 
   .media.accordion-inner .pull-left{
     clear: both;
     width: 100%;
   }
 
-  .tab-wrap .media .parrent.media-body,
+  .tab-wrap .media .parrent.media-body, 
   .media.accordion-inner .media-body{
     clear: both;
   }
@@ -160,15 +143,14 @@
    padding: 15px;
   }
 
-  .recent-work-wrap .recent-work-inner h3 a,
-  .plant-list-wrap a {
-    font-size: 14px;
+  .recent-work-wrap .recent-work-inner h3 a {
+    font-size: 20px;
   }
 
   .sinlge-skill{
     width: 150px;
     height: 150px;
-  }
+  } 
 
   .sinlge-skill p em {
     font-size: 25px;
@@ -221,17 +203,26 @@
     padding-bottom: 0;
   }
 
-  .feature-wrap h2,
+  #main-slider .carousel h1 {
+    font-size: 25px;
+  }
+
+  #main-slider .carousel h2 {
+    font-size: 16px;
+  }
+
+  .feature-wrap h2, 
   .single-services h2 {
     font-size: 18px;
   }
 
-  .feature-wrap h3,
+  .feature-wrap h3, 
   .single-services h3{
     font-size: 14px;
   }
 
-  .media.accordion-inner .pull-left,
+
+  .media.accordion-inner .pull-left, 
   .media.accordion-inner .media-body{
     clear: both;
   }
@@ -256,8 +247,8 @@
   #footer .col-sm-6{
       text-align:center;
   }
-
-  #footer .pull-right{
+  
+   #footer .pull-right{
       float: none !important;
   }
 
@@ -267,7 +258,7 @@
     margin-bottom: 30px;
   }
 
-  .team .single-profile-top,
+  .team .single-profile-top, 
   .team .single-profile-bottom {
     margin-bottom: 30px;
   }
@@ -280,7 +271,7 @@
     font-size: 25px;
   }
 
-  .portfolio-item,
+  .portfolio-item, 
   #recent-works .col-xs-12.col-sm-4.col-md-3{
     padding:0 15px;
   }
@@ -300,16 +291,13 @@
   .post_reply_comments {
     padding-left: 20px;
   }
-
+    
 
 }
 
 /* XS Portrait */
-@media (max-width: 680px) {
-
-
+@media (max-width: 480px) {
 
 
 }
-
 
