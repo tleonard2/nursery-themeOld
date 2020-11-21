@@ -1,6 +1,6 @@
 /* Typography v2 versions final.1
 *******************************
-Revision Sept 13, 2020*/
+Revision Oct 14, 2020*/
 
 
 body {
@@ -282,6 +282,14 @@ thead.gray:first-child th{
 	margin: 0;
 	padding: 5px 0 0;
 	border: none;
+}
+
+table.frostdates {
+	font-size: 75%
+}
+
+table.frostdates tr.titlerow {
+	font-weight: 700
 }
 
 .modal-content {
@@ -679,7 +687,7 @@ input.search-form:hover {
 
 .navbar-inverse .navbar-nav .dropdown-menu > li > a {
   padding: 8px 15px;
-  margin-left: 20px;
+/*   margin-left: 20px; */
   color:#474B4F;
   font-size: 16px;
   font-weight: 300;
@@ -1520,13 +1528,15 @@ input.search-form:hover {
 }
 */
 
-.item {
+/*
+.item { not sure where this is used
     border: 1px solid #eee;
     box-shadow: 0 0 10px -3px #ccc;
     border-radius: 5px;
     margin-bottom: 30px;
     padding: 25px;
 }
+*/
 
 /* version with title boxes */
 
@@ -1539,44 +1549,28 @@ input.search-form:hover {
 
 }
 
-/*
 .masonry .panel {
  display: inline-block;
 /*  margin:  .5em; */
  padding:  0;
  width:95%;
 }
-*/
 
+@-moz-document url-prefix() {
+  .masonry .panel {
+    width:24%;
+	vertical-align: top;
+  }
+}
+
+/*
 .masonry .panel.marketing .panel-body {
  display: inline-block;
  margin: 0;
  padding:  0;
  width:108%;
 }
-
-
-/* .masonry .panel.panel-default {
-	display: inline-block;
-    width: 25%;
-   	vertical-align: top
-}
-
-@-moz-document url-prefix() {
-    .masonry .panel.panel-default {
-	 	display: inline-block;
-	 	width: 24%;
-
-	}
-}
-
-@-moz-document url-prefix() {
-    .masonry .panel.panel-default {
-	 	display: inline-block;
-	 	max-width: 25%;
-	 	float: left;
-	}
-} */
+*/
 
 .masonry .panel.marketing  {
     border-color: #fff;
@@ -1592,14 +1586,26 @@ input.search-form:hover {
 }
 
 .masonry ul {
+	margin: 15px 0;
 	padding-left: 20px;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .masonry p a {
 	margin: 15px 0 0;
 	padding-left: 0px;
 	font-size: 18px;
+}
+
+.masonry p a.btn-primary {
+	margin: 15px;
+	padding: 10px 20px;
+	font-size: 18px;
+}
+
+.masonry p.page {
+	margin-bottom: 20px;
+	min-width: 300px;
 }
 
 .masonry p i {
@@ -1610,17 +1616,6 @@ input.search-form:hover {
 
 .masonry img {
 	margin-bottom: 10px;
-}
-
-.masonry a.btn-primary {
-    font-weight: 500;
-    font-size: 18px;
-    color: #FFF;
-	  display: block;
-    background: #86c232;
-   	text-align: center;
-    padding-top: 15px;
-	 width: 100%;
 }
 
 /* .page-resources-brochures strong {

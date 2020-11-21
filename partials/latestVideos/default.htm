@@ -1,0 +1,10 @@
+<p>this is the spot</p>
+
+
+{% set videos = portlandnursery.videos %}
+{% for video in videos %}
+  <a href="{{ video.link }}">
+    <img src="{{ video.thumbnail }}" alt="{{ video.title }}">
+    <span>{{ video.title }}</span>
+  </a>
+{% endfor %}
