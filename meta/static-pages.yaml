@@ -3,3 +3,4 @@ static-pages:
         plants-annuals:
             plants-annuals-newplant: {  }
     plants-annuals-datura: {  }
+    statichome: {  }
