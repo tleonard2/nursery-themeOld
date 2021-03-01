@@ -1,6 +1,6 @@
 /* Custom
 *******************************
-Revision Sept 10, 2020*/
+Revision Feb. 23, 2021*/
 
 /* Happenings
 ------------------------------------*/
@@ -91,6 +91,18 @@ section#happenings {
 	max-width: 80%;
 	}
 
+.modal-backdrop {
+    background-color: #fff;
+    color: black;
+}
+
+.modal-content .modal-body button.close {
+	color: black;
+	font-weight: 700
+}
+
+
+
 @media (max-width: 768px) {
 	#happenings .section-header h2,
 	#happeningstitle .section-header h2{
@@ -158,7 +170,8 @@ section#happenings {
 	margin-top:5px;
 	color: #FFF;
 	font-size:18px;
-	text-align: center;font-weight:300;
+	text-align: center;
+	font-weight:300;
 }
 
 #socialblock p {
@@ -711,6 +724,11 @@ img.pull-left {
 	padding:20px 0;
 }
 
+body.page-newslanding .planttable {
+	border-top:1px solid #CCC;
+	padding:10px;
+}
+
 .planttable h2,
 .planttable h2 a {
 	margin: 5px 0 0;
@@ -718,6 +736,20 @@ img.pull-left {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 28px;
 	text-decoration: none;
+}
+
+body.page-newslanding .planttable h2 {
+	font-size: 42px;
+	color: white;
+	text-align: left;
+	font-family:BrightonSB-medium;
+	font-style: normal;
+	text-shadow: #000 1px 0 2px;
+}
+
+body.page-newslanding .planttable h3 {
+	font-size: 36px;
+	color: #FFF
 }
 
 .planttable h2.brightonM {
@@ -1091,5 +1123,3 @@ a.accordion-toggle i{
 .page-home #footer .col-md-6 form {
 	display: none;
 }
-
-
