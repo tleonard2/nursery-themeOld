@@ -1,0 +1,67 @@
+description = "Static Home Layout"
+
+[session]
+security = "all"
+redirect = "home"
+
+[staticPage]
+useContent = 1
+default = 0
+
+[slider]
+slide_show_id = "{{ homeslider }}"
+==
+<html>
+    <head>
+        {% partial 'site/metalong' %}
+	</head><!--/head-->
+
+<body class="page-{{ this.page.id }} layout-{{ this.layout.id }} plants">
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M48RXDN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+        <!-- Header -->
+			<header id="header">
+				{% partial "site/top" %}
+				{% partial "site/nav" %}
+
+				<section class="no-margin">{% component 'slider' slide_show_id = 5 %}</section>
+			<div class="newssignup"><p>Sign up for our newsletter and get an instant 25% off your next pottery purchase! <script type="text/javascript" src="//app.icontact.com/icp/core/mycontacts/signup/designer/form/automatic?id=180&cid=230017&lid=10011"></script></p></div>
+
+				</header><!--/header -->
+
+<section id="happeningstitle">
+	<div class="container">
+		<div class="section-header">
+
+			<h2 class="brightonL center">What's Happening at Portland Nursery this <span>{% partial 'resources/month' %}</span></h2>
+
+			<h3>{% placeholder whatshappening title="What's Happening" %}</h3>
+
+		</div><!-- section header -->
+
+	</div><!--/.container-->
+</section>
+
+<section id="monthlyfeatures">{% partial "homepage/monthlyfeatures" %}</section>
+
+<section id="covidmodal">{% partial "homepage/covidmodal" %}</section>
+
+<!-- Happenings -->
+<section id="socialblock">{% partial "homepage/socialblock" %}</section>
+<!--end happenings-->
+
+
+		<footer id="footer">
+		    {% partial "site/footerhome" %}
+		</footer><!--/#footer-->
+
+		{% component 'googleTracker' %}
+
+        <!-- Scripts -->
+        {% partial 'scripts' %}
+
+    </body>
+</html>

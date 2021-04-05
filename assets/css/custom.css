@@ -1,6 +1,6 @@
 /* Custom
 *******************************
-Revision Feb. 23, 2021*/
+Revision March 18a, 2021*/
 
 /* Happenings
 ------------------------------------*/
@@ -50,6 +50,7 @@ section#happenings {
 
 .media.happening-box .media-heading a {
 	color: #668A39;
+	display: block;
 }
 
 .media.happening-box .img-responsive {
@@ -724,7 +725,7 @@ img.pull-left {
 	padding:20px 0;
 }
 
-body.page-newslanding .planttable {
+body.layout-landingpage .planttable {
 	border-top:1px solid #CCC;
 	padding:10px;
 }
@@ -738,7 +739,7 @@ body.page-newslanding .planttable {
 	text-decoration: none;
 }
 
-body.page-newslanding .planttable h2 {
+body.layout-landingpage .planttable h2 {
 	font-size: 42px;
 	color: white;
 	text-align: left;
@@ -747,7 +748,7 @@ body.page-newslanding .planttable h2 {
 	text-shadow: #000 1px 0 2px;
 }
 
-body.page-newslanding .planttable h3 {
+body.layout-landingpage .planttable h3 {
 	font-size: 36px;
 	color: #FFF
 }
@@ -766,6 +767,11 @@ body.page-newslanding .planttable h3 {
 	margin: 0px;
 	padding-left: 30px;
 	margin-bottom: 20px;
+}
+
+body.layout-landingpage .planttable li {
+	font-size: 24px;
+	color: #FFF
 }
 
 .planttable figure {
@@ -1071,6 +1077,33 @@ a.accordion-toggle i{
 	text-align: center;
 }
 
+/* header signup form */
+
+section#news,
+section.no-margin {
+	margin: 0;
+	padding: 0 0;
+}
+
+#news .newssignup {
+	background: #EAEDE6;
+	border-top: 4px solid white;
+}
+
+#news .newssignup {
+	color: #668A39;
+	padding: 5px 10px 0 10px;
+	text-align: center;
+}
+
+.newssignup #ic_signupform{
+	margin: -5px 0 -40px
+}
+
+.newssignup #ic_signupform .elcontainer{
+	background: #EAEDE6;
+}
+
 #footer #ic_signupform {
 	margin-left: -60px;
 	padding-left: 0;
@@ -1094,10 +1127,6 @@ a.accordion-toggle i{
     background: #474B4F;
 }
 
-.page-about-locations #ic_signupform .elcontainer input {
-
-}
-
 #ic_signupform .elcontainer .submit-container input[type="submit"] {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -1107,6 +1136,10 @@ a.accordion-toggle i{
 
 #ic_signupform .elcontainer .submit-container .grecaptcha-badge iframe {
   vertical-align: -9999px;
+}
+
+.page-newslanding #ic_signupform .elcontainer {
+	background: none;
 }
 
 @media (max-width: 420px) {
@@ -1122,4 +1155,12 @@ a.accordion-toggle i{
 
 .page-home #footer .col-md-6 form {
 	display: none;
+}
+
+/* custom planting plans */
+
+@media (max-width: 480px) {
+	img.number {
+    display: none;
+	}
 }

@@ -1,0 +1,25 @@
+title = "Portland Nursery"
+url = "/homenew"
+layout = "homenew"
+description = "Home Page"
+meta_title = "Portland Nursery garden center: Wreaths for Sale, plants, tools, amendments, herbs, houseplants, garden accessories"
+meta_description = "Portland Nursery garden center: Wreaths for Sale, trees, shrubs, perennials, natives, annuals, grasses, herbs, houseplants: everything for healthy, happy plants including tools, amendments, furniture and pottery."
+is_hidden = 0
+
+[slider]
+slide_show_id = "{{ homeslider }}"
+==
+<section class="no-margin">{% component 'slider' slide_show_id = 5 %}</section>
+<section id="news"><div class="newssignup">Sign up for our newsletter and get an instant 25% off your next pottery purchase! <script type="text/javascript" src="//app.icontact.com/icp/core/mycontacts/signup/designer/form/automatic?id=180&cid=230017&lid=10011"></script></div>
+</section>
+<!--/#cta-->
+
+<!-- Happenings -->
+
+<section id="happeningstitle">{% partial "homepage/happeningstitle" %}</section>
+<section id="monthlyfeatures">{% partial "homepage/monthlyfeatures" %}</section>
+<section id="covidmodal">{% partial "homepage/covidmodal" %}</section>
+&nbsp;
+<!-- Happenings -->
+<section id="socialblock">{% partial "homepage/socialblock" %}</section>
+<!--end happenings-->

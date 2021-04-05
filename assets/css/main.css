@@ -1,6 +1,6 @@
 /* Typography v2 versions final.1
 *******************************
-Revision Feb 23, 2021*/
+Revision Mar 18, 2021*/
 
 
 body {
@@ -58,7 +58,7 @@ h1.brightonM  {
 	margin-left: -15px;
 }
 
-body.page-newslanding h1.brightonM  {
+body.layout-landingpage h1.brightonM {
 	font-size:42px;
 	font-family:BrightonSB-Medium;
 	margin-left: 15px;
@@ -200,6 +200,7 @@ span.capitalize {
 .btn-primary a {
 	color:#FFF;
 	text-decoration: none;
+	display: block;
 }
 
 .btn-primary:hover,.btn-primary:focus {
@@ -217,6 +218,24 @@ span.capitalize {
 .btn-transparent:hover {
 	border-color:rgba(255,255,255,0.5);
 }
+
+p.btn-primary.shop {
+	width: 320px;
+	margin: 0px auto;
+	height: auto;
+	padding: 20px;
+	font-size: 32px;
+	line-height: 1.4;
+	display: block
+}
+
+/*
+@media (max-width: 420px) {
+	p.btn-primary.shop {
+		font-size: 24px;
+	}
+}
+*/
 
 /*************************
 *******Forms******
@@ -347,7 +366,7 @@ table.frostdates tr.titlerow {
 }
 
 body > section {
-  padding: 70px 0;
+  padding: 20px 0;
 }
 
 body.page-home > section {
@@ -749,16 +768,19 @@ input.search-form:hover {
 *******Home Page******
 **************************/
 
+.slick-slide  /* static page change */ {
+    max-height: 300px;
+    min-height: 1px;
+}
+
 #main-slider {
 	position:relative;
 }
 
-/*
-.no-margin {
+body > section#happeningstitle {  /* static page change */
 	margin:0;
 	padding:0;
 }
-*/
 
 #main-slider .carousel .carousel-content {
 	margin-top:40px;
@@ -1392,7 +1414,7 @@ input.search-form:hover {
 	background:#2e2e2e;
 }
 
-body.page-newslanding #footer {
+body.layout-landingpage #footer {
 	background: none;
 }
 
@@ -1423,7 +1445,7 @@ body.page-newslanding #footer {
 	color:#999;
 }
 
-body.page-newslanding .footer1 {
+body.layout-landingpage .footer1 {
 	background: none;
 }
 
@@ -1608,13 +1630,14 @@ body.page-newslanding .footer1 {
 .masonry ul {
 	margin: 15px 0;
 	padding-left: 20px;
-	font-size: 16px;
+	font-size: 20px;
+	color: #86C232;
 }
 
 .masonry p a {
 	margin: 15px 0 0;
 	padding-left: 0px;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .masonry p a.btn-primary {
