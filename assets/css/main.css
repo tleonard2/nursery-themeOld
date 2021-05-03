@@ -1,6 +1,6 @@
 /* Typography v2 versions final.1
 *******************************
-Revision Mar 18, 2021*/
+Revision Oct 14, 2020*/
 
 
 body {
@@ -12,9 +12,6 @@ body {
 	font-size: 2.0em;
 	font-weight: 300;
 }
-
-
-
 
 .left-inner p:first-child {
 	font-size: 120%;
@@ -56,15 +53,6 @@ h1.brightonM  {
 	font-size:36px;
 	font-family:BrightonSB-Medium;
 	margin-left: -15px;
-}
-
-body.layout-landingpage h1.brightonM {
-	font-size:42px;
-	font-family:BrightonSB-Medium;
-	margin-left: 15px;
-	color: #FFF;
-	margin-top: 50px;
-	text-shadow: #000 1px 0 2px;
 }
 
 h1.title-header {
@@ -200,7 +188,6 @@ span.capitalize {
 .btn-primary a {
 	color:#FFF;
 	text-decoration: none;
-	display: block;
 }
 
 .btn-primary:hover,.btn-primary:focus {
@@ -218,24 +205,6 @@ span.capitalize {
 .btn-transparent:hover {
 	border-color:rgba(255,255,255,0.5);
 }
-
-p.btn-primary.shop {
-	width: 320px;
-	margin: 0px auto;
-	height: auto;
-	padding: 20px;
-	font-size: 32px;
-	line-height: 1.4;
-	display: block
-}
-
-/*
-@media (max-width: 420px) {
-	p.btn-primary.shop {
-		font-size: 24px;
-	}
-}
-*/
 
 /*************************
 *******Forms******
@@ -366,7 +335,7 @@ table.frostdates tr.titlerow {
 }
 
 body > section {
-  padding: 20px 0;
+  padding: 0px 0;
 }
 
 body.page-home > section {
@@ -768,19 +737,16 @@ input.search-form:hover {
 *******Home Page******
 **************************/
 
-.slick-slide  /* static page change */ {
-    max-height: 300px;
-    min-height: 1px;
-}
-
 #main-slider {
 	position:relative;
 }
 
-body > section#happeningstitle {  /* static page change */
+/*
+.no-margin {
 	margin:0;
 	padding:0;
 }
+*/
 
 #main-slider .carousel .carousel-content {
 	margin-top:40px;
@@ -1418,10 +1384,6 @@ body > section#happeningstitle {  /* static page change */
 	background:#2e2e2e;
 }
 
-body.layout-landingpage #footer {
-	background: none;
-}
-
 #footer a {
 	color:#fff;
 }
@@ -1447,10 +1409,6 @@ body.layout-landingpage #footer {
 	padding:30px 0 0;
 	font-size:16px;
 	color:#999;
-}
-
-body.layout-landingpage .footer1 {
-	background: none;
 }
 
 .footer1 a {
@@ -1634,14 +1592,13 @@ body.layout-landingpage .footer1 {
 .masonry ul {
 	margin: 15px 0;
 	padding-left: 20px;
-	font-size: 20px;
-	color: #86C232;
+	font-size: 16px;
 }
 
 .masonry p a {
 	margin: 15px 0 0;
 	padding-left: 0px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .masonry p a.btn-primary {
