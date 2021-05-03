@@ -1,6 +1,6 @@
 /* Custom
 *******************************
-Revision Sept 10, 2020*/
+Revision March 18a, 2021*/
 
 /* Happenings
 ------------------------------------*/
@@ -50,6 +50,7 @@ section#happenings {
 
 .media.happening-box .media-heading a {
 	color: #668A39;
+	display: block;
 }
 
 .media.happening-box .img-responsive {
@@ -90,6 +91,18 @@ section#happenings {
 .media.happening-box .img-responsive.covid {
 	max-width: 80%;
 	}
+
+.modal-backdrop {
+    background-color: #fff;
+    color: black;
+}
+
+.modal-content .modal-body button.close {
+	color: black;
+	font-weight: 700
+}
+
+
 
 @media (max-width: 768px) {
 	#happenings .section-header h2,
@@ -202,7 +215,8 @@ section#happenings {
 	margin-top:5px;
 	color: #FFF;
 	font-size:18px;
-	text-align: center;font-weight:300;
+	text-align: center;
+	font-weight:300;
 }
 
 #socialblock p {
@@ -755,6 +769,11 @@ img.pull-left {
 	padding:20px 0;
 }
 
+body.layout-landingpage .planttable {
+	border-top:1px solid #CCC;
+	padding:10px;
+}
+
 .planttable h2,
 .planttable h2 a {
 	margin: 5px 0 0;
@@ -762,6 +781,20 @@ img.pull-left {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 28px;
 	text-decoration: none;
+}
+
+body.layout-landingpage .planttable h2 {
+	font-size: 42px;
+	color: white;
+	text-align: left;
+	font-family:BrightonSB-medium;
+	font-style: normal;
+	text-shadow: #000 1px 0 2px;
+}
+
+body.layout-landingpage .planttable h3 {
+	font-size: 36px;
+	color: #FFF
 }
 
 .planttable h2.brightonM {
@@ -778,6 +811,11 @@ img.pull-left {
 	margin: 0px;
 	padding-left: 30px;
 	margin-bottom: 20px;
+}
+
+body.layout-landingpage .planttable li {
+	font-size: 24px;
+	color: #FFF
 }
 
 .planttable figure {
@@ -1083,6 +1121,33 @@ a.accordion-toggle i{
 	text-align: center;
 }
 
+/* header signup form */
+
+section#news,
+section.no-margin {
+	margin: 0;
+	padding: 0 0;
+}
+
+#news .newssignup {
+	background: #EAEDE6;
+	border-top: 4px solid white;
+}
+
+#news .newssignup {
+	color: #668A39;
+	padding: 5px 10px 0 10px;
+	text-align: center;
+}
+
+.newssignup #ic_signupform{
+	margin: -5px 0 -40px
+}
+
+.newssignup #ic_signupform .elcontainer{
+	background: #EAEDE6;
+}
+
 #footer #ic_signupform {
 	margin-left: -60px;
 	padding-left: 0;
@@ -1106,10 +1171,6 @@ a.accordion-toggle i{
     background: #474B4F;
 }
 
-.page-about-locations #ic_signupform .elcontainer input {
-
-}
-
 #ic_signupform .elcontainer .submit-container input[type="submit"] {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -1119,6 +1180,10 @@ a.accordion-toggle i{
 
 #ic_signupform .elcontainer .submit-container .grecaptcha-badge iframe {
   vertical-align: -9999px;
+}
+
+.page-newslanding #ic_signupform .elcontainer {
+	background: none;
 }
 
 @media (max-width: 420px) {
@@ -1136,4 +1201,10 @@ a.accordion-toggle i{
 	display: none;
 }
 
+/* custom planting plans */
 
+@media (max-width: 480px) {
+	img.number {
+    display: none;
+	}
+}

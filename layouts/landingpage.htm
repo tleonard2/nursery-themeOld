@@ -1,0 +1,51 @@
+description = "Default Layout"
+==
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% partial 'site/metalong.htm' %}
+</head><!--/head-->
+
+<body class="page-{{ this.page.id }} layout-{{ this.layout.id }}" style="height: 100%; background-size: cover; background-image: url({{ 'assets/images/img/newsback6.jpg'|theme }});" >
+
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M48RXDN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header id="header">
+
+</header><!--/header -->
+
+
+                        {% page %}
+                        {% component 'googleTracker' %}
+
+
+<footer id="footer">
+    {% partial "site/footerlanding" %}
+</footer><!--/#footer-->
+
+{% component 'googleTracker' %}
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+
+<script type="text/javascript" src="{{ 'assets/js/html5shiv.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/respond.min.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/jquery.min.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/bootstrap.min.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/jquery.prettyPhoto.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/jquery.isotope.min.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/main.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/wow.min.js'|theme }}"></script>
+
+<script type="text/javascript" src="{{ 'assets/js/owl.carousel.min.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/mousescroll.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/smoothscroll.js'|theme }}"></script>
+
+<script type="text/javascript" src="{{ 'assets/js/jquery.inview.min.js'|theme }}"></script>
+
+{% framework extras %}
+{% scripts %}
+
+</body>
+</html>
