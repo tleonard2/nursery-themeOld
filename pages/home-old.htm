@@ -1,0 +1,29 @@
+title = "Portland Nursery"
+url = "/home-old"
+layout = "home"
+description = "Home Page"
+meta_title = "Portland Nursery garden center: plants, tools, amendments, herbs, houseplants, garden accessories"
+meta_description = "Portland Nursery garden center: trees, shrubs, perennials, natives, annuals, grasses, herbs, houseplants: everything for healthy, happy plants including tools, amendments, furniture and pottery."
+is_hidden = 0
+
+[slider]
+slide_show_id = "{{ homeslider }}"
+==
+<section class="no-margin">{% component 'slider' slide_show_id = 2 %}</section>
+<section id="introheadline">
+	<div class="container">
+
+		<h1>At Portland Nursery, we stock everything garden: trees, shrubs, perennials, natives, annuals, grasses, herbs, houseplants and all the gardener needs for healthy, happy plants including tools, amendments, furniture and pottery. <a href="/about/locations/">Two convenient locations.</a></h1>
+	</div>
+</section>
+<!--/#cta-->
+<!-- Happenings -->
+<section id="happenings">{% partial "homepage/happenings" %}</section>
+
+
+<section id="tasks">{% partial "homepage/tasks" %}</section>
+
+<!-- Happenings -->
+<section id="socialblock">{% partial "homepage/socialblock" %}</section>
+<!--end happenings-->
+<div class="row" id="portfolio">{% partial "homepage/list-homepage" %}</div>

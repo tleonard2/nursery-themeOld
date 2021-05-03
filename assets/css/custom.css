@@ -2,6 +2,13 @@
 *******************************
 Revision March 18a, 2021*/
 
+
+#countdown {
+ padding:5px 10px;
+ background: #86C232;
+  color: white;
+}
+
 /* Happenings
 ------------------------------------*/
 #happenings .media.happening-box:first-child {

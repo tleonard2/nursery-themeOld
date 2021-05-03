@@ -1257,6 +1257,10 @@ body > section#happeningstitle {  /* static page change */
 		margin: 0;
 		padding: 3px;
 	}
+
+	#portfolio ul.portfolio-filter {
+		display: none;
+	}
 }
 
 
