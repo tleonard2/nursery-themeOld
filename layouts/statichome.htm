@@ -19,7 +19,11 @@ default = 0
         {% partial 'site/metalong' %}
 	</head><!--/head-->
 
-<body class="page-{{ this.page.id }} layout-{{ this.layout.id }} plants">
+<body class="page-{{ this.page.id }}">
+        {variable tab="Header" type="text" name="tagline" label="Tagline"}{/variable}
+        {variable tab="Header" type="mediafinder" mode="image" name="banner" label="Banner image"}{/variable}
+
+
 	<!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M48RXDN"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -55,7 +59,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div><!--/.container-->
 	</section>
 
-	<section id="monthlyfeatures">{% partial "homepage/monthlyfeatures" %}</section>
+	<section id="monthlyfeatures">
+		<div class="container">
+
+               {% placeholder buttonboxes title="Button Boxes" %}
+
+	</div><!--/.container-->
+	</section>
 
 
     <section id="covidmodal">{% partial "homepage/covidmodal" %}</section>
