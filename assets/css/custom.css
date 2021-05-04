@@ -1,13 +1,6 @@
 /* Custom
 *******************************
-Revision May 2, 2021*/
-
-
-#countdown {
- padding:5px 10px;
- background: #86C232;
-  color: white;
-}
+Revision March 18a, 2021*/
 
 /* Happenings
 ------------------------------------*/
@@ -153,50 +146,6 @@ section#happenings {
 
 #potsizes .col-md-3 {
 	margin-top: 20px;
-}
-
-/* NEW */
-
-#monthlyfeatures .flex-container {
-  display: flex;
-  flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-	font-size:24px;
-	font-weight: inherit;
-}
-
-#monthlyfeatures .flex-container div.buttonbox {
-	padding: 5px;
-	flex-basis: 300px;
-	background: #EAEDE6;
-	margin-bottom:30px;
-}
-
-#monthlyfeatures .flex-container div.buttonbox:hover {
-	background:#86C332;
-	box-shadow:0 0 5px #ddd;
-	-webkit-transition:box-shadow .2s ease-in-out;
-	-moz-transition:box-shadow .2s ease-in-out;
-	-o-transition:box-shadow .2s ease-in-out;
-	transition:box-shadow .2s ease-in-out;
-	color: white;
-}
-
-#monthlyfeatures .flex-container div.buttonbox a:hover {
-	color: white;
-}
-
-#monthlyfeatures .flex-container img {
-	width: 72px;
-	margin: 0 15px 0 10px;
-}
-
-@media (max-width: 480px) {
-	#monthlyfeatures .flex-container {
-			justify-content:center;
-	}
 }
 
 
