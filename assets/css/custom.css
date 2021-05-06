@@ -1,12 +1,21 @@
 /* Custom
 *******************************
-Revision May 2, 2021*/
+Revision May 6, 2021 */
 
 
 #countdown {
  padding:5px 10px;
  background: #86C232;
   color: white;
+}
+
+.page-planting-solutions-fragrant-combinations .col-md-3:nth-child(even) {
+	background: #CCC;
+	padding-top: 1px;
+}
+
+.page-planting-solutions-fragrant-combinations .col-md-3.widget {
+	background: none;
 }
 
 /* Happenings
