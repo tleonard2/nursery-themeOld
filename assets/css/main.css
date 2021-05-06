@@ -773,6 +773,11 @@ input.search-form:hover {
     min-height: 1px;
 }
 
+.edible .slick-slide  {
+    max-height: 525px;
+    min-height: 1px;
+}
+
 #main-slider {
 	position:relative;
 }
