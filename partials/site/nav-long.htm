@@ -1,5 +1,5 @@
 
-{# Note: Only one levels of sublinks are supported by Bootstrap 3 #}
+{# Note: Only one level of sublinks are supported by Bootstrap 3 #}
 {% set
     links = {
 	     'thismonth': {
@@ -11,7 +11,35 @@
             },
         },
         'curbside-pickup': ['resources/curbside-pickup', 'Curbside Pickup'],
-		'plant-library':     	['plant-library', 'Plant Library'],
+
+		 'plant-library': {
+            name: 'Plant Library',
+            sublinks: {
+                'annuals':	['annuals/index', 'Annuals'],
+                'bamboo': 	['shrubs/physocarpus', 'Bamboo'],
+                'bonsai':	['houseplants/bonsai', 'Bonsai'],
+                'bulbs':	['perennials/bulbs', 'Bulbs'],
+                'containers': 	['container-gardens/index', 'Container Gardens'],
+                'ferns':	['ferns/index', 'Ferns'],
+                'fruit-trees':	['fruits/fruit-trees', 'Fruit & Nut Trees'],
+                'small-fruits': ['fruits/small-fruits', 'Fruits: Berries'],
+                'grasses':	['grasses/index', 'Ornamental Grasses'],
+                'groundcovers':	['groundcovers/index', 'Groundcovers'],
+                'herbs': 	['herbs/index', 'Herbs'],
+                'houseplants':	['houseplants/index', 'Houseplants'],
+                'lawns': 	['grasses/lawn', 'Grass Lawns'],
+                'natives':	['natives/index', 'Natives'],
+                'perennials':	['perennials/index', 'Perennials'],
+                'roses': 	['roses/index', 'Roses'],
+                'seeds':	['veggies/seeds', 'Seeds'],
+                'shrubs': 	['shrubs/index', 'Shrubs'],
+                'trees-conifers':	['trees/conifers', 'Trees: Conifers'],
+                'trees-leafy':	['trees/leafy-trees', 'Trees: Leafy'],
+                'vegetables':	['veggies/index', 'Vegetables'],
+                'water-plants': 	['water-plants', 'Water Plants'],
+            },
+        },
+
 		'custom-planting-plans':     ['resources/custom-planting-plans', 'Custom Planting Plans'],
 		'gardeningsolutions': {
             name: 'Gardening Solutions',
