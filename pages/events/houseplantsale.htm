@@ -1,0 +1,31 @@
+title = "Houseplant Sale"
+url = "/events/houseplantsale"
+layout = "default"
+is_hidden = 0
+==
+    <div class="container">
+        <div class="title-block">
+            <div class="title-image"><img class="img-responsive" src="{{ 'assets/images/seasonal/appleshd.jpg'|theme }}" alt="Fall"></div>{% partial 'breadcrumbs/breadcrumbsevents' %}
+        </div>
+    </div><!-- container -->
+
+    <div class="container content appletasting">
+        <div class="row">
+            <div class="col-md-8 left-inner">
+             </div><!-- col-md-8 left-inner -->
+
+            <div class="col-md-4">
+                <div class="sidebar pull-right">
+                    <figure><img class="img-responsive" src="https://portlandnursery.com/images-layout/appletasting/poster.jpg" alt="kidstent"></figure>
+
+                    <div class="treatment">
+
+                    </div>
+                </div><!-- sidebar pull-right -->
+            </div><!-- col-md-4 -->
+        </div><!-- End Row -->
+
+        <div class="row" id="portfolio">
+            {% partial "lists/list-classes" %}
+        </div><!--/#portfolio-->
+    </div><!-- End Container Content -->

@@ -1,6 +1,6 @@
 /* Typography v2 versions final.1
 *******************************
-Revision Mar 18, 2021*/
+Revision May 19a, 2021*/
 
 
 body {
@@ -12,9 +12,6 @@ body {
 	font-size: 2.0em;
 	font-weight: 300;
 }
-
-
-
 
 .left-inner p:first-child {
 	font-size: 120%;
@@ -107,7 +104,7 @@ h3.brightonM {
 }
 
 h4, .h4 {
-	font-size:20px;
+	font-size:22px;
 }
 
 a {
@@ -438,6 +435,21 @@ ul li {
 
 .page-home ul li {
 	line-height:1.4;
+}
+
+.page-groundcovers-index ul.small {
+	line-height:1.6;
+	margin-left: 0;
+	padding-left: 20px;
+}
+
+.page-groundcovers-index .col-md-3:nth-child(even) {
+	background: #CCC;
+	padding-top: 1px;
+}
+
+.page-groundcovers-index #footer .col-md-3 {
+	background: none;
 }
 
 .section-header {
