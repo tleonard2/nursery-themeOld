@@ -1,6 +1,6 @@
 /* Custom
 *******************************
-Revision May 6, 2021 */
+Revision June 14, 2021 */
 
 
 #countdown {
@@ -118,6 +118,9 @@ section#happenings {
 	font-weight: 700
 }
 
+.modal-backdrop.in {
+    opacity: .2;
+}
 
 
 @media (max-width: 768px) {

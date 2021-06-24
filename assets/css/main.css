@@ -443,12 +443,14 @@ ul li {
 	padding-left: 20px;
 }
 
-.page-groundcovers-index .col-md-3:nth-child(even) {
+.page-groundcovers-index .col-md-3:nth-child(even),
+.page-veggies-heirloom .col-md-3:nth-child(even) {
 	background: #CCC;
 	padding-top: 1px;
 }
 
-.page-groundcovers-index #footer .col-md-3 {
+.page-groundcovers-index #footer .col-md-3,
+.page-veggies-heirloom #footer .col-md-3 {
 	background: none;
 }
 
