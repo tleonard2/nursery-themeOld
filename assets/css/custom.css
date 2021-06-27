@@ -1,6 +1,6 @@
 /* Custom
 *******************************
-Revision June 14, 2021 */
+Revision June 26, 2021 */
 
 
 #countdown {
@@ -9,7 +9,17 @@ Revision June 14, 2021 */
   color: white;
 }
 
-.page-planting-solutions-fragrant-combinations .col-md-3:nth-child(even) {
+ol.tiplist {
+	padding-left: 20px;
+}
+
+ol.tiplist strong {
+	font-weight: 500;
+	color: #1E8EE3
+}
+
+.page-planting-solutions-fragrant-combinations .col-md-3:nth-child(even),
+.page-planting-solutions-annual-shade-combinations .col-md-4:nth-child(even) {
 	background: #CCC;
 	padding-top: 1px;
 }
