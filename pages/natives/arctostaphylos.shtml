@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Arctostaphylos</title>
+<meta name="description" content="Arctostaphylos at Portland Nursery and Garden Center" />
+    <meta name="robots" content="all">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../../js/breadcrumbs.js"></script>
+    <script type="text/javascript" src="../../js/accordion.js"></script>
+
+    <link href="../../css/layout.css" rel="stylesheet" type="text/css">
+     <link href="../../css/mainnavnew.css" rel="stylesheet" type="text/css">
+    <link href="../../css/home-page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="plants" class="natives">
+<div id="outerWrapper">
+
+<div id="homeheader">
+
+    <div class="hours">
+     <!--#include virtual="../../inc/hoursevents.inc" -->
+    </div>
+
+<a href="http://portlandnursery.com"><img src="../../images-layout/msthd.jpg" alt="Portland Nursery" width="770" height="151" class="msthd" /></a>
+
+  <div id="mainnav">
+     <ul class="navigation">
+	<li class="home"><a href="/">HOME</a></li>
+ <li class="plants"><a href="/plants/">PLANTS</a>
+       <ul>
+       <li><a href="/plants/">Main Plants Page</a></li>
+      	<li><a href="/plants/annuals/">Annuals</a></li>
+         <li><a href="/plants/bonsai/">Bonsai</a></li>
+          <li><a href="/plants/bulbs/">Bulbs</a></li>
+	     <li><a href="/plants/container-gardens/">Container Gardens</a></li>
+         <li><a href="/plants/fruits/">Fruits &amp; Berries</a></li>
+         <li><a href="/plants/grasses-bamboo/">Grasses &amp; Bamboo</a></li>
+         <li><a href="/plants/groundcovers/">Groundcovers</a></li>
+         <li><a href="/plants/houseplants/">Houseplants</a></li>
+         <li><a href="/plants/natives/">Northwest Natives</a></li>
+         <li><a href="/plants/perennials/">Perennials</a></li>
+         <li><a href="/plants/plant-combos/">Plant Combos</a></li>
+         <li><a href="/plants/roses/">Roses</a></li>
+         <li><a href="/plants/seeds/">Seeds</a></li>
+         <li><a href="/plants/shrubs-vines/">Shrubs</a></li>
+         <li><a href="/plants/trees/">Trees</a></li>
+         <li><a href="/plants/vegetables-herbs/">Vegetables &amp; Herbs</a></li>
+         <li><a href="/plants/shrubs-vines/vines.html">Vines</a></li>
+         <li class="last"><a href="/plants/water-plants/">Water Plants</a></li>
+   </ul>
+ </li>
+ <li class="products"><a href="/products/">PRODUCTS</a>
+     <ul>
+     <li><a href="/products/">Garden Products</a></li>
+      	<li><a href="/products/amendments.html">Garden Amendments</a></li>
+         <li><a href="/products/containers.html">Garden Containers</a></li>
+         <li><a href="/products/decor.html">Garden Decor</a></li>
+         <li><a href="/products/gifts.html">Garden Gifts</a></li>
+         <li><a href="/products/tools.html">Garden Tools</a></li>
+		 <li class="last"><a href="/products/masonbees.html">Mason Bees</a></li>
+     </ul>
+  </li>
+ <li class="locations"><a href="/locations/">ABOUT</a>
+     <ul>
+      	<li><a href="/locations/division.html">Division Street Store</a></li>
+         <li><a href="/locations/stark.html">Stark Street Store</a></li>
+         <li><a href="/locations/employment.html">Employment</a></li>
+         <li class="last"><a href="/locations/roots.html">Our Roots</a></li>
+     </ul>
+ </li>
+ <li class="classes"><a href="/events/">CLASSES</a>
+     <ul>
+		 <li><a href="/events/january_events.html">January Classes</a></li>
+         <li><a href="/events/february_events.html">February Classes</a></li>
+         <li><a href="/events/march_events.html">March Classes</a></li>
+         <li><a href="/events/april_events.html">April Classes</a></li>
+         <li><a href="/events/may_events.html">May Classes</a></li>
+         <li><a href="/events/june_events.html">June Classes</a></li>
+         <li><a href="/events/july_events.html">July Classes</a></li>
+         <li><a href="/events/august_events.html">August Classes</a></li>
+         <li><a href="/events/september_events.html">September Classes</a></li>
+         <li><a href="/events/october_events.html">October Classes</a></li>
+         <li><a href="/events/november_events.html">November Classes</a></li>
+         <li class="last"><a href="/events/december_events.html">December Classes</a></li>
+     </ul>
+ </li>
+ <li class="events"><a href="/events/events.html">EVENTS</a>
+     <ul>
+		  <li><a href="/events/events.html">A Year in Events</a></li>
+		  <li><a href="/events/houseplantsale.html" class="active">January Houseplant Sale</a></li>
+		  <li><a href="/events/bonsai_event.html">June Bonsai Event</a></li>
+         <li><a href="/events/srgardening.html">September Senior Gardening Day</a></li>
+         <li><a href="/events/appletasting.html">October Apple Tasting</a></li>
+         <li><a href="/events/elderday.html">October Elder Day at Apple Tasting</a></li>
+         <li><a href="/events/appletasting-recipes.html">Apple Tasting Recipes</a></li>
+         <li class="last"><a href="/events/food-preserving-recipes.html">Food Preserving Recipes</a></li>
+              </ul>
+ </li>
+ <li class="tips"><a href="/tips/">GARDEN TIPS</a>
+     <ul>
+      	<li><a href="/tips/tips_january.html">January Tips</a></li>
+         <li><a href="/tips/tips_february.html">February Tips</a></li>
+         <li><a href="/tips/tips_march.html">March Tips</a></li>
+         <li><a href="/tips/tips_april.html">April Tips</a></li>
+         <li><a href="/tips/tips_may.html">May Tips</a></li>
+         <li><a href="/tips/tips_june.html">June Tips</a></li>
+         <li><a href="/tips/tips_july.html">July Tips</a></li>
+         <li><a href="/tips/tips_august.html">August Tips</a></li>
+         <li><a href="/tips/tips_september.html">September Tips</a></li>
+         <li><a href="/tips/tips_october.html">October Tips</a></li>
+         <li><a href="/tips/tips_november.html">November Tips</a></li>
+         <li class="last"><a href="/tips/tips_december.html">December Tips</a></li>
+     </ul>
+ </li>
+ <li class="gifting"><a href="/service/gift_cards.html">GIFT CARD</a>
+<!--
+     <ul>
+         <li><a href="/community/abernethy.html">Abernethy School</a></li>
+         <li><a href="/community/community_children.html">Children's Garden</a></li>
+		 <li><a href="/community/elders-in-action.html">Elders in Action</a></li>
+         <li><a href="/community/foodworks.html">Food Works</a></li>
+		 <li><a href="/community/gardensnoise.html">Garden's Noise</a></li>
+         <li><a href="/community/growingGardens.html">Growing Gardens</a></li>
+         <li><a href="/community/helen_gordon.html">Helen Gordon Center</a></li>
+         <li><a href="/community/legacy.html">Legacy Horticulture Therapy</a></li>
+         <li><a href="/community/lewis_elementary.html">Lewis Elementary</a></li>
+		 <li><a href="/community/franciscan_montessori.html">Montessori School</a></li>
+         <li><a href="/community/sauvie-island-center.html">Sauvie Island Center</a></li>
+         <li class="last"><a href="/community/zenger_farm.html">Zenger Farms</a></li>
+     </ul>
+-->
+ </li>
+ <li class="landscape"><a href="/custom-planting-plans/">CUSTOM PLANTING PLANS</a> </li>
+ <li class="services last"><a href="/service/">RESOURCES</a>
+     <ul>
+	      <li><a class="active" href="/service/index.html">Delivery Services</a></li>
+		  <li><a href="/service/potting-services.html">Container Potting Services</a></li>
+		  <li><a href="/service/faqs-archive.html">Gardening FAQs</a></li>
+		  <li><a href="/service/brochures.html">Gardening Solutions</a></li>
+<!-- 		  <li><a href="/service/videos.html">Gardening Videos</a></li> -->
+		  <li><a href="/service/gift_cards.html">Gift Cards</a></li>
+          <li><a href="/service/newsletter.html">Newsletter Signup</a></li>
+		 <li class="last"><a href="/service/privacypolicy.html">Privacy Policy</a></li>
+     </ul>
+ </li>
+
+</ul>
+  </div>
+   <p class="clear"></p>
+  </div> <!-- homeheader -->
+
+<div class="clear"></div>
+
+<div id="content">
+
+<div id="left-col"> <!-- side col plus main content -->
+<div id="nav-col">
+
+<div id="searcharea">
+<div id="cse" style="width: 100%;">Loading</div>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">
+   google.load('search', '1');
+       var app;
+    function OnLoad() {
+      // Dynamically load CSS to override defaults
+      var css = document.createElement('link');
+      css.href = '/css/layout.css';
+      css.type = 'text/css';
+      css.rel = 'stylesheet';
+      document.getElementsByTagName('head')[0].appendChild(css);}
+   google.setOnLoadCallback(function(){
+      new google.search.CustomSearchControl('003868193070768275417:xbrjeefzpda').draw('cse');
+   }, true);
+</script>
+</div>
+
+                    <div id="navLeft" class="natives">
+                        <h1><a href="index.html">Natives</a></h1><!--#include virtual="../../inc/plants-leftNav-natives.inc" -->
+                        <div class="clear"></div>
+
+<div id="nav">
+
+   <ul>
+        <li class="annuals"><a href="/plants/annuals/">Annuals</a></li>
+
+        <li class="bonsai"><a href="/plants/bonsai/">Bonsai</a></li>
+
+         <li class="bulbs"><a href="/plants/bulbs/">Bulbs</a></li>
+
+        <li class="containers"><a href="/plants/container-gardens/">Container Gardens</a></li>
+
+        <li class="fruits"><a href="/plants/fruits/">Fruits &amp; Berries</a></li>
+
+       <li class="grasses"><a href="/plants/grasses-bamboo/">Grasses &amp; Bamboo</a></li>
+
+        <li class="groundcovers"><a href="/plants/groundcovers/">Groundcovers</a></li>
+
+        <li class="houseplants"><a href="/plants/houseplants/">Houseplants</a></li>
+
+        <li class="natives"><a href="/plants/natives/">Northwest Natives</a></li>
+
+        <li class="perennials"><a href="/plants/perennials/">Perennials</a></li>
+
+        <li class="combos"><a href="/plants/plant-combos/">Plant Combos</a></li>
+
+       <li class="combo"><a href="/plants/roses/">Roses</a></li>
+
+        <li class="seeds"><a href="/plants/seeds/">Seeds</a></li>
+
+        <li class="shrubs"><a href="/plants/shrubs-vines/">Shrubs</a></li>
+
+        <li class="shrubs"><a href="/plants/shrubs-vines/vines.html">Vines</a></li>
+
+        <li class="trees"><a href="/plants/trees/">Trees</a></li>
+
+        <li class="veggies"><a href="/plants/vegetables-herbs/">Vegetables &amp; Herbs</a></li>
+
+         <li class="water-plants"><a href="/plants/water-plants/">Water Plants</a></li>
+    </ul>
+
+</div>
+                    </div><!-- nav-left -->
+
+
+    </div> <!-- nav-col -->
+
+<div id="contentMiddle">
+
+		   <h2>ARCTOSTAPHYLOS: Kinnikinnick</h2>
+
+   <p><strong>Arctostaphylos</strong> species can be found in two distinct  plant categories: groundcovers and shrubs. Evergreen, with reddish brown bark  and small, leathery upright leaves; bell shaped flowers that are telltale of  their relationship to the heather (<em>Erica</em>)  family hang in white to pinkish clusters. Pea-sized berries follow; red or  blue-black depending on species, and are attractive to a variety of birds for  winter food.</p>
+		   <p>All the  native members of the <em>Arctostaphylos</em> clan prefer full sun, though some are willing to tolerate a little shade. Good  drainage is a must, both for healthy growth and to ward off fungal disease. Once  established, they are quite drought-tolerant.</p>
+		   <div class="genuscontainerwide"><strong><em><img src="../images/kinnikinnick/arctostaphylos-uva-ursi-wik-200.jpg" width="200" height="310" class="left" alt="Kinnikinnick"/>Arctostaphylos uva-ursi  &ndash; Kinnikinnik, or Bearberry</em></strong>. Kinnikinnik  is an outstanding evergreen groundcover native to many parts of the world and  one of the more cold-tolerant species of Arctostaphylos. It is a perfect groundcover for open, dry sunny spots. It is slow to start its growth (be sure  to mulch around them when newly-planted to help suppress weeds until it fills  in), but will eventually reach out its long branches, rooting wherever the  stems touch the soil and form a dense evergreen mat that is useful for  controlling erosion when planted on banks or slopes.
+           <p>Because of its tough  nature, it is frequently used along highways and roadway embankments. It is  highly tolerant of most any condition except shade and soggy soil.</p>
+           <p>The clusters  of flowers attract both bees and hummingbirds; the bright red berries offer dots  of color to the winter garden as well as providing a cold-weather food source  for a variety of song birds.</p></div>
+
+              <div class="genuscontainerwide"><img src="../images/kinnikinnick/arctostaphylos_columbiana-wiki-200.jpg" alt="Arctostaphyylos columbiana" width="200" height="300" class="left" />
+                 <p><strong><em>Arctostaphylos  Columbiana &ndash; Hairy Manzanita</em></strong> This is the  most common shrub-version of <em>Actostaphylos</em> growing in our region. The word  &ldquo;Manzanita&rdquo; means &ldquo;little apple&rdquo; in Spanish, and aptly describes the flattened  round fruit that appears in late June and can persist until the following spring,  providing a long season of food for birds visiting your garden.</p>
+               <p>Relatively  slow growing to 3-10&rsquo;; in the wild it is found only occasionally in drier areas  along the western slopes of the Coast and Cascade ranges, more commonly east of  the Cascades and in southern Oregon</p></div>
+
+              <div class="genuscontainerwide"><img src="../images/kinnikinnick/arctostaphylos_manzanita-wiki-200.jpg" alt="Arctostaphyylos media" width="200" height="208" class="left" /><strong><em>Arctostaphylos media &ndash;  Media Manzanita</em></strong><br />
+             This is the  seemingly unlikely but nevertheless successful cross between <em>A. uvi-ursi and A. Columbiana</em>, occurring  everywhere the two parent species co-exist. It is indeed a compromise of its  parents, reaching a height of only about 3&rsquo;.</div>
+
+		   <p>Some of the  other native species, found in the arid regions of eastern and southern Oregon,  are <em>A. canescens </em>(hairy manzanita), <em>A. viscid</em> (white-leaved manzanita), <em>A. parvifolia</em> (small-leaved manzanita), <em>A. standfordiana </em>var. <em>hispidula </em>(rough manzanita) and <em>A. patula</em> (green Manzanita)&nbsp;</p>
+      <p><strong>Note:</strong> <em>While  the groundcover </em>Arctostaphylos<em> is  commonly grown and available for sale in nurseries, the shrubbier forms are  much harder to find. It is possibly their need for excellent drainage combined  with their slow rate of growth that may be compromised by the &ldquo;nursery  container culture.&rdquo; </em></p>
+      <p><em>Or it may be something else entirely. However, they are  worth searching out if you have the place to grow them, for with proper  planting and site conditions they are all very garden worthy and would make a  beautiful addition to the landscape.</em></p>
+      <em>(There are also several cultivars of both the groundcover and shrub forms of </em>Arctostaphylos,<em> more readily available in nurseries and  that you might consider.)</em>    </div><!-- contentMiddle -->
+
+  </div> <!-- left main col -->
+
+<div id="sidecol">		 <img src="../images/kinnikinnick/arctostaphylos_uva-ursi-wiki-235.jpg" alt="Arctostaphylos" width="235" height="320" class="sideimg" />
+          <p class="caption"><em>Arctostaphylos uva-ursi </em><br />
+          Kinnikinnick </p>
+          <h3>FACTS: ARCTOSTAPHYLOS</h3>
+<p><strong>Family: </strong>Ericaceae</p>
+      <p><strong>Genus: </strong>Arctostaphylos (ark-tow-STAF-i-los)</p>
+      <p><strong>Common name: </strong>Kinnikinnick, Manzanita, Bearberry</p>
+	  <p><strong>Native range:</strong> Found at low to high elevations throughout our region, depending on species.</p>
+      <p><strong>Characteristics: </strong>small, oval and leathery green  leaves, white to pink urn-shaped flowers followed by red berries. Evergreen. Many  of the shrub forms develop beautiful peeling bark as they mature, providing  year-round garden interest.</p>
+      <p><strong>Culture: </strong>prefers full sun, very well-drained  soil. Good rock garden / Xeriscaping plant.</p>
+      <p><strong>Pests/diseases: </strong>Not generally affected by pests or  disease, though can fall prey to leaf gall due to aphids and fungus diseases  due to retained moisture around the leaves. </p>
+      <p>Planting in soil with excellent  drainage and irrigating in morning rather than evening will go a long way to  preventing fungus; ladybugs and syrphid fly larvae are the beneficial insects  especially effective against aphids.</p>
+	      </div> <!-- side col -->
+
+ <div class="clear"></div>
+
+</div>
+
+  <div id="footer">
+  <!--#include virtual="../../inc/footer.inc" -->
+  </div>
+
+
+</div><!-- outerWrapper -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21703888-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
