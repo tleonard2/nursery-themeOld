@@ -1,0 +1,37 @@
+title = "Apples & Pears"
+url = "/events/apples-pears"
+layout = "default"
+meta_title = "Apples & Pears at Portland Nursery and Garden Center."
+meta_description = "Apples & Pears at Portland Nursery and Garden Center in Portland, Gresham and Lake Oswego."
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+
+[siteSearchInclude]
+
+[contenteditor]
+==
+<div class="container">
+        <div class="title-block">
+            <div class="title-image"><img class="img-responsive" src="https://portlandnursery.com/plants/images/appletasting/appletastinghd2.jpg" alt="Apple & Pears"></div>{% partial 'breadcrumbs/breadcrumbsevents' %}
+        </div>
+    </div><!-- container -->
+
+   <div class="container content">
+        <div class="row">
+            <div class="col-md-8 left-inner">
+
+            {% component 'contenteditor' file="events/applepageleft.htm" %}
+
+			</div><!-- col-md-8 left-inner -->
+
+            <div class="col-md-4">
+	            <div class="sidebar pull-right">
+
+                {% component 'contenteditor' file="events/applepageside.htm" %}
+
+	            </div>
+
+            </div><!--/.col-sm-6 sidebar -->
+        </div><!-- End Row -->
+    </div><!-- End Container Content -->

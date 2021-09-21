@@ -6,6 +6,8 @@ meta_description = "Portland Nursery at 5050 SE Stark for plants, potting soil, 
 is_hidden = 0
 
 [siteSearchInclude]
+
+[contenteditor]
 ==
 <div class="container">
         <div class="title-block">
@@ -19,12 +21,10 @@ is_hidden = 0
                 <div class="row planttable">
                     <div class="col-md-4">
                         <h2>Portland Nursery on Stark</h2>
-
-                        <h3>{% partial 'resources/hours' %}</h3>
-                        <p>{% partial 'resources/closing' %}</p>
-                        <h3>Contact us:</h3>
                         <p>5050 SE Stark, 97215<br>
                         Phone: 503.231.5050</p>
+
+                        <h3>{% component 'contenteditor'  file="locations/hours.htm" %}</h3>
                     </div>
 
                     <div class="col-md-4">
@@ -32,13 +32,14 @@ is_hidden = 0
                     </div>
 
 
-                    <div class="col-md-4 "><img class="img-responsive pull-right" src="{{ 'assets/images/locations/portlandnursery-5050-SE-Stark.jpg'|theme }}" alt="5050 SE Stark" title="5050 SE Stark"></div>
+                    <div class="col-md-4 ">
+
+	                    {% component 'contenteditor' file="locations/starkimage.htm" %}
+                    </div>
 
                     <div class="col-md-12">
 
-                        <p>There is always something new to see: fresh perennials in bloom, the latest thing in garden art, enticing specialty conifers or the perfect houseplant for your home or office.</p>
-
-                        <p>We love to share our enthusiasm for gardening with our customers. Around the circling of the seasons, we are always here &ndash; with plants and products and answers to your gardening questions &ndash; we hope to see you soon!</p>
+                       <p>{% component 'contenteditor'  file="locations/stark.htm" %}</p>
                     </div>
                 </div><!-- planttable -->
 

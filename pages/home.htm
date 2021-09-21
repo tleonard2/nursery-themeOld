@@ -16,12 +16,18 @@ date = "2021/05/09 00:00:00"
 countdown = 1
 init = 1
 css = 1
+
+[contenteditor]
 ==
 <section class="no-margin">{% component 'slider' slide_show_id = 5 %}</section>
 <section id="introheadline">
 	<div class="container">
 
-		<h1>Portland Nursery has everything you need to make your home and garden your favorite destination—from trees and shrubs, to bonsai, houseplants, perennials, natives, annuals, grasses, herbs and seeds—plus all a gardener needs for healthy, happy plants including potting soil and amendments, tools, furniture and pottery at <a href="/about/locations/">two convenient locations.</a></h1>
+		<h1>{% component 'contenteditor' file="homepage/leader.htm" %}</h1>
+
+	</div>
+</section>
+<!--/#cta-->
 
 	</div>
 </section>
@@ -31,10 +37,12 @@ css = 1
 
 <section id="happeningstitle">
 	<div class="container">
-            <div class="section-header">
-                <h2 class="brightonL center">What's Happening at Portland Nursery this <span>{% partial 'resources/month' %}</span></h2>
+            <div class="section-header whatshappening">
 
-               <h3>{% partial "homepage/happeningstitle" %}</h3>
+			<h1>{% component 'contenteditor' file="homepage/whatshappeningtitle.htm" %}</h1>
+			
+			{% component 'contenteditor' file="homepage/whatshappening.htm" %}
+
 	 </div>  <!-- section header -->
 
 </div><!--/.container-->
@@ -44,5 +52,5 @@ css = 1
 <section id="covidmodal">{% partial "homepage/covidmodal" %}</section>
 &nbsp;
 <!-- Happenings -->
-<section id="socialblock">{% partial "homepage/socialblock" %}</section>
+<section id="socialblock">{% partial "homepage/socialblockedit" %}</section>
 <!--end happenings-->

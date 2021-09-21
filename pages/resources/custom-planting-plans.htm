@@ -1,14 +1,17 @@
 title = "Custom Planting Plans"
 url = "/resources/custom-planting-plans/"
 layout = "default"
-description = ""
 meta_title = "Custom, affordable Planting Plans at Portland Nursery"
 meta_description = "Custom, affordable Planting Plans at Portland Nursery."
 is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
 
 [siteSearchInclude]
+
+[contenteditor]
 ==
-    <div class="container">
+<div class="container">
         <div class="title-block">
             <div class="title-image"><img class="img-responsive" title="Newsletter" src="{{ 'assets/images/custom-planting-plans/plantingplanshd.jpg'|theme }}" alt="Newsletter"></div>{% partial 'breadcrumbs/breadcrumbsresources' %}
         </div>
@@ -18,19 +21,9 @@ is_hidden = 0
         <div class="row">
             <div class="col-md-8 left-inner">
 
-	            <h2>Now scheduling summer design projects!</h2>
-<h3>Turn around for a completed plan is 2-3 weeks.</h3>
+	            {% component 'contenteditor' file="resources/customplanting.htm" %}
 
-                    <p>You can get a planting plan and plants to update your yard without leaving your home. Please follow the steps below, we look forward to helping you!</p>
-
-                <h3>By getting a little dirty, you can save big!</h3>
-
-                <figure><img class="img-responsive" title="Planting Plans" src="{{ 'assets/images/custom-planting-plans/nightgarden.jpg'|theme }}" alt="Planting Plans"></figure>
-
-                <p>Measure your yard and take photos. We’ll use them to create a custom plan for your garden. Our fees are based solely on your project size.</p>
-<!-- <strong>We'll do the shopping for you</strong> and arrange delivery or you can pick them up from our SE Division Street location. -->
-
-                <table class="table">
+				<table class="table">
                     <tr class="titlerow">
                         <td>Size (sq. ft.)</td>
 
@@ -128,9 +121,9 @@ is_hidden = 0
                     <div class="col-md-12 aligncenter">
                        <img class="number" src="{{ 'assets/images/custom-planting-plans/three.jpg'|theme }}" alt="Custom Planting Plans">
 
-                        <h3>Fill out the <a href="https://portlandnursery.com/docs/custom-planting-plans/QUESTIONNAIRE2021.pdf" target="_blank" title="Planting Plan Questionnaire">Planting Plan Questionnaire</a> and get ready to send it along with your project info.</h3>
+                        <h3>Fill out the <a href="https://portlandnursery.com/docs/custom-planting-plans/QUESTIONNAIRE.pdf" target="_blank" title="Planting Plan Questionnaire">Planting Plan Questionnaire</a> and get ready to send it along with your project info.</h3>
 
-                        <figure><a href="https://portlandnursery.com/docs/custom-planting-plans/QUESTIONNAIRE2021.pdf" target="_blank" title="Planting Plan Questionnaire"><img class="img-responsive imgcenter" src="{{ 'assets/images/custom-planting-plans/questionnaire.jpg'|theme }}" alt="Custom Planting Plans"></a></figure>
+                        <figure><a href="https://portlandnursery.com/docs/custom-planting-plans/QUESTIONNAIRE.pdf" target="_blank" title="Planting Plan Questionnaire"><img class="img-responsive imgcenter" src="{{ 'assets/images/custom-planting-plans/questionnaire.jpg'|theme }}" alt="Custom Planting Plans"></a></figure>
 
                         <p>Be sure to get input from everyone who will live with the garden!</p>
 
@@ -213,9 +206,9 @@ is_hidden = 0
                     <div class="treatment">
                         <h2>Planting Plan Questionnaire</h2>
 
-                        <figure><a href="https://portlandnursery.com/docs/custom-planting-plans/QUESTIONNAIRE2021.pdf" target="_blank"><img class="img-responsive" src="{{ 'assets/images/custom-planting-plans/questionnaire.jpg'|theme }}" alt="Custom Planting Plans"></a></figure>
+                        <figure><a href="https://portlandnursery.com/docs/custom-planting-plans/QUESTIONNAIRE.pdf" target="_blank"><img class="img-responsive" src="{{ 'assets/images/custom-planting-plans/questionnaire.jpg'|theme }}" alt="Custom Planting Plans"></a></figure>
 
-                        <p>Print and fill out the <a href="https://portlandnursery.com/docs/custom-planting-plans/QUESTIONNAIRE2021.pdf" target="_blank" title="Planting Plan Questionnaire">Planting Plan Questionnaire</a>.</p>
+                        <p>Print and fill out the <a href="https://portlandnursery.com/docs/custom-planting-plans/QUESTIONNAIRE.pdf" target="_blank" title="Planting Plan Questionnaire">Planting Plan Questionnaire</a>.</p>
                     </div>
 
                     <div class="treatment">
@@ -264,4 +257,3 @@ is_hidden = 0
             {% partial "lists/list-resources" %}
         </div>
     </div><!--=== End Container Content ===-->
-

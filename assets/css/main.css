@@ -1,6 +1,6 @@
 /* Typography v2 versions final.1
 *******************************
-Revision May 19a, 2021*/
+Revision August 27, 2021*/
 
 
 body {
@@ -996,7 +996,7 @@ body > section#happeningstitle {  /* static page change */
 /* 	font-weight:300; */
 	line-height:1.4;
 	font-size: 28px;
-	max-width: 900px;
+	max-width: 1100px;
 	text-align: center;
 }
 

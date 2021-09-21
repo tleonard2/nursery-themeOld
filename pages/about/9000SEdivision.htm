@@ -7,6 +7,8 @@ meta_title = "Portland Nursery at 9000 SE Division for plants, potting soil, bul
 meta_description = "Portland Nursery at 9000 SE Division for plants, potting soil, fertilizers, bulbs, trees, perennials, annuals and natives."
 
 [siteSearchInclude]
+
+[contenteditor]
 ==
 <div class="container">
         <div class="title-block">
@@ -17,32 +19,30 @@ meta_description = "Portland Nursery at 9000 SE Division for plants, potting soi
     <div class="container content">
         <div class="row">
             <div class="col-md-12">
-
-                <div class="row planttable">
+               <div class="row planttable">
                     <div class="col-md-4">
                         <h2>Portland Nursery on Division</h2>
-
-                        <h3>{% partial 'resources/hours' %}</h3>
-                        <p>{% partial 'resources/closing' %}</p>
-                        <h3>Contact us:</h3>
                         <p>9000 SE Division, 97266<br>
                         Phone: 503.788.9000</p>
+
+                        <h3>{% component 'contenteditor' file="locations/hours.htm" %}</h3>
+
                     </div>
 
                     <div class="col-md-4">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.2858066185236!2d-122.57281048376356!3d45.50432493878505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a1b3665e9adf%3A0xcb486e17e80c806!2sPortland+Nursery!5e0!3m2!1sen!2sus!4v1509805357956" width="400" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
                     </div>
 
-                    <div class="col-md-4"><img class="img-responsive pull-right" src="{{ 'assets/images/locations/portlandnursery-9000-SE-Division.jpg'|theme }}" alt="9000 SE Division" title="9000 SE Division"></div>
+                    <div class="col-md-4">
+
+	                    {% component 'contenteditor' file="locations/divisionimage.htm" %}
+
+                    </div>
 
                     <div class="col-md-12">
 
-                        <p>Our Division Street location offers over 78,000 square feet of covered shopping, including a classroom for our weekly lectures and hands-on seminars, and a number of inspirational display gardens.</p>
-
-                        <p>Our vast selection of tropical houseplants and cacti will make you feel like you&rsquo;ve entered a different hemisphere. And of course we offer all the plants, soils, pots and tools you&rsquo;ll need to make your gardening dreams a reality.</p>
-
-                        <p>We encourage you to bring in your whole family (including your pet!) to enjoy the flora and fauna—Portland Nursery on Division Street.</p>
-                    </div>
+                        <p>{% component 'contenteditor' file="locations/division.htm" %}</p>
+                  </div>
                 </div><!-- planttable -->
 
                 <div class="row planttable">

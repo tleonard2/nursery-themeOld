@@ -20,7 +20,7 @@ css = 1
 [contenteditor]
 file = "leader.htm"
 ==
-<section class="no-margin">{% component 'slider' slide_show_id = 2 %}</section>
+<section class="no-margin">{% component 'slider' slide_show_id = 5 %}</section>
 <section id="introheadline">
 	<div class="container">
 
@@ -45,10 +45,35 @@ file = "leader.htm"
 	</div>
 	<!--/.container-->
 </section>
-<section id="monthlyfeatures">{% partial "homepage/monthlyfeatures" %}</section>
-<section id="covidmodal">{% partial "homepage/covidmodal" %}</section>
+<section id="tasks">{% partial "homepage/tasks" %}</section>
+
+<div class="row" id="portfolio">{% partial "homepage/list-homepage" %}</div>
 
 <p>&nbsp;</p>
 <!-- Happenings -->
 <section id="socialblock">{% partial "homepage/socialblock" %}</section>
 <!--end happenings-->
+
+
+
+
+
+
+
+<section id="monthlylist">
+	<div class="container">
+		<div class="row">
+	      <div class="col-md-12">
+
+	       <div class="features">
+
+	      {% partial "homepage/homelist" %}
+
+	      </div>
+
+	      </div> <!-- end col 12 -->
+
+        </div><!-- End Row -->
+
+		</div><!--/.container-->
+</section>

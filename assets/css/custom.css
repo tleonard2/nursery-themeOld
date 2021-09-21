@@ -1,6 +1,6 @@
 /* Custom
 *******************************
-Revision June 26, 2021 */
+Revision September 21, 2021 */
 
 
 #countdown {
@@ -26,6 +26,17 @@ ol.tiplist strong {
 
 .page-planting-solutions-fragrant-combinations .col-md-3.widget {
 	background: none;
+}
+
+/* Homepage
+------------------------------------ */
+.whatshappening h2 {
+	margin: 0 auto 15px auto;
+	text-align: center;
+}
+
+.whatshappening img {
+	margin-top: 10px
 }
 
 /* Happenings
@@ -81,6 +92,7 @@ section#happenings {
 
 .media.happening-box .img-responsive {
 	max-width: 72px;
+	margin-bottom: 0
 }
 
 .media.happening-box:hover {
@@ -106,6 +118,15 @@ section#happenings {
 	color: #FFF;
 }
 
+.media.happening-box.blue .pull-left {
+	margin: 0;
+	padding: 0;
+}
+
+.media.happening-box.blue span {
+	font-size: 18px;
+}
+
 .media.happening-box .media-heading.covid {
 	font-weight: 300;
 	margin-top:5px;
@@ -115,8 +136,8 @@ section#happenings {
 }
 
 .media.happening-box .img-responsive.covid {
-	max-width: 80%;
-	}
+	margin: 20px 0 0 10px;
+}
 
 .modal-backdrop {
     background-color: #fff;
@@ -253,6 +274,10 @@ section#happenings {
 	color: #FFF;
 	font-size:16px;
 	text-align:center;font-weight:300;
+}
+
+#socialblock .hours p {
+	font-size: 28px
 }
 
 #socialblock .specials img {
@@ -798,6 +823,22 @@ img.pull-left {
 	padding:20px 0;
 }
 
+.page-resources-sales img,img {
+	margin-bottom: 30px;
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.page-resources-custom-planting-plans img {
+	display: inline
+}
+
+.title-image img,
+.slider img {
+	margin-bottom: 0;
+}
+
 body.layout-landingpage .planttable {
 	border-top:1px solid #CCC;
 	padding:10px;
@@ -871,7 +912,9 @@ body.layout-landingpage .planttable li {
 	color: #86C232;
 }
 
-.page-about-locations .planttable iframe {
+.page-about-locations .planttable iframe,
+.page-about-9000SEdivision .planttable iframe,
+.page-about-5050SEstark .planttable iframe {
   display: block;
   width: 100%;  /* RESPONSIVE WIDTH */
   max-width: 350px;
@@ -1026,6 +1069,11 @@ a.accordion-toggle i{
   color: #fff;
 }
 
+.panel-heading.active a.accordion-toggle i.tips,
+.panel-heading a.accordion-toggle i.tips {
+	margin-top: -32px
+}
+
 .panel-heading.active a.accordion-toggle.collapsed i{
   background: #86c232;
   color: #fff;
@@ -1117,7 +1165,8 @@ a.accordion-toggle i{
 
 }
 
-.wkend {
+.wkend,
+.page-events-yearly-events h2 {
 	border-bottom: 3px double #86c232;
 	border-top: 3px double #86c232;
 	text-align: center

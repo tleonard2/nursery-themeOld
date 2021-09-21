@@ -1,0 +1,86 @@
+title = "Portland Nursery"
+url = "/hometest"
+layout = "hometestlayout"
+description = "Home Page"
+meta_title = "Portland Nursery garden center: Wreaths for Sale, plants, tools, amendments, herbs, houseplants, garden accessories"
+meta_description = "Portland Nursery garden center:  trees, shrubs, perennials, natives, annuals, grasses, herbs, houseplants: everything for healthy, happy plants including tools, amendments, furniture and pottery."
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+
+[slider]
+slide_show_id = "{{ homeslider }}"
+
+[countdown]
+date = "2021/05/09 00:00:00"
+countdown = 1
+init = 1
+css = 1
+
+[contenteditor]
+==
+<section class="no-margin">{% component 'slider' slide_show_id = 5 %}</section>
+<section id="introheadline">
+	<div class="container">
+
+		<h1>{% component 'contenteditor' file="homepage/leader.htm" %}</h1>
+
+	</div>
+</section>
+<!--/#cta-->
+
+<!-- Happenings -->
+
+<section id="happeningstitle">
+	<div class="container">
+		<div class="row">
+	      <div class="col-md-12 whatshappening">
+
+            {% component 'contenteditor' file="homepage/whatshappeningtitle.htm" %}
+            
+            <div class="col-md-6">
+            <!-- <div class="whatshappening"> -->
+
+			{% component 'contenteditor' file="homepage/whatshappening.htm" %}
+
+            <!-- </div> --> <!-- whatshappening -->
+
+			</div><!-- col-md-6 left -->
+
+			<div class="col-md-6 imageright">
+
+				{% component 'contenteditor' file="homepage/whatshappeningimage.htm" %}
+
+			</div><!-- col-md-6 right -->
+
+	      </div> <!-- end col 12 -->
+
+        </div><!-- End Row -->
+			
+		</div><!--/.container-->
+</section>
+
+<section id="monthlyfeatures" class="flex-container">
+	<!--  monthly feature boxes  -->
+<div class="container">
+<div class="row">
+                <div class="features">
+
+	                 <div class="col-md-12 col-sm-6">
+
+		                 {% partial "homepage/homelist" %}
+
+		             </div><!--/.col-md-4-->
+
+                </div><!--  features -->
+
+            </div><!--/.row-->
+</div><!--/.container-->
+</section>		             
+
+
+<section id="covidmodal">{% partial "homepage/covidmodal" %}</section>
+&nbsp;
+<!-- Happenings -->
+<section id="socialblock">{% partial "homepage/socialblockedit" %}</section>
+<!--end happenings-->
