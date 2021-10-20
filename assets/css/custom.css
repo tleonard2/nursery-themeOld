@@ -1,6 +1,6 @@
 /* Custom
 *******************************
-Revision September 21, 2021 */
+Revision October 15, 2021 */
 
 
 #countdown {
@@ -823,6 +823,15 @@ img.pull-left {
 	padding:20px 0;
 }
 
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
 .page-resources-sales img,img {
 	margin-bottom: 30px;
 	display: block;
@@ -1046,11 +1055,13 @@ body.layout-landingpage .planttable li {
 	text-transform: uppercase;
 }
 
+.accordion .panel-heading p,
 .accordion .panel-heading a {
 	color: #FFF;
 	font-family: 'Josefin Sans', sans-serif;
 	letter-spacing: 1px;
 	text-decoration: none;
+	margin: 0;
 }
 
 a.accordion-toggle i{
@@ -1072,6 +1083,16 @@ a.accordion-toggle i{
 .panel-heading.active a.accordion-toggle i.tips,
 .panel-heading a.accordion-toggle i.tips {
 	margin-top: -32px
+}
+
+.accordion .panel-heading .tips a {
+	font-size: 13px;
+}
+
+.accordion .panel-heading .tips p {
+	padding: 0;
+	margin: 0;
+	line-height: 12px;
 }
 
 .panel-heading.active a.accordion-toggle.collapsed i{

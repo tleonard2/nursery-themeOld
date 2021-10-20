@@ -1,170 +1,151 @@
 title = "October Gardening Tips"
 url = "/seasonal-tips/october"
 layout = "default"
-is_hidden = 0
 meta_title = "October Gardening at Portland Nursery and Garden Center."
 meta_description = "October Gardening at Portland Nursery and Garden Center in Portland, Vancouver, Lake Oswego."
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
 
 [siteSearchInclude]
 
 [contenteditor]
 ==
-    <div class="container seasonalpage">
-        <div class="title-block">
-            <div class="title-image"><img class="img-responsive" title="October Tips" src="{{ 'assets/images/tips/octoberhd.jpg'|theme }}" alt="Fall"></div>{% partial 'breadcrumbs/breadcrumbsseasonal' %}
-        </div>
-    </div><!-- container -->
+<div class="container seasonalpage">
+    <div class="title-block">
+        <div class="title-image"><img class="img-responsive" title="October Tips" src="{{ 'assets/images/tips/octoberhd.jpg'|theme }}" alt="Fall"></div>{% partial 'breadcrumbs/breadcrumbsseasonal' %}
+    </div>
+</div><!-- container -->
 
-    <div class="seasonal container content">
-        <div class="row">
-            <div class="col-md-12 left-inner">
-                <div class="row">
-                    <div class="col-md-6">
+<div class="seasonal container content">
+    <div class="row">
+        <div class="col-md-12 left-inner">
+            <div class="row">
+                <div class="col-md-6">
 
-	                     {% component 'contenteditor' file="october-tips/intro.htm" %}
+                    {% component 'contenteditor' file="october-tips/intro.htm" %}
 
-                    </div><!-- col-md-6 left-inner -->
+                </div>
 
-                    <div class="col-md-6">
-                        <div class="wow fadeInDown">
-                    <div class="accordion">
-                        <div class="panel-group" id="accordion1">
+                <div class="col-md-6">
+                    <div class="wow fadeInDown">
+                        <div class="accordion">
+                            <div class="panel-group" id="accordion1">
 
-<!-- panel -->
-                          <div class="panel panel-default">
-                            <div class="panel-heading active">
-                              <h3 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading active">
+                                        <h3 class="panel-title tips">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
 
-	                                {% component 'contenteditor' file="october-tips/collapse1title.htm" %}
+                                                {% component 'contenteditor' file="october-tips/collapse1title.htm" %}
 
-                                  <i class="tips fa fa-angle-down pull-right"></i>
-                                </a>
-                              </h3>
+                                                <i class="tips fa fa-angle-down pull-right"></i>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapseOne1" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+
+                                            {% component 'contenteditor' file="october-tips/collapse1.htm" %}
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title tips">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
+
+                                                {% component 'contenteditor' file="october-tips/collapse2title.htm" %}
+                                                <i class="tips fa fa-angle-down pull-right"></i>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapseTwo1" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                            {% component 'contenteditor' file="october-tips/collapse2.htm" %}
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title tips">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">
+
+                                                {% component 'contenteditor' file="october-tips/collapse3title.htm" %}
+                                                <i class="tips fa fa-angle-down pull-right"></i>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapseThree1" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                            {% component 'contenteditor' file="october-tips/collapse3.htm" %}
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title tips">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">
+
+                                                {% component 'contenteditor' file="october-tips/collapse4title.htm" %}
+                                                <i class="tips fa fa-angle-down pull-right"></i>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapseFour1" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                            {% component 'contenteditor' file="october-tips/collapse4.htm" %}
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
-
-                            <div id="collapseOne1" class="panel-collapse collapse in">
-                              <div class="panel-body">
-
-	                              {% component 'contenteditor' file="october-tips/collapse1.htm" %}
-
-                                </div> <!-- panel body -->
-                                  </div>
-                              </div>
-
-                          <div class="panel panel-default">
-                            <div class="panel-heading">
-                              <h3 class="panel-title">
-                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
-                                October Tips from OSU
-                                  <i class="fa  fa-angle-down pull-right"></i>
-                                </a>
-                              </h3>
-                            </div>
-                            <div id="collapseTwo1" class="panel-collapse collapse">
-                              <div class="panel-body">
-
-	                              <figure><img class="img-responsive" src="{{ '/assets/images/tips/fallspiderweb750.jpg'|theme }}" alt="pruning"></figure>
-                               <ul>
-                                    <li><a target="_blank" href="https://extension.oregonstate.edu/gardening/techniques/october-garden-calendar">October Gardening Tips from Oregon State University</a></li>
-                                     <li><a target="_blank" href="https://extension.oregonstate.edu/gardening/flowers-shrubs-trees/november-garden-calendar">November Gardening Tips from Oregon State University</a></li>
-                                     <li><a target="_blank" href="https://extension.oregonstate.edu/gardening/techniques/december-garden-calendar">December Gardening Tips from Oregon State University</a></li>
-
-  							</ul>
-                         </div>
-                            </div>
-                          </div>
-<!-- panel -->
-
-                        </div><!--/#accordion1-->
-                    </div> <!-- accordion -->
-                </div>
+                            <!--/#accordion1-->
+                        </div> <!-- accordion -->
                     </div>
                 </div>
+            </div> <!-- row -->
 
-                <div class="row planttable">
-                    <div class="col-md-6">
-                        <h3>Perennials and Annuals</h3>
+            <div class="row planttable">
+                <div class="col-md-6">
 
-                       <p>By now, some of your annuals may be looking a little tired, but there are plenty of options to replace them with colorful, cool-season annuals—pansies, chrysanthemums, asters, ornamental cabbage and kale are available to bring some color back into your garden.</p>
-					   <p>Geraniums and tender fuchsias may still look nice, but will need protection from freezing weather soon if you don’t want to lose them. </p>
-					<ul>
-					<li>Prune branches down to 4-6”</li>
-					<li>Remove all think wispy branches</li>
-					<li>Inspect leaves and soil for aphids, slugs and other pests and remove them.</li>
-					<li>Store in a cool area where temperatures don’t dip below 40f. During winter, water plants about once a month. The idea is that roots don’t dry out completely, but since they’re not growing actively, watering more would cause rotting.</li>
-</ul>
+                    {% component 'contenteditor' file="october-tips/row1column1.htm" %}
 
-				<p>October is one of the best months to plant hardy perennials and herbs. Many are looking great now including toad lily (Tricyrtis), hardy cyclamen, and Japanese anemones, as well as evergreen perennials like Heuchera, rosemary, and lavender. Here’s a handy calendar to help with planning: <a target="_blank" href="https://portlandnursery.com/docs/perennials-annuals/PerennialBloomCalendar.pdf">Perennial Bloom Calendar.</a></p>
-
-				<p>Almost any hardy perennial can be planted now, and most can be divided or moved with little risk of loss. If you are thinking about moving Iris or peonies, it’s time for that too! Keep in mind that moving plants can sometimes mean sacrificing the flowers for the next year, or possibly longer.</p>
-
-				<p>It is also one of the best times for starting a new ground cover or propagating/ dividing an existing one. While it may not spread too much in the next month or so, it will root in over winter and get a head start in spring.</p>
-
-                        <h3>Bulbs</h3>
-
-                       <p>It is bulb planting season if there ever was one! This is the prime time to be planting new tulips, daffodils, hyacinths, and much more for spring flowers. Learn about soil prep and proper planting depth on our <a href="/perennials/bulbs/">Bulbs Page.</a></p>
-
-
-					   <p>There are autumn bloomers that you can only get this time of year such as colchicum and autumn crocus, including the saffron crocus. Paperwhites and Amaryllis are forcing bulbs for indoor winter color, and can be started now or over the next couple of months.</p>
-
-                    </div>
-
-                    <div class="col-md-6">
-                        <h3>Vegetables</h3>
-
-                        <p><strong>Harvest</strong></p>
-						<p>Finish harvesting warm season veggies like green beans, corn, tomatoes and potatoes. There are great harvesting pointers on our <a href="/seasonal-tips/september/">September Tips page</a>, please check it out. Apples, pears, fall raspberries and kiwi are potentially ready for harvest as well. </p>
-
-						<p>Many of these crops can be stored for winter consumption, most notably potatoes, squash, apples and pears. Root crops like carrots and beets can be stored in the ground or in another cool location.</p>
-											<p><strong>Cleaning</strong></p>
-						<p>It’s time to clean up finished veggie and fruit beds. Much of the debris left in the garden after summer can be added to a compost pile or bin, but diseased leaves, stems or fruit should be disposed of and not added to compost.</p>
-
-						<p>If your strawberries have grown into a thick ground cover, you should probably thin it out. They fruit better in subsequent years if divided and replanted with room to grow.</p>
-
-						<p>Raspberry canes that produced fruit this year will not produce again next year, so they should be pruned all the way down to the ground.</p>
-
-						<p><strong>Planting and Extending the Season</strong></p>
-						<p>Now is the ideal time to plant overwintering <a href="/veggies/garlic/">garlic,</a> <a href="/veggies/onions/">onion sets and shallots</a>.</p>
-						<p>Bok Choi, overwintering cabbage, kale, chard and other salad greens can still be planted from starts in October, but it’s too late for planting seeds.</p>
-
-						<p>Frosts can occur in October, but November is more likely in Portland. Still, adding season extenders like row cover, cloches or cold frames help to keep frost off of leaves and create a warmer environment under the cover. Watch for slug damage on your greens, as always.</p>
-
-						<p>Now is also the best time to plant cover crops. Any garden bed that will not be in use until spring is a good candidate for cover crops that can protect against erosion, add nutrients to the soil, fix nitrogen and support pollinators. Learn more on our <a href="/veggies/cover-crops/">Cover Crops Page.</a></p>                     </div>
                 </div>
 
-                <div class="row planttable">
-                    <div class="col-md-6">
-                        <h3>Trees, Shrubs and Fruit</h3>
+                <div class="col-md-6">
 
-                        <p>With temperatures moderate again, it is an excellent time for planting any hardy trees and shrubs. Your soil should be workable if it is moderately moist. Generally, planting now versus. next spring results in better roots before next summer, which is often the hardest season on recent plantings.</p>
+                    {% component 'contenteditor' file="october-tips/row1column2.htm" %}
 
-                        <p>October to November is usually the best time for moving established shrubs if you feel you have to. Note that this is difficult for plants, and isn't exactly recommended -- even this time of year. If the plant is small or recently planted you are more likely to have success.</p>
-
-                        <p>Note that any tender trees or shrubs (such as <a href="/fruits/citrus/" target="_blank">Citrus</a>, and most <a href="https://portlandnursery.com/docs/houseplants/hibiscusclasshandout.pdf" target="_blank">Hibiscus</a> and <a href="https://portlandnursery.com/docs/houseplants/gardeniaclasshandout.pdf" target="_blank">Gardenia)</a> will need protection from freezing and you will need to move them in or otherwise protect them soon. Follow the links to care sheets for each of the above plants.</p>
-
-                        <p>It is not quite pruning season yet. Enjoy the fall color, and then consider which trees may need pruning later on. See the tips pages for subsequent months, or our <a href="/trees/pruning-guide/">Pruning Guide page</a> or downloard our <a href="https://portlandnursery.com/docs/trees/what-when-how-Pruning.pdf" target="_blank">pruning guide</a>. You can also download our <a href="https://portlandnursery.com/docs/trees/Pruning_Calendar.pdf" target="_blank">pruning calendar</a> for more information.</p>
-                    </div>
-
-                    <div class="col-md-6">
-                        <h3>Lawn Care</h3>
-
-                        <p>Now is a good time to:</p>
-					<ul>
-					<li>Seed a new lawn</li>
-					<li>Over-seed a patchy lawn</li>
-					<li>Add lime to the soil if you have not done it recently</li>
-					</ul>
-
-					<p>Please see our page on <a href="/garden-projects/lawn/">installing a seed lawn</a> for more information. Be sure to keep the area moist as October can sometimes be a dry month.</p>
-
-					<p>The best time to fertilize the lawn has passed, but if you missed feeding in September you can still fertilize using a granular organic food</p>
-                    </div>
                 </div>
-            </div><!--/.col-md-12 -->
-        </div><!-- End Row -->
+            </div> <!-- row -->
 
-        <div class="row" id="portfolio">
-            {% partial "lists/list-seasonaltips" %}
-        </div><!--/#portfolio-->
-    </div><!-- End Container Content -->
+            <div class="row planttable">
+                <div class="col-md-6">
+
+                    {% component 'contenteditor' file="october-tips/row2column1.htm" %}
+
+                </div>
+
+                <div class="col-md-6">
+
+                    {% component 'contenteditor' file="october-tips/row2column2.htm" %}
+
+                </div>
+            </div> <!-- row -->
+        </div><!--/.col-md-12 -->
+    </div><!-- End Row -->
+
+    <div class="row" id="portfolio">
+        {% partial "lists/list-seasonaltips" %}
+    </div><!--/#portfolio-->
+</div><!-- End Container Content -->

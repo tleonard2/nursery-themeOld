@@ -1,6 +1,6 @@
 /* Typography v2 versions final.1
 *******************************
-Revision August 27, 2021*/
+Revision October 3, 2021*/
 
 
 body {
@@ -224,6 +224,16 @@ p.btn-primary.shop {
 	font-size: 32px;
 	line-height: 1.4;
 	display: block
+}
+
+.col-md-6.btn-primary.shop {
+	max-width: 320px;
+	margin: 40px 60px;
+	height: auto;
+	padding: 20px;
+	font-size: 32px;
+	line-height: 1.4;
+	display: block;
 }
 
 /*
